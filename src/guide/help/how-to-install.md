@@ -25,7 +25,7 @@ Some apps will need some external data to work. For example, Playa will need a v
 
 ## Apps that are too large
 
-If you want to install an app that is over 2.5 MB you will need to use our memory extender. <!-- TODO -->
+If you want to install an app that is over 2.5 MB you will need to use our [memory extender](./enlarge-your-memory.md).
 
 ## What if it doesn’t work ?
 
