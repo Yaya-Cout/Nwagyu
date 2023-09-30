@@ -13,7 +13,7 @@ Normally the NumWorks calculator only lets you use around 2.5MB to install apps.
 
 ## Using Nwagra
 
-1. Go to [NumWorks’ app loader](https://web.archive.org/web/20230329030914/https://my.numworks.com/apps)
+1. Go to [NumWorks’ app loader](https://my.numworks.com/apps)
 2. Click the “Nwagra” bookmarklet. The page’s title should now say “Enlarged Extra Apps”.
 3. You’re good to go, you now can use more space to install NWA apps!
 
