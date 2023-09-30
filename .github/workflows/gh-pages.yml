@@ -36,7 +36,8 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Build
-        run: yarn build
+        # run: yarn build
+        run: NODE_OPTIONS=--openssl-legacy-provider yarn build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
@@ -47,5 +48,6 @@ jobs:
         uses: actions/deploy-pages@v2
 
 # Configure the GitHub Pages environment
-env:
-  NODE_ENV: production
+# env:
+  # NODE_ENV: production
+  # NODE_OPTIONS: --openssl-legacy-provider
