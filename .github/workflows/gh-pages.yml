@@ -7,7 +7,7 @@ on:
 
   # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
+    branches: ["main"]
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -34,9 +34,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Install dependencies
-        run: yarn install
+        run: NODE_OPTIONS=--openssl-legacy-provider yarn install
       - name: Build
-        run: yarn build
+        run: NODE_OPTIONS=--openssl-legacy-provider yarn build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
@@ -45,3 +45,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+
+# Configure the GitHub Pages environment
+env:
+  NODE_ENV: production
