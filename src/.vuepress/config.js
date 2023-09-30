@@ -82,6 +82,7 @@ module.exports = {
           "/guide/help/how-to-install",
           "/guide/help/enlarge-your-memory",
           "/guide/help/how-to-uninstall",
+          "/guide/help/faq",
         ]
       }
     ]
