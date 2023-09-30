@@ -1,0 +1,20 @@
+# Wabbitemu
+
+Wabbitemu makes your NumWorks calculator behave like a TI-84!
+
+## How to get a ROM
+
+You are not allowed to download a ROM from the internet. However, you can dump
+your own calculator's ROM. (there are plenty of tutorials on the internet). You
+can also download a ROM from the internet, but we can't help you with that.
+
+## Download
+
+You can download the Wabbitemu app from this link:
+
+- [Wabbitemua](https://yann.n1n1.xyz/www/static/nwagyu/wabbitemu.nwa)
+
+## Installation
+
+To install the Wabbitemu app, follow the instructions in the
+[how to install](../help/how-to-install.md) guide.
