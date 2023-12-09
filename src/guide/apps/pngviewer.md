@@ -19,7 +19,7 @@ follow the [how to install](../help/how-to-install.md) guide for more details.
 
 You can download the PNG Viewer app from this link:
 
-- [PNG Viewer](https://yann.n1n1.xyz/www/static/nwagyu/pngviewer.nwa)
+- [PNG Viewer](https://yaya-cout.github.io/Nwagyu/assets/apps/pngviewer.nwa)
 
 ## Installation
 

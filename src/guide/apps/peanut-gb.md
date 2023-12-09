@@ -40,7 +40,7 @@ To modify the behavior of the emulator, you can use theses keys:
 
 You can download the Peanut-GB app from this link:
 
-- [Peanut-GB](https://yann.n1n1.xyz/www/static/nwagyu/peanutgb.nwa)
+- [Peanut-GB](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb.nwa)
 
 ## Installation
 

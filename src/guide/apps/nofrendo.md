@@ -32,7 +32,7 @@ obvious, so here’s a recap:
 
 You can download the Nofrendo app from this link:
 
-- [Nofrendo](https://yann.n1n1.xyz/www/static/nwagyu/nofrendo.nwa)
+- [Nofrendo](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo.nwa)
 
 ## Installation
 

@@ -22,7 +22,7 @@ The controls are pretty intuitive:
 
 You can download the Mandelbrot app from this link:
 
-- [Mandelbrot](https://yann.n1n1.xyz/www/static/nwagyu/mandelbrot.nwa)
+- [Mandelbrot](https://yaya-cout.github.io/Nwagyu/assets/apps/mandelbrot.nwa)
 
 ## Installation
 

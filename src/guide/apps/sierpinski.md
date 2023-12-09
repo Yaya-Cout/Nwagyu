@@ -10,7 +10,7 @@ This app really just displays an animation on your screen, you cannot change its
 
 You can download the Sierpinski app from this link:
 
-- [Sierpinski](https://yann.n1n1.xyz/www/static/nwagyu/sierpinski.nwa)
+- [Sierpinski](https://yaya-cout.github.io/Nwagyu/assets/apps/sierpinski.nwa)
 
 ## Installation
 

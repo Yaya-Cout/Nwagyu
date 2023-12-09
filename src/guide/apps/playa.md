@@ -7,7 +7,7 @@ your calculator and play it!
 
 You can't use traditional video files. Instead, you need to convert your video
 to a sequence of images. An already converted video is called a available
-[there](https://yann.n1n1.xyz/www/static/nwagyu/assets/video.bin).
+[there](https://yaya-cout.github.io/Nwagyu/assets/video.bin).
 
 To convert a video, you can use the `ffmpeg` command line tool. Here is an
 example command assuming that your video is called `input.mp4` in the current
@@ -30,7 +30,7 @@ information.
 
 You can download the Playa app from this link:
 
-- [Playa](https://yann.n1n1.xyz/www/static/nwagyu/playa.nwa)
+- [Playa](https://yaya-cout.github.io/Nwagyu/assets/apps/playa.nwa)
 
 ## Installation
 

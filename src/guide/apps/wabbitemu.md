@@ -12,7 +12,7 @@ can also download a ROM from the internet, but we can't help you with that.
 
 You can download the Wabbitemu app from this link:
 
-- [Wabbitemua](https://yann.n1n1.xyz/www/static/nwagyu/wabbitemu.nwa)
+- [Wabbitemua](https://yaya-cout.github.io/Nwagyu/assets/apps/wabbitemu.nwa)
 
 ## Installation
 

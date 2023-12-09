@@ -12,7 +12,7 @@ about KhiCAS, you can read the
 
 You can download the Nofrendo app from this link:
 
-- [KhiCAS](https://yann.n1n1.xyz/www/static/nwagyu/khicas.nwa)
+- [KhiCAS](https://yaya-cout.github.io/Nwagyu/assets/apps/khicas.nwa)
 
 ## Installation
 

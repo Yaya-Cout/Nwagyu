@@ -14,7 +14,7 @@ periodic table.
 
 You can download the Periodic app from this link:
 
-- [Periodic](https://yann.n1n1.xyz/www/static/nwagyu/periodic.nwa)
+- [Periodic](https://yaya-cout.github.io/Nwagyu/assets/apps/periodic.nwa)
 
 ## Installation
 

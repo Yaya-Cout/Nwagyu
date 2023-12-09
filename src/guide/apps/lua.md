@@ -7,7 +7,7 @@ powerful, fast, lightweight, embeddable scripting language.
 
 You can download the Lua app from this link:
 
-- [Lua](https://yann.n1n1.xyz/www/static/nwagyu/lua.nwa)
+- [Lua](https://yaya-cout.github.io/Nwagyu/assets/apps/lua.nwa)
 
 ## Installation
 
