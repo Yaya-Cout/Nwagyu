@@ -10,9 +10,17 @@ about KhiCAS, you can read the
 
 ## Download
 
-You can download the Nofrendo app from this link:
+You can download the Nofrendo app from this link: (choose the one corresponding
+to your calculator version, written on the back of your calculator)
 
-- [KhiCAS](https://yaya-cout.github.io/Nwagyu/assets/apps/khicas.nwa)
+- [KhiCAS N0110 and N0115](https://yaya-cout.github.io/Nwagyu/assets/apps/khicas.nwa)
+- [KhiCAS N0120](https://yaya-cout.github.io/Nwagyu/assets/apps/khicas-n0120.nwa)
+
+<!-- The N0120 version is slightly modified, see :
+https://github.com/nwagyu/khicas/issues/2
+
+To resume, change the stackptr in gen.cc from 0x20036000 to 0xffffffff
+-->
 
 ## Installation
 
