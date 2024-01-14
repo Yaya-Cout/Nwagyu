@@ -10,7 +10,7 @@ about KhiCAS, you can read the
 
 ## Download
 
-You can download the Nofrendo app from this link: (choose the one corresponding
+You can download the KhiCAS app from this link: (choose the one corresponding
 to your calculator version, written on the back of your calculator)
 
 - [KhiCAS N0110 and N0115](https://yaya-cout.github.io/Nwagyu/assets/apps/khicas.nwa)
