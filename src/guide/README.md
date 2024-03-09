@@ -15,6 +15,7 @@ calculator. Here is the list of the apps that are currently available:
 - [PNG Viewer](./apps/pngviewer.md): A PNG image viewer
 - [Mandelbrot](./apps/mandelbrot.md): A Mandelbrot set explorer
 - [Sierpinski](./apps/sierpinski.md): A Sierpinski triangle animation
+- [Storage](./apps/storage.md): An app to get informations about storage usage
 
 ## How to install
 
