@@ -16,8 +16,7 @@ updating your calculator.
 
 ## How to save my progress in an app?
 
-For now, you can't. Theoretically, it's possible to save data on the
-calculator's by directly editing the storage in the calculator's RAM, but it's
-not very easy to do. On [Omega](https://getomega.dev/) and
-[Upsilon](https://getupsilon.web.app/), it's possible, as they have a built-in
-API to access the filesystem.
+For now, you can't. However, it might be possible in a near future using a
+workaround for missing features on locked calculators. On
+[Omega](https://getomega.dev/) and [Upsilon](https://getupsilon.web.app/), it's
+since the start, as they have a built-in API to access the filesystem.
