@@ -46,3 +46,8 @@ Normally this shouldn’t have any impact. If for some reason your first OS copy
 ### How does the bookmarklet work?
 
 The NumWorks OS contains a special marker that tells which part of the Flash memory can be used to install external apps. NumWorks’ app loader website reads this marker over USB to figure out where to install apps. The bookmarklet simply patches the WebUSB calls that NumWorks’ app loader is making and reports more useable space.
+
+### Is it a joke ?
+
+No, it's not a joke. It really work. It's just breaking limitations on NumWorks
+site.
