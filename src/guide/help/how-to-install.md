@@ -7,7 +7,8 @@ Installing a NWA app on your NumWorks calculator takes less than a minute. First
 Usually you just need a nwa file. Here’s how to make it work:
 
 1. Download a .nwa file on your computer
-2. Go to [NumWorks’s installer](https://my.numworks.com/apps) from your computer. Note: You’ll need to use Chrome.
+2. Go to [NumWorks’s installer](https://my.numworks.com/apps) from your
+   computer. Note: You’ll need to use a Chromium-based browser (e.g. Chrome).
 3. Click the “Connect” button
 4. A form should appear : use the file you downloaded in step 1.
 5. Press the “Install” button that just appeared.
@@ -31,7 +32,8 @@ If you want to install an app that is over 2.5 MB you will need to use our [memo
 
 If the upload doesn’t work, here are some things worth trying:
 
-- Make sure you’re using the latest version of Chrome
+- Make sure you’re using the latest version of your Chromium-based browser that
+  support WebUSB
 - Close all your browser tabs but one
 - Try another USB cable
 - Reset your calculator by using a pencil to press the reset button on the back

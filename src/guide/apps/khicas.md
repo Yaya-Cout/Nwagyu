@@ -55,7 +55,7 @@ More information can be found [here (in French)](https://xcas.univ-grenoble-alpe
 This version is the most complete version that exist for locked calculators, and
 is more stable than others.
 
-However, it's (when I wrote this) still a beta, so it some crashes can be
+However, it's (when I wrote this) still a beta, so some crashes can be
 excepted (but should not happen).
 
 It you encounter a crash, please report it. For example, you can report in

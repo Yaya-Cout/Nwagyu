@@ -2,8 +2,8 @@
 
 If you are looking for help, please try to read the following pages:
 
-- [How to install](./how-to-install.md)
 - [Enlarge your memory](./enlarge-your-memory.md)
+- [How to install](./how-to-install.md)
 - [How to uninstall](./how-to-uninstall.md)
 - [FAQ (Frequently Asked Questions)](./faq.md)
 

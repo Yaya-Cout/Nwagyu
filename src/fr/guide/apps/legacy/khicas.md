@@ -1,5 +1,8 @@
 # KhiCAS
 
+<!-- FIXME: Translate it if it's needed (I didn't translated it because I'm
+lazy) -->
+
 KhiCAS is a [CAS](https://en.wikipedia.org/wiki/Computer_algebra_system)
 (Computer Algebra System) that can solve equations and do advanced calculations.
 

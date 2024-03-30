@@ -16,7 +16,7 @@ updating your calculator.
 
 ## How to save my progress in an app?
 
-For now, you can't. However, it might be possible in a near future using a
+For now, only KhiCAS can. However, it might be possible in a near future using a
 workaround for missing features on locked calculators. On
 [Omega](https://getomega.dev/) and [Upsilon](https://getupsilon.web.app/), it's
 since the start, as they have a built-in API to access the filesystem.

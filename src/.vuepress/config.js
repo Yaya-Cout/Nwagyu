@@ -72,6 +72,7 @@ module.exports = {
           "/guide/apps/pngviewer",
           "/guide/apps/mandelbrot",
           "/guide/apps/sierpinski",
+          "/guide/apps/storage",
         ],
         // initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
       },
@@ -79,13 +80,24 @@ module.exports = {
         title: "Help",
         path: '/guide/help/',
         children: [
-          "/guide/help/how-to-install",
           "/guide/help/enlarge-your-memory",
+          "/guide/help/how-to-install",
           "/guide/help/how-to-uninstall",
           "/guide/help/faq",
         ]
       }
     ]
+  },
+
+  locales: {
+    // The key is the path for the locale to be nested under.
+    // As a special case, the default locale can use '/' as its path.
+    '/': {
+      lang: 'en-US', // this will be set as the lang attribute on <html>
+    },
+    '/fr/': {
+      lang: 'fr-FR',
+    }
   },
 
   /**

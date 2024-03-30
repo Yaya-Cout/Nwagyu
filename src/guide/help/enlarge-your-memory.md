@@ -9,7 +9,7 @@ Normally the NumWorks calculator only lets you use around 2.5MB to install apps.
    <a href="javascript:(function()%7B!function()%7Blet%20t%3Ddocument.createElement(%22script%22)%3Bt.type%3D%22text%2Fjavascript%22%2Ct.src%3D%22https%3A%2F%2Fyaya-cout.github.io%2FNwagyu%2Fnwagra.min.js%22%2Cdocument.head.appendChild(t)%7D()%3B%7D)()%3B">Nwagra</a>
 2. Go on [NumWorks’s website](https://my.numworks.com/devices/upgrade) and update your
    calculator
-3. Update your calculator again. Yes, you need to update it twice.
+3. Update your calculator again. Yes, you need to update it *twice*.
 
 ## Using Nwagra
 
