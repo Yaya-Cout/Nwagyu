@@ -51,19 +51,6 @@ a workaround for NumWorks external app system.
 More information can be found [here (in French)](https://xcas.univ-grenoble-alpes.fr/nw/nws.html)
 (you need to go in the installation section at `Installation Numworks N0110 verrouillée, N0115/N0120`).
 
-::: warning
-This version is the most complete version that exist for locked calculators, and
-is more stable than others.
-
-However, it's (when I wrote this) still a beta, so some crashes can be
-excepted (but should not happen).
-
-It you encounter a crash, please report it. For example, you can report in
-[on TI-Planet](https://tiplanet.org/forum/viewtopic.php?t=26601) or
-on the [GitHub repo of this website](https://github.com/Yaya-Cout/Nwagyu/issues). (I
-will redirect it)
-:::
-
 ## Legacy version
 
 The old KhiCAS port can be found [here](./legacy/khicas.md), but you shouldn't

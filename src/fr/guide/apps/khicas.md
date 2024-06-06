@@ -57,20 +57,6 @@ Plus d'informations peuvent être trouvées [ici](https://xcas.univ-grenoble-alp
 (vous devez juste aller dans la section d'installation, au niveau de
 `Installation Numworks N0110 verrouillée, N0115/N0120`).
 
-::: warning
-Cette version est la plus complète qui existe à l'heure de l'écriture pour les
-calculatrices verrouillées, et est plus stable que les autres.
-
-Cependant, à l'heure où j'écris ces lignes, il s'agit encore d'une beta, donc
-quelques crashs peuvent être attendus (mais ne devraient pas arriver).
-
-Si jamais vous rencontrez un crash, merci de le signaler. Par exemple, vous
-pouvez le signaler sur
-[TI-Planet](https://tiplanet.org/forum/viewtopic.php?t=26601) ou sur le
-[dépôt GitHub de ce site](https://github.com/Yaya-Cout/Nwagyu/issues). (je vais
-rediriger le signalement)
-:::
-
 ## Ancienne version
 
 L'ancienne version de KhiCAS peut être trouvée [ici](./legacy/khicas.md), mais
