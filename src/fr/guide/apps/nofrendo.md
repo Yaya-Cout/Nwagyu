@@ -28,6 +28,7 @@ des limitations de NumWorks), donc voici une liste :
 | B           | OK         |
 | Select      | Shift      |
 | Start       | Effacer    |
+| Reset       | Tangente   |
 
 ## Téléchargement
 

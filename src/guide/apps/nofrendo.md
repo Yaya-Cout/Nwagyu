@@ -27,6 +27,7 @@ obvious, so here’s a recap:
 | B           | OK         |
 | Select      | Shift      |
 | Start       | Backspace  |
+| Reset       | Tangent    |
 
 ## Download
 
