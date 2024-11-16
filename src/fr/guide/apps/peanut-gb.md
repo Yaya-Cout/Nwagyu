@@ -43,8 +43,25 @@ Pour modifier le comportement de l'émulateur, vous pouvez utiliser ces touches�
 Vous pouvez télécharger l'application Peanut-GB depuis ce lien :
 
 - [Peanut-GB](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb.nwa)
+- [Peanut-GB (Color)](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc.nwa)
+
+::: warning
+Peanut-GB (Color) nécessite plus de RAM et de temps processeur, donc certains
+jeux ne vont pas marcher du tout, ou alors pas en temps réel (par exemple, 2
+secondes dans le monde réel vont durer 1 seconde dans le jeu).
+La plupart des jeux Gameboy Color peuvent tourner sur Peanut-GB normal en
+échelle de gris avec des meilleures performances.
+:::
 
 ## Installation
 
 Pour installer l'application Peanut-GB, suivez les instructions dans le guide
 [comment installer](../help/how-to-install.md).
+
+## Code source
+
+Le code source de Peanut-GB est disponible
+[ici](https://github.com/nwagyu/peanutgb/).
+
+Le code source de Peanut-GB (Color) est disponible
+[ici](https://github.com/Lisra-git/peanutgb/).
