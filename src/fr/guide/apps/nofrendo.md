@@ -33,9 +33,17 @@ des limitations de NumWorks), donc voici une liste :
 
 Vous pouvez télécharger l'application Nofrendo depuis ce lien :
 
-- [Nofrendo](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo.nwa)
+- [Nofrendo v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.1.0.nwa)
+- [Nofrendo v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.0.0.nwa)
 
 ## Installation
 
 Pour installer l'application Nofrendo, suivez les instructions dans le guide
 [comment installer](../help/how-to-install.md).
+
+## Code source
+
+Le code source pour les versions à partir de la v1.1.0 est disponible
+[ici](https://codeberg.org/Yaya-Cout/nofrendo).
+
+La version 1.0.0 est disponible [ici](https://github.com/nwagyu/nofrendo).
