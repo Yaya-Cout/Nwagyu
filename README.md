@@ -11,5 +11,3 @@ I reused the original website’s content sometimes, but I also added some new
 content.
 
 Archive of the original website: https://web.archive.org/web/20230329043524/https://www.nwagyu.com/
-
-The binary files (apps, examples, etc.) are hosted on my own server.
