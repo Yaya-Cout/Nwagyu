@@ -19,8 +19,27 @@ votre calculatrice.
 
 ## Puis-je sauvegarder ma progression dans une application ?
 
-Pour le moment, uniquement KhiCAS le supporte. Cependant, il est possible que
-dans un futur proche qu'un contournement soit ajouté pour cette fonctionnalité
-manquante. Sur [Omega](https://getomega.dev/) et [Upsilon](https://getupsilon.web.app/),
-c'est possible depuis le début, car ils ont une API intégrée pour accéder au
-système de fichier.
+Pour le moment, uniquement KhiCAS et Nofrendo le supportent. Cependant, il est
+possible que dans un futur proche qu'un contournement soit ajouté pour cette
+fonctionnalité manquante. Sur [Omega](https://getomega.dev/) et
+[Upsilon](https://getupsilon.web.app/), c'est possible depuis le début, car ils
+ont une API intégrée pour accéder au système de fichier.
+
+## Puis-je exporter ma sauvegarde de jeu vers mon ordinateur ?
+
+Si vous activez le mode examen, mettez à jour votre calculator or si la
+calculatrice se réinitialise, les sauvegardes de jeux seront définitivement
+perdues. Pour éviter ce problème, vous pouvez sauvegarder vos données sur votre
+ordinateur pour vous assurez qu'elles ne seront pas perdues.
+
+Si vous avez une N0110 ou une N0115 (écrit au dos de la calculatrice), il est
+simple de sauvegarder des fichiers bruts en utilisant le
+[Connecteur NumWorks](https://yaya-cout.github.io/Numworks-connector/#/).
+
+Les sauvegardes de Nofrendo ont l'extension ".ss0".
+
+::: warning
+Sur N0120, la plupart des outils tiers de ne sont pas supportées, donc n'essayez
+pas de sauvegarder vos fichiers via ces outils au risque de perdre vos fichiers
+en réinitialisant votre calculatrice au lieu de les sauvegarder.
+:::

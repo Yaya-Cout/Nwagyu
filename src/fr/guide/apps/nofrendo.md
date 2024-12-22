@@ -21,19 +21,22 @@ Les contrôles sont plutôt simples, car la NumWorks utilise un agencement très
 similaire à une manette de NES. Select et start sont moins évidents (à cause
 des limitations de NumWorks), donc voici une liste :
 
-| Manette NES | NumWorks   |
-| ----------- | ---------- |
-| Flèches     | Flèches    |
-| A           | Retour     |
-| B           | OK         |
-| Select      | Shift      |
-| Start       | Effacer    |
-| Reset       | Tangente   |
+| Manette NES                   | NumWorks      |
+| ----------------------------- | ------------- |
+| Flèches                       | Flèches       |
+| A                             | Retour        |
+| B                             | OK            |
+| Select                        | Shift         |
+| Start                         | Effacer       |
+| Reset                         | Tangente      |
+| Sauvegarder l'état            | Racine carrée |
+| Sauvegarder l'état et quitter | 0             |
 
 ## Téléchargement
 
 Vous pouvez télécharger l'application Nofrendo depuis ce lien :
 
+- [Nofrendo v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.2.0.nwa)
 - [Nofrendo v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.1.0.nwa)
 - [Nofrendo v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.0.0.nwa)
 

@@ -20,19 +20,22 @@ The controls are rather straightforward, because the NumWorks calculator uses a
 layout that’s very similar to the NES gamepad. Select and start are less
 obvious, so here’s a recap:
 
-| NES gamepad | NumWorks   |
-| ----------- | ---------- |
-| Arrow keys  | Arrow keys |
-| A           | Back       |
-| B           | OK         |
-| Select      | Shift      |
-| Start       | Backspace  |
-| Reset       | Tangent    |
+| NES gamepad         | NumWorks    |
+| ------------------- | ----------- |
+| Arrow keys          | Arrow keys  |
+| A                   | Back        |
+| B                   | OK          |
+| Select              | Shift       |
+| Start               | Backspace   |
+| Reset               | Tangent     |
+| Save state          | Square root |
+| Save state and exit | 0           |
 
 ## Download
 
 You can download the Nofrendo app from this link:
 
+- [Nofrendo v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.2.0.nwa)
 - [Nofrendo v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.1.0.nwa)
 - [Nofrendo v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.0.0.nwa)
 
