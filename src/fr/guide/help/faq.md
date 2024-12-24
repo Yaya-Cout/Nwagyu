@@ -17,14 +17,6 @@ toujours le réinstaller en allant sur le
 [site de NumWorks](https://my.numworks.com/devices/upgrade) et en mettant à jour
 votre calculatrice.
 
-## Puis-je sauvegarder ma progression dans une application ?
-
-Pour le moment, uniquement KhiCAS et Nofrendo le supportent. Cependant, il est
-possible que dans un futur proche qu'un contournement soit ajouté pour cette
-fonctionnalité manquante. Sur [Omega](https://getomega.dev/) et
-[Upsilon](https://getupsilon.web.app/), c'est possible depuis le début, car ils
-ont une API intégrée pour accéder au système de fichier.
-
 ## Puis-je exporter ma sauvegarde de jeu vers mon ordinateur ?
 
 Si vous activez le mode examen, mettez à jour votre calculator or si la
@@ -36,7 +28,8 @@ Si vous avez une N0110 ou une N0115 (écrit au dos de la calculatrice), il est
 simple de sauvegarder des fichiers bruts en utilisant le
 [Connecteur NumWorks](https://yaya-cout.github.io/Numworks-connector/#/).
 
-Les sauvegardes de Nofrendo ont l'extension ".ss0".
+Les sauvegardes de Nofrendo ont l'extension ".ss0" et Peanut-GB utilise
+l'extension ".gbs".
 
 ::: warning
 Sur N0120, la plupart des outils tiers de ne sont pas supportées, donc n'essayez

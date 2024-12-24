@@ -20,13 +20,16 @@ C'est plutôt intuitif, vu que les touches de la NumWorks ressemblent beaucoup
 à celles d'une Game Boy. Cependant, voici une liste des connexions entre celles
 de la NumWorks et celles de la Game Boy :
 
-| Game Boy   | NumWorks   |
-| ---------- | ---------- |
-| Flèches    | Flèches    |
-| A          | Retour     |
-| B          | OK         |
-| Select     | Shift      |
-| Start      | Effacer    |
+| Game Boy            | NumWorks                                                 |
+| ------------------- | -------------------------------------------------------- |
+| Flèches             | Flèches                                                  |
+| A                   | Retour                                                   |
+| B                   | OK                                                       |
+| Select              | Shift                                                    |
+| Start               | Effacer                                                  |
+| Start (Alternative) | Alpha                                                    |
+| Boite à outils      | Écrire la sauvegarde actuelle sur le stockage            |
+| 0                   | Écrire la sauvegarde actuelle sur le stockage et quitter |
 
 Pour modifier le comportement de l'émulateur, vous pouvez utiliser ces touches :
 
@@ -35,14 +38,17 @@ Pour modifier le comportement de l'émulateur, vous pouvez utiliser ces touches�
 | 1      | Utiliser la palette originale Game Boy           |
 | 2      | Utiliser une palette en échelle de gris          |
 | 3      | Utiliser une palette en échelle de gris inversée |
-| +      | Afficher en plein écran                          |
+| 4      | Utiliser la palette Peanut-GB originale          |
+| +      | Afficher en plein écran étiré                    |
+| ×      | Afficher en plein écran en conservant le ratio   |
 | -      | Afficher avec le ratio original                  |
 
 ## Téléchargement
 
 Vous pouvez télécharger l'application Peanut-GB depuis ce lien :
 
-- [Peanut-GB](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb.nwa)
+- [Peanut-GB v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.1.0.nwa)
+- [Peanut-GB v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.0.0.nwa)
 - [Peanut-GB (Color)](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc.nwa)
 
 ::: warning
@@ -53,6 +59,12 @@ La plupart des jeux Gameboy Color peuvent tourner sur Peanut-GB normal en
 échelle de gris avec des meilleures performances.
 :::
 
+::: tip
+Pour le moment, seulement Peanut-GB v1.1.0 supporte les sauvegardes de jeux,
+donc vous ne pourrez pas sauvegarder votre jeux dans Penaut-GB (Color) pour le
+moment
+:::
+
 ## Installation
 
 Pour installer l'application Peanut-GB, suivez les instructions dans le guide
@@ -60,7 +72,10 @@ Pour installer l'application Peanut-GB, suivez les instructions dans le guide
 
 ## Code source
 
-Le code source de Peanut-GB est disponible
+Le code source de Peanut-GB à partir de la v1.1.0 est disponible
+[ici](https://codeberg.org/Yaya-Cout/peanutgb).
+
+Le code source de Peanut-GB v1.0.0 est disponible
 [ici](https://github.com/nwagyu/peanutgb/).
 
 Le code source de Peanut-GB (Color) est disponible
