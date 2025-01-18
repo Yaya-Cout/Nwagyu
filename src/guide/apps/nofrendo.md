@@ -35,7 +35,8 @@ obvious, so here’s a recap:
 
 You can download the Nofrendo app from this link:
 
-- [Nofrendo v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.2.0.nwa)
+- [Nofrendo v1.2.1](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.2.1.nwa)
+- [Nofrendo v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.2.0.nwa) (broken save implementation, use v1.2.1 instead)
 - [Nofrendo v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.1.0.nwa)
 - [Nofrendo v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.0.0.nwa)
 
