@@ -62,8 +62,8 @@ performance.
 :::
 
 ::: tip
-At the time, only Peanut-GB v1.1.0 support games saves, so you won't be able to
-save you game on Peanut-GB (Color) for now.
+At the time, only Peanut-GB v1.1.0 and later support games saves, so you won't
+be able to save you game on Peanut-GB (Color) for now.
 :::
 
 ## Installation

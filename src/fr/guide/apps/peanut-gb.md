@@ -65,9 +65,9 @@ La plupart des jeux Gameboy Color peuvent tourner sur Peanut-GB normal en
 :::
 
 ::: tip
-Pour le moment, seulement Peanut-GB v1.1.0 supporte les sauvegardes de jeux,
-donc vous ne pourrez pas sauvegarder votre jeux dans Penaut-GB (Color) pour le
-moment
+Pour le moment, seulement Peanut-GB v1.1.0 et supérieur supportent les
+sauvegardes de jeux, donc vous ne pourrez pas sauvegarder votre jeux dans
+Penaut-GB (Color) pour le moment
 :::
 
 ## Installation
