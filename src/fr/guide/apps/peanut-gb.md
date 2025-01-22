@@ -51,6 +51,7 @@ Pour modifier le comportement de l'émulateur, vous pouvez utiliser ces touches�
 
 Vous pouvez télécharger l'application Peanut-GB depuis ce lien :
 
+- [Peanut-GB v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.0.nwa)
 - [Peanut-GB v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.1.0.nwa)
 - [Peanut-GB v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.0.0.nwa)
 - [Peanut-GB (Color)](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc.nwa)
