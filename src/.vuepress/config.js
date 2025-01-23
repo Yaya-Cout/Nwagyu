@@ -71,7 +71,6 @@ export default defineUserConfig({
         link: 'https://my.numworks.com/apps'
       }
     ],
-    // TODO: See if sidebar couldn't be moved to frontmatter
     sidebar: {
       '/': [
         {

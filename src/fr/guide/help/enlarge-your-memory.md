@@ -1,11 +1,20 @@
 # Agrandissez votre mémoire !
 
-
 Normalement, la calculatrice NumWorks ne vous laisse qu'environ 2,5 Mo pour
 installer des applications. Mais grâce à Nwagra, vous serez capable d'utiliser
 jusqu'à 6 Mo !
 
-## Configuration de Nwagra :
+::: warning
+Nwagra ne fonctionne pas sur des versions récentes d'Epsilon. Si votre
+calculatrice commence à vous dire que le mode examen est activé après avoir
+installé des applications externes, Nwagra est probablement incompatible avec
+votre version.
+
+Comme Nwagra n'est plus nécessaire pour KhiCAS, cette fonctionnalité est moins
+utile qu'avant.
+:::
+
+## Configuration de Nwagra
 
 1. Glissez ce lien dans votre barre personnelle :
    <!-- TODO: Try to see if we can use a markdown link here -->

@@ -2,6 +2,14 @@
 
 Normally the NumWorks calculator only lets you use around 2.5MB to install apps. But thanks to Nwagra, you’ll be able to use up to 6MB!
 
+::: warning
+Nwagra is broken on recent Epsilon versions. If the calculator start
+telling you the exam mode is enabled after installing apps, Nwagra is probably
+incompatible with your version.
+
+As Nwagra is no longer required for KhiCAS, it's less useful than before.
+:::
+
 ## Nwagra setup
 
 1. Drag and drop the following link to your bookmarks bar:

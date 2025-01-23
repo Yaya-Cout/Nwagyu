@@ -24,5 +24,4 @@ features:
             image viewer. You can also use the Lua scripting language to create
             your own programs
 footer: Made by ScarlettSpell and Yaya.Cout with ❤️
-sidebarDepth: 10
 ---
