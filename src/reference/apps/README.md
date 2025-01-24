@@ -6,4 +6,4 @@ for creating one
 - [Creating your own application](creating-application.md)
 - [Syscalls](syscalls.md)
 - [Accessing storage](storage.md)
-- On/Off and Home keys
+- [On/Off and Home keys](onoff-home.md)

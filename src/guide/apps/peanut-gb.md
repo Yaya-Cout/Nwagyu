@@ -110,6 +110,9 @@ the storage, external apps are using an implementation directly reading the RAM
 the same way as computer does to read and write files in the calculator, so we
 are far away from getting a method to disable On/Off and Home.
 
+A more complete explanation is available in the
+[documentation](../../reference/apps/onoff-home.md).
+
 ## Source code
 
 Source code for Peanut-GB v1.1.0 and later is available

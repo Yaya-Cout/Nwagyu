@@ -12,7 +12,7 @@ Here's what is documented at the time, separated under different categories :
 - [Creating your own application](apps/creating-application.md)
 - [Syscalls](apps/syscalls.md)
 - [Accessing storage](apps/storage.md)
-- On/Off and Home keys
+- [On/Off and Home keys](apps/onoff-home.md)
 
 ### [Firmware](firmware/)
 
@@ -25,4 +25,4 @@ Here's what is documented at the time, separated under different categories :
 
 ### [Others](others/)
 
-- Communication with the computer
+- Communication with the computer (DFU)

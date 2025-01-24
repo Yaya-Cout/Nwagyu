@@ -118,6 +118,9 @@ directement la RAM de la même manière que les ordinateurs le font pour lire et
 écrire des fichiers dans la calculatrice, donc nous sommes très loin d'avoir une
 méthode pour désactiver On/Off et Home.
 
+Une explication plus complète est disponible dans la
+[documentation](../../../reference/apps/onoff-home.md) (en anglais).
+
 ## Code source
 
 Le code source de Peanut-GB à partir de la v1.1.0 est disponible
