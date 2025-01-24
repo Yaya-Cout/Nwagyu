@@ -183,6 +183,7 @@ export default defineUserConfig({
           children: [
               "creating-application",
               "syscalls",
+              "storage",
           ],
         },
         {
@@ -193,9 +194,9 @@ export default defineUserConfig({
           ]
         },
         {
-          text: "Firmware",
-          link: '/reference/other/',
-          prefix: '/reference/other/',
+          text: "Others",
+          link: '/reference/others/',
+          prefix: '/reference/others/',
           children: [
           ]
         },

@@ -9,9 +9,9 @@ Here's what is documented at the time, separated under different categories :
 
 ### [External apps](apps/)
 
-- [Creating your own application](apps/creating-application)
-- [Syscalls](apps/syscalls)
-- Accessing storage
+- [Creating your own application](apps/creating-application.md)
+- [Syscalls](apps/syscalls.md)
+- [Accessing storage](apps/storage.md)
 - On/Off and Home keys
 
 ### [Firmware](firmware/)
@@ -20,6 +20,8 @@ Here's what is documented at the time, separated under different categories :
 - Bootloader
 - Kernel
 - Userland
+- Addresses and parsable structures
+- Slots
 
 ### [Others](others/)
 

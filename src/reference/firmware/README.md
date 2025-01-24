@@ -7,3 +7,5 @@ and it's architecture.
 - Bootloader
 - Kernel
 - Userland
+- Addresses and parsable structures
+- Slots
