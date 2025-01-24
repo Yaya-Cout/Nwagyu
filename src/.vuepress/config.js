@@ -66,6 +66,14 @@ export default defineUserConfig({
     docsDir: 'src',
     logo: '/cow-head.webp',
     navbar: [
+      // {
+      //   text: 'Guide',
+      //   link: '/guide/'
+      // },
+      // {
+      //   text: 'Documentation',
+      //   link: '/reference/'
+      // },
       {
         text: 'App installer',
         link: 'https://my.numworks.com/apps'
@@ -108,7 +116,13 @@ export default defineUserConfig({
             "how-to-uninstall",
             "faq",
           ]
-        }
+        },
+        // {
+        //   text: 'Documentation',
+        //   link: '/reference/',
+        //   children: [
+        //   ]
+        // },
       ],
       '/fr/': [
         {
@@ -146,7 +160,51 @@ export default defineUserConfig({
             "how-to-uninstall",
             "faq",
           ]
-        }
+        },
+        // {
+        //   text: 'Documentation',
+        //   link: '/reference/',
+        //   children: [
+        //   ]
+        // },
+      ],
+      '/reference/': [
+        {
+          text: 'Documentation Index',
+          link: '/reference/',
+          children: [
+          ]
+        },
+        {
+          text: 'External apps',
+          link: '/reference/apps/',
+          prefix: '/reference/apps/',
+          // collapsible: true,
+          children: [
+              "creating-application",
+              "syscalls",
+          ],
+        },
+        {
+          text: "Firmware",
+          link: '/reference/firmware/',
+          prefix: '/reference/firmware/',
+          children: [
+          ]
+        },
+        {
+          text: "Firmware",
+          link: '/reference/other/',
+          prefix: '/reference/other/',
+          children: [
+          ]
+        },
+        {
+          text: 'User documentation',
+          link: '/guide/',
+          children: [
+          ]
+        },
       ],
     },
     locales: {

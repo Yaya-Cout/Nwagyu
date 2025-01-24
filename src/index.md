@@ -8,7 +8,7 @@ actions:
     type: primary
 
   # - text: Documentation
-  #   link: /reference
+  #   link: /reference/
   #   type: secondary
 features:
 - title: Use external apps on a locked calculator

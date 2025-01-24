@@ -9,7 +9,7 @@ actions:
     type: primary
 
   # - text: Documentation
-  #   link: /reference
+  #   link: /reference/
   #   type: secondary
 features:
 - title: Obtenez des applications externes sur une calculatrice verrouillée
