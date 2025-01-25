@@ -16,12 +16,13 @@ Here's what is documented at the time, separated under different categories :
 
 ### [Firmware](firmware/)
 
-- Boot process
-- Bootloader
-- Kernel
-- Userland
-- Addresses and parsable structures
-- Slots
+- [Boot process](firmware/boot-process.md)
+- [Slots](firmware/slots.md)
+- [Bootloader](firmware/bootloader.md)
+- [Kernel](firmware/kernel.md)
+- [Userland](firmware/userland.md)
+- [Addresses and structures](firmware/addresses-structures.md)
+<!-- TODO: Extracting firmware from NumWorks website -->
 
 ### [Others](others/)
 

@@ -192,6 +192,12 @@ export default defineUserConfig({
           link: '/reference/firmware/',
           prefix: '/reference/firmware/',
           children: [
+            "boot-process",
+            "slots",
+            "bootloader",
+            "kernel",
+            "userland",
+            "addresses-structures",
           ]
         },
         {
