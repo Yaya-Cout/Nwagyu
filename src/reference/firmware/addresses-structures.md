@@ -337,6 +337,58 @@ and Upsilon headers:
 
 The userland header is automatically parsed by [Upsilon.js].
 
+## Storage structure
+
+The storage base address and size can be found inside the
+[userland header](#userland-header).
+
+The structure of the storage is very simple:
+
+- At index 0x0, a magic (0xBADD0BEE) to determine if the storage is valid
+- A succession of records
+- At least one zero byte after a records
+- Another magic at the end (0xBADD0BEE)
+
+A record is also very simple:
+
+- Size of the records (encoded as uint16, so 2 bytes). Adding the size to the
+  address of the size will lead to the next record size
+- Filename, as a zero-terminated string
+- Content. Its size is determined as "size - 2 - (filename length + 1)". The -2
+  offset is to remove the 2 bytes used by the size itself, and the filename + 1
+  is to remove the filename and its zero byte at the end.
+
+If the size of a record is 0, then the storage can be assumed as finished.
+However, to avoid potential corruption when manipulating storage, the space
+between the last record and the end of the storage should be entirely
+zero-filled.
+
+The [NumWorks Extapp Storage](../apps/storage.md) library is trying to implement
+this structure for external apps without needing to care about the underlying
+data structure. From a computer, you can use [Upsilon.js].
+
+### Python scripts
+
+Python scripts are a bit special as they need to store the automatic importation
+state for the console. It's implemented by making the first byte of the content
+a boolean. To read a Python file, you will have to shift by one the address
+where you are reading to get the real content.
+
+Another particularity of Python scripts are that they are zero-terminated for
+easier internal processing.
+
+### Internal files
+
+On recent Epsilon versions, files named `pr.sys` and `gp.sys` seems to hold user
+preferences and have to be the first files of the storage. They shouldn't be
+removed at the risk of crashing the calculator (reboot).
+
+Other applications files (equations, grapher, statistics, sequences,
+user-defined variables in calculations, regressions and possibly other files)
+aren't stable between Epsilon versions, so be careful when restoring a backup of
+the calculator files (for example using [NumWorks Connector]).
+
 [Upsilon.js]: https://github.com/UpsilonNumworks/upsilon.js/
 [Epsilon]: https://github.com/numworks/epsilon
 [slot]: slots.md
+[NumWorks Connector]: https://yaya-cout.github.io/Numworks-connector/
