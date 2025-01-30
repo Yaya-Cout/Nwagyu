@@ -198,7 +198,9 @@ Here are the steps to follow:
 4. Reference you app in `src/guide/README.md` and `src/guide/apps/README.md`
 5. Repeat all the steps for the french translations by replacing `src/guide` by
    `src/fr/guide` in paths.
-6. Open a pull request to add your app
+6. Add your app to the navbar inside `src/.vuepress/config.js`, in the
+   `children` list (you need to do it twice, for both french and english)
+7. Open a pull request to add your app
 
 If you can't do the french translation, it's not a big deal, but we will need to
 add it before merging (out of sync translations is really bad, as syncing
