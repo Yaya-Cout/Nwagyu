@@ -132,7 +132,7 @@ The nwa file is located under `output/voord.nwa`, and is ready to be flashed
 from NumWorks website just as any normal external app.
 
 @tab Rust
-NumWorks is providing a C++ application template on the GitHub repo
+NumWorks is providing a Rust application template on the GitHub repo
 [numworks/epsilon-sample-app-rust](https://github.com/numworks/epsilon-sample-app-rust)
 
 To use it, follow the instructions on the README.
