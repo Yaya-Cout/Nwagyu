@@ -144,8 +144,8 @@ You also need Node installed with Nwlink
 
 For example, you can install it this way on Ubuntu (but it shouldn't be very
 different on other Linux distributions)
+
 ```bash
-# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install git rustup gcc npm
 npm install -g nwlink
 rustup default stable
