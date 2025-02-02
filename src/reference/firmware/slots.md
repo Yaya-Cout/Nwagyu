@@ -5,7 +5,7 @@ in two equal parts of 4MB (total of 8MB).
 
 ## Epsilon
 
-On the stock OS, each slot contain a kernel, an userland, an username and an
+On the stock OS, each slot contain a [kernel], an [userland], an username and an
 exam mode storage zone. In most cases, both slots contains the same OS version.
 Having two copies of the OS doesn't have a big benefit in their case:
 <!-- TODO: Link to headers page for userland and username -->
@@ -22,6 +22,14 @@ Slots doesn't exist hardware-wise, it's just a software separation. In fact, if
 the slot A took 8MB, it would overwrite the slot B and work as-is (there would
 be a linker script to edit as the linker is told to link only in a 4MB zone, but
 it doesn't require big code changes).
+
+The whole slot is signed using a single signature for both the [userland] and
+the [kernel], verified by the [bootloader].
+
+<!-- TODO: More informations about the signature -->
+
+See [loading custom userland] for more information about loading custom userland
+on a locked calculator.
 
 ### KhiCAS on Epsilon
 
@@ -87,6 +95,10 @@ External apps are not stored the same way on locked calculators (NWA).
 <!-- TODO: Use the SVG, and find a good way to handle dark theme -->
 ![Schema describing different external flash layouts](flash-layout.png)
 
+[bootloader]: bootloader.md
+[kernel]: kernel.md
+[userland]: userland.md
+[loading custom userland]: userland.md#loading-custom-userland
 [KhiCAS]: ../../guide/apps/khicas.md
 [old KhiCAS version]: ../../guide/apps/legacy/khicas.md
 [Upsilon]: https://getupsilon.web.app/
