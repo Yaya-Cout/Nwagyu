@@ -54,13 +54,6 @@ $(addprefix $(BUILD_DIR)/,%.o): %.c | $(BUILD_DIR)
 
 :::
 
-If you want, it would also be nice to link the original project inside the
-storage.c file, for example by adding an header in the `storage.c` file:
-
-```c
-// Code from https://framagit.org/Yaya.Cout/numworks-extapp-storage
-```
-
 <!-- TODO: Rust -->
 
 Once you added it to your project, you are ready to start using the library
@@ -164,7 +157,7 @@ int main() {
 
 ```cpp
 int main() {
-    bool succeed =  extapp_fileErase("delete.py");
+    bool succeed = extapp_fileErase("delete.py");
 
     if (!succeed) {
         // Error when deleting, probably caused by not existing file
@@ -250,13 +243,13 @@ int main() {
 
 ## How does it work
 
-Internally, the library directly parse the storage inside the RAM. On each
-function call, the library does the following steps:
+Internally, the library directly parse the storage inside the RAM, and is fully
+stateless. On each call, the library does the following steps:
 
 1. Figuring out the calculator model based on userlandMagic (more reliable
    methods could be added in the future, but unless the user flash an N0110
    firmware on one of the slots of its N0120 or an N0120 firmware on an N0110,
-   the current way is working)
+   the current way is working). See [Determining device model] for details.
 2. Determine the userland address based on the model
 3. Get the storage address from the userland header (found based on the userland
    address)
@@ -264,9 +257,11 @@ function call, the library does the following steps:
    required)
 5. Read the storage directly and parse it to do what the function is meant to do
 
-<!-- TODO: Link to page explaining storage structure -->
+The storage structure is described in [storage structure].
 
 [NumWorks Extapp Storage]: https://framagit.org/Yaya.Cout/numworks-extapp-storage
 [src/storage.c]: https://framagit.org/Yaya.Cout/numworks-extapp-storage/-/blob/master/src/storage.c
 [src/storage.h]: https://framagit.org/Yaya.Cout/numworks-extapp-storage/-/blob/master/src/storage.h
 [src/main.c]: https://framagit.org/Yaya.Cout/numworks-extapp-storage/-/blob/master/src/main.cpp
+[Determining device model]: ../firmware/addresses-structures.md#determining-device-model
+[Storage structure]: ../firmware/addresses-structures.md#storage-structure
