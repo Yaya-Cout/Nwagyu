@@ -3,6 +3,8 @@
 This documentation is trying to describe everything we know about the NumWorks
 calculator.
 
+If you are looking for apps, please go to the [User Documentation](../guide/).
+
 Here's what is documented at the time, separated under different categories :
 
 ## Categories
@@ -26,4 +28,5 @@ Here's what is documented at the time, separated under different categories :
 
 ### [Others](others/)
 
-- Communication with the computer (DFU)
+- [Communication with the computer (DFU)](others/dfu.md)
+- [Downloading Epsilon from NumWorks' website](others/downloading-epsilon.md)

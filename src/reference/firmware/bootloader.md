@@ -11,13 +11,13 @@ On locked calculators, the bootloader is always loaded, even in BOOT1 mode
 1. Checking if the 6 key is pressed. If it's pressed, it will enter DFU mode to
    write the external flash from a computer and display `numworks.com/rescue`.
    If not pressed, it will continue booting
-2. Checking the signature of the kernels and userland. If the signature of the
-   first [slot] is valid, it will load it. If not, it will check the second
+2. Checking the signature of the [kernel] and [userland]. If the signature of
+   the first [slot] is valid, it will load it. If not, it will check the second
    [slot]. If the second [slot] is valid, it will be loaded. If not, it will
    refuse to boot, enter DFU mode and show the `numworks.com/rescue` screen.
 
-When loading the slot, the bootloader will in fact just launch the kernel, which
-is going in turn to load the userland.
+When loading the slot, the bootloader will in fact just launch the [kernel],
+which is going in turn to load the [userland].
 
 The bootloader is meant to be read-only, but the flash is only locked in
 [userland], the kernel can rewrite the bootloader.

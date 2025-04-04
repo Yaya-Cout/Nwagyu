@@ -67,7 +67,7 @@ export default defineUserConfig({
     logo: '/cow-head.webp',
     navbar: [
       // {
-      //   text: 'Guide',
+      //   text: 'Apps',
       //   link: '/guide/'
       // },
       // {
@@ -117,12 +117,12 @@ export default defineUserConfig({
             "faq",
           ]
         },
-        // {
-        //   text: 'Documentation',
-        //   link: '/reference/',
-        //   children: [
-        //   ]
-        // },
+        {
+          text: 'Documentation',
+          link: '/reference/',
+          children: [
+          ]
+        },
       ],
       '/fr/': [
         {
@@ -161,12 +161,12 @@ export default defineUserConfig({
             "faq",
           ]
         },
-        // {
-        //   text: 'Documentation',
-        //   link: '/reference/',
-        //   children: [
-        //   ]
-        // },
+        {
+          text: 'Documentation (anglais)',
+          link: '/reference/',
+          children: [
+          ]
+        },
       ],
       '/reference/': [
         {
@@ -205,6 +205,8 @@ export default defineUserConfig({
           link: '/reference/others/',
           prefix: '/reference/others/',
           children: [
+            "dfu",
+            "downloading-epsilon"
           ]
         },
         {

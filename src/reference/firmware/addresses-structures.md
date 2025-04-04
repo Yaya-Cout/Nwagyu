@@ -3,7 +3,7 @@
 The calculator has a lot of headers and parsable structures about a lot of
 features: it's used for storage, current slot, username, current version…
 
-The Upsilon.js library was designed to parse them with backward-compatibility.
+The [Upsilon.js] library was designed to parse them with backward-compatibility.
 On this page, we will only describe structures for recent Epsilon versions
 (16+), which are also used on custom firmwares for unlocked calculators.
 
@@ -27,7 +27,7 @@ recent Epsilon versions implementing bcdDevice.
 If bcdDevice indicate N0110, it will be an N0110. However, the reverse is not
 true: on N0110, before Epsilon 17 and on custom firmwares, was the same as
 N0100, so you should fall back to other detections method in case you detect
-N0100. In case you are interested by the commit adding this feature, it's 
+N0100. In case you are interested by the commit adding this feature, it's
 [d63617](https://github.com/numworks/epsilon/commit/d63617034c1379989129a92cd049ca44956c1a94)
 on [Epsilon] repository.
 
