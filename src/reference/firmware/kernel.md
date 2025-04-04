@@ -12,7 +12,7 @@ popup on each suspend exit telling the firmware is not official (see
 
 The kernel also contains the hardware drivers. Some control over the hardware is
 exposed as [SVC calls](../apps/syscalls.md#manual-syscalls), but most of the
-work
+work is done internally by the kernel, or directly in userland.
 
 The [source code of the kernel] was available under a proprietary license up to
 Epsilon 18.2.2, but was removed from the source code on newer versions after the

@@ -24,7 +24,6 @@ Here's what is documented at the time, separated under different categories :
 - [Kernel](firmware/kernel.md)
 - [Userland](firmware/userland.md)
 - [Addresses and structures](firmware/addresses-structures.md)
-<!-- TODO: Extracting firmware from NumWorks website -->
 
 ### [Others](others/)
 
