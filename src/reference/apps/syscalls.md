@@ -23,7 +23,7 @@ in Epsilon's source code.
 Some of these calls are available in external apps through functions, but not
 everything is available.
 
-For example, to enter disable On/Off and Home keys, we need to call unavailable
+For example, to disable [On/Off and Home keys], we need to call unavailable
 functions (`willExecuteDFU` and `suspend`), so we call them by hand.
 
 To use them, you just need to use `asm("svc <SVC_INDEX>")`. To suspend the
@@ -33,3 +33,5 @@ calculator, you would call `asm("svc 44")`, as in the SVC table,
 However, calling functions this way is not guaranteed to work on every Epsilon
 version, as SVC numbers could change or functions could simply be removed. If a
 function is available through EADK, you should use it.
+
+[On/Off and Home keys]: onoff-home.md
