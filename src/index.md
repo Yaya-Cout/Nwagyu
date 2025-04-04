@@ -7,9 +7,9 @@ actions:
     link: /guide/
     type: primary
 
-  # - text: Documentation
-  #   link: /reference/
-  #   type: secondary
+  - text: Documentation
+    link: /reference/
+    type: secondary
 features:
 - title: Use external apps on a locked calculator
   details: If your calculator is locked, you can still use external apps using

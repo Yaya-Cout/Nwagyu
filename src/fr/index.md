@@ -8,9 +8,9 @@ actions:
     link: /fr/guide/
     type: primary
 
-  # - text: Documentation
-  #   link: /reference/
-  #   type: secondary
+  - text: Documentation
+    link: /reference/
+    type: secondary
 features:
 - title: Obtenez des applications externes sur une calculatrice verrouillée
   details: Si votre calculatrice est verrouillée, vous pouvez toujours utiliser
