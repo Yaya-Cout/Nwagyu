@@ -22,9 +22,9 @@ their behaviour is often known by the community.
 Upsilon was later forked from Omega after Epsilon 16 was released as Omega
 maintainers didn't wanted to fight against NumWorks in a cat-and-mouse game.
 Khi also appeared as another fork of Omega created by Bernard Parisse, KhiCAS
-and xcas developer. He added some features to the external apps API, notably the
-ability to write flash
-Upsilon continued adding new features to Omega, including merging Khi
+and xcas developer. He added several features to the external apps API, notably
+the ability to write flash.
+Upsilon continued adding new features to Omega, including merging back Khi
 improvements.
 
 `extapp` is the prefix used by the external apps API on Omega, hence the name.
@@ -45,13 +45,12 @@ Here are the keys differences:
 - External apps are not available on exam mode
 - External apps are deleted when reseting the calculator, including crashes
 - Storage access is not officially supported (but an unofficial
-  reimplementation exists)
-  <!-- TODO: Link to the documentation -->
+  reimplementation exists, see [Accessing storage])
 - Only NumWorks has the control over the API, so extending it is not always
-  possible (disabling On/Off and Home keys, for example)
+  possible (disabling [On/Off and Home keys], for example)
   <!-- TODO: Link to the page -->
 
-EADK is the name given by NumWorks to the API used by NWA application
+EADK is the name given by NumWorks to the API used by NWA applications.
 
 ## Creating an Upsilon application
 
@@ -87,11 +86,19 @@ NumWorks is providing a C application template on the GitHub repo
 
 To use it, follow the instructions on the README.
 
+Instructions to install the toolchain (choose the one corresponding to your
+Linux distribution, or adapt the commands if it's not listed):
+
+```bash
+sudo apt install git make gcc-arm-none-eabi npm # Ubuntu/Debian
+sudo pacman -S git make arm-none-eabi-gcc arm-none-eabi-newlib npm # Arch Linux
+```
+
 Here is a quick guide about it, assuming the toolchain is already installed:
-<!-- TODO: Toolchain installation -->
 
 ```bash
 git clone https://github.com/numworks/epsilon-sample-app-c
+cd epsilon-sample-app-c
 
 # To build and install the app on you calculator directly.
 make run
@@ -103,6 +110,17 @@ make # make build for the full command
 make clean
 ```
 
+If you get an error like this, it means that you are using a too recent Node
+version. You can downgrade Node, or upgrade `nwlink` (see below).
+
+```output
+CC      src/main.c
+src/main.c:1:10: fatal error: eadk.h: No such file or directory
+    1 | #include <eadk.h>
+      |          ^~~~~~~~
+compilation terminated.
+```
+
 The nwa file is located under `output/app.nwa`, and is ready to be flashed from
 NumWorks website just as any normal external app.
 
@@ -112,13 +130,21 @@ NumWorks is providing a C++ application template on the GitHub repo
 
 To use it, follow the instructions on the README.
 
+Instructions to install the toolchain (choose the one corresponding to your
+Linux distribution, or adapt the commands if it's not listed):
+
+```bash
+sudo apt install git make gcc-arm-none-eabi npm # Ubuntu/Debian
+sudo pacman -S git make arm-none-eabi-gcc arm-none-eabi-newlib npm # Arch Linux
+```
+
 Here is a quick guide about it, assuming the toolchain is already installed:
-<!-- TODO: Toolchain installation -->
 
 ```bash
 git clone https://github.com/numworks/epsilon-sample-app-cpp
+cd epsilon-sample-app-cpp
 
-# To build and install thz app on you calculator directly.
+# To build and install the app on you calculator directly.
 make run
 
 # To simply build your app
@@ -126,6 +152,17 @@ make # make build for the full command
 
 # To clean the build cache in case of inconsistent cache
 make clean
+```
+
+If you get an error like this, it means that you are using a too recent Node
+version. You can downgrade Node, or upgrade `nwlink` (see below).
+
+```output
+CC      src/main.c
+src/main.c:1:10: fatal error: eadk.h: No such file or directory
+    1 | #include <eadk.h>
+      |          ^~~~~~~~
+compilation terminated.
 ```
 
 The nwa file is located under `output/voord.nwa`, and is ready to be flashed
@@ -143,7 +180,7 @@ To install the toolchain, simply install the toolchain using
 You also need Node installed with Nwlink
 
 For example, you can install it this way on Ubuntu (but it shouldn't be very
-different on other Linux distributions)
+different on other Linux distributions like Arch Linux)
 
 ```bash
 sudo apt install git rustup gcc npm
@@ -180,6 +217,26 @@ No template for Zig is available, but
 written in Zig so you can use it as an example.
 :::
 
+::: details Upgrading `nwlink`
+Unfortunately, the NumWorks template is using an outdated `nwlink` version which
+doesn't support newer Node versions.
+
+To upgrade it, change the `NWLINK` definition in the Makefile to use at least
+version 0.0.19
+
+```makefile
+NWLINK = npx --yes -- nwlink@0.0.19
+```
+
+Then, as the syntax changed, replace `eadk-cflags` with `eadk-cflags-device`
+
+```makefile
+CFLAGS += $(shell $(NWLINK) eadk-cflags-device)
+```
+
+After changing these 2 lines, you are ready to go with the newer nwlink version!
+:::
+
 Now you have built and flashed your app, you can play with the API and read the
 rest of the documentation to learn things you can do.
 
@@ -205,3 +262,6 @@ Here are the steps to follow:
 If you can't do the french translation, it's not a big deal, but we will need to
 add it before merging (out of sync translations is really bad, as syncing
 everything will take time).
+
+[Accessing storage]: storage.md
+[On/Off and Home keys]: onoff-home.md

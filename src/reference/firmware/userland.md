@@ -21,8 +21,8 @@ GUI (Escher), apps, the calculation engine (Poincaré), the Python runtime
 (MicroPython) and the [filesystem](addresses-structures.md) (stored in RAM).
 <!-- TODO: Link to storage in the page -->
 
-There is almost no difference between an userland an an external app, when as
-both are using SVC calls and are unprivileged.
+There is almost no difference between an userland an an external app, as both
+are using SVC calls and are unprivileged.
 
 ### Loading custom userland
 
