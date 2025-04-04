@@ -12,9 +12,9 @@ Here's what is documented at the time, separated under different categories :
 ### [External apps](apps/)
 
 - [Creating your own application](apps/creating-application.md)
-- [Syscalls](apps/syscalls.md)
 - [Accessing storage](apps/storage.md)
 - [On/Off and Home keys](apps/onoff-home.md)
+- [Syscalls](apps/syscalls.md)
 
 ### [Firmware](firmware/)
 

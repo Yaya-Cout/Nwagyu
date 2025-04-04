@@ -182,9 +182,9 @@ export default defineUserConfig({
           // collapsible: true,
           children: [
               "creating-application",
-              "syscalls",
               "storage",
               "onoff-home",
+              "syscalls",
           ],
         },
         {
