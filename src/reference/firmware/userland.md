@@ -46,7 +46,7 @@ enter the real boot procedure:
 Importants things to note are that:
 
 - The custom userland will be loaded using the kernel from the other slot
-- The DFU leave function is handled by the officiel userland, so any exploit on
+- The DFU leave function is handled by the official userland, so any exploit on
   the official userland could allow loading a custom userland without
   downgrading the kernel security level (for example, to boot custom firmwares
   with exam mode support on locked calculators)

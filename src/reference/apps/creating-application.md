@@ -8,7 +8,7 @@ Before building your application, you need to decide which operating system you
 want to target, as Epsilon's system (NWA) is not the same format as the one used
 by Omega/Upsilon
 
-### Differences between Omega and Upsilon
+### Differences between Omega/Upsilon and Epsilon
 
 #### Upsilon and Omega (extapp)
 
