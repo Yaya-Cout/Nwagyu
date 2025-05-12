@@ -271,22 +271,28 @@ the slot B, it will return `0x90400000`. For the slot Khi, it will return
 
 ## Kernel header
 
-Kernel is located at "slot start + 0x8". Its address is also given in the
-[slot info](#slot-info).
+The kernel starts at the slot start.
+The Kernel Header immediately follows the first 8 bytes of the kernel, which are not part of the header itself.
+The address of the Kernel Header is also given in the [slot info](#slot-info).
 
-It contains some metadata about the kernel, but unless a kernel is running a
+Here is what the first 8 bytes of the kernel contain:
+
+| Index (from kernel start) | Size (bytes) | Format | Name                                 | Usage                                       |
+| ------------------------- | ------------ | ------ | ------------------------------------ | ------------------------------------------- |
+| 0x0                       | 4            | uint32 | Null bytes                           |                                             |
+| 0x4                       | 4            | uint32 | Size of kernel (from 0x8) + userland | Used for signature check                    |
+
+The Kernel Header contains some metadata about the kernel, but unless a kernel is running a
 different version than the userland (shouldn't happen during normal use), the
-userland header will contain the same informations. The only information that's
+userland header will contain the same information. The only information that's
 only available in the kernel header is the patch level (git commit).
 
-| Index | Size (bytes) | Format | Name                    | Usage                                       |
-| ----- | ------------ | ------ | ----------------------- | ------------------------------------------- |
-| 0x0   | 4            | uint32 | Magic                   | Determine if the kernel header is valid     |
-| 0x4   | 8            | string | Version                 | Version number of the kernel, like `23.2.5` |
-| 0xC   | 8            | string | Patch level             | Commit of the kernel, like `cba3ef2`        |
-| 0x14  | 4            | uint32 | Magic                   | Determine if the kernel header is valid     |
-
-Two different values for the magic exists: `0xF00DC0DE` and `0xFEEDC0DE`.
+| Index (from kernel header) | Size (bytes) | Format | Name                                 | Usage                                       |
+| -------------------------- | ------------ | ------ | ------------------------------------ | ------------------------------------------- |
+| 0x0                        | 4            | uint32 | Magic (0xF00DC0DE)                   | Determine if the kernel header is valid     |
+| 0x4                        | 8            | string | Version                              | Version number of the kernel, like `23.2.5` |
+| 0xC                        | 8            | string | Patch level                          | Commit of the kernel, like `cba3ef2`        |
+| 0x14                       | 4            | uint32 | Magic (0xF00DC0DE)                   | Determine if the kernel header is valid     |
 
 ## Userland header
 
@@ -302,22 +308,20 @@ processing.
 
 It's one of the most useful header, and contain many informations:
 
-| Index | Size (bytes) | Format | Name                              | Usage                                                |
-| ----- | ------------ | ------ | --------------------------------- | ---------------------------------------------------- |
-| 0x0   | 4            | uint32 | Magic                             | Determine if the userland header is valid            |
-| 0x4   | 8            | string | Version                           | Version number of the userland, like `23.2.5`        |
-| 0xC   | 4            | uint32 | Storage address                   | Address of the Python storage inside the RAM         |
-| 0x10  | 4            | uint32 | Storage size                      | Size of the Python storage                           |
-| 0x14  | 4            | uint32 | External apps flash start         | Start of the zone where external apps can be flashed |
-| 0x18  | 4            | uint32 | External apps flash end           | End of the zone where external apps can be flashed   |
-| 0x1C  | 4            | uint32 | External apps ram start           | Start of the RAM zone where external apps can run    |
-| 0x20  | 4            | uint32 | External apps ram end             | End of the RAM zone where external apps can run      |
-| 0x24  | 4            | uint32 | Magic (before Epsilon 22)         | Determine if the userland header is valid            |
-| 0x24  | 4            | uint32 | Username start (after Epsilon 22) | Start of the flash zone where username is written    |
-| 0x28  | 4            | uint32 | Username end (after Epsilon 22)   | End of the flash zone where username is written      |
-| 0x3C  | 4            | uint32 | Magic (after Epsilon 22)          | Determine if the userland header is valid            |
-
-Two different values for the magic exists: `0xF00DC0DE` and `0xFEEDC0DE`.
+| Index | Size (bytes) | Format | Name                                   | Usage                                                |
+| ----- | ------------ | ------ | -------------------------------------- | ---------------------------------------------------- |
+| 0x0   | 4            | uint32 | Magic (0xFEEDC0DE)                     | Determine if the userland header is valid            |
+| 0x4   | 8            | string | Version                                | Version number of the userland, like `23.2.5`        |
+| 0xC   | 4            | uint32 | Storage address                        | Address of the Python storage inside the RAM         |
+| 0x10  | 4            | uint32 | Storage size                           | Size of the Python storage                           |
+| 0x14  | 4            | uint32 | External apps flash start              | Start of the zone where external apps can be flashed |
+| 0x18  | 4            | uint32 | External apps flash end                | End of the zone where external apps can be flashed   |
+| 0x1C  | 4            | uint32 | External apps ram start                | Start of the RAM zone where external apps can run    |
+| 0x20  | 4            | uint32 | External apps ram end                  | End of the RAM zone where external apps can run      |
+| 0x24  | 4            | uint32 | Magic (before Epsilon 22) (0xFEEDC0DE) | Determine if the userland header is valid            |
+| 0x24  | 4            | uint32 | Username start (after Epsilon 22)      | Start of the flash zone where username is written    |
+| 0x28  | 4            | uint32 | Username end (after Epsilon 22)        | End of the flash zone where username is written      |
+| 0x3C  | 4            | uint32 | Magic (after Epsilon 22) (0xFEEDC0DE)  | Determine if the userland header is valid            |
 
 Username flash zone only appeared with Epsilon 22, so it wasn't in the userland header before.
 
