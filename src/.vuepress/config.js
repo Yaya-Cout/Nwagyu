@@ -104,6 +104,7 @@ export default defineUserConfig({
             "mandelbrot",
             "sierpinski",
             "storage",
+            "compressor",
           ],
         },
         {
@@ -148,6 +149,7 @@ export default defineUserConfig({
             "mandelbrot",
             "sierpinski",
             "storage",
+            "compressor",
           ],
         },
         {

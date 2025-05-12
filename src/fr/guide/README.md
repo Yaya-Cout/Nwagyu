@@ -18,6 +18,7 @@ Voici la liste des applications qui sont actuellement disponibles :
 - [Sierpinski](./apps/sierpinski.md): Une animation du triangle de Sierpinski
 - [Storage](./apps/storage.md): Une application pour obtenir des informations à
                                 propos du stockage
+- [Compressor](./apps/compressor.md): Un compresseur de scripts pour gagner de la place
 
 ## Comment installer ?
 

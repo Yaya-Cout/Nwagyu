@@ -15,3 +15,4 @@ Here is the list of the apps that are currently available:
 - [Mandelbrot](./mandelbrot.md): A Mandelbrot set explorer
 - [Sierpinski](./sierpinski.md): A Sierpinski triangle animation
 - [Storage](./storage.md): An app to get informations about storage usage
+- [Compressor](./compressor.md): A script compressor to save space

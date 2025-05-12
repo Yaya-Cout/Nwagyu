@@ -15,3 +15,4 @@ Voici une liste des applications actuellement disponibles :
 - [Sierpinski](./sierpinski.md): Une animation du triangle de Sierpinski
 - [Storage](./storage.md): Une application pour obtenir des informations à
                                 propos du stockage
+- [Compressor](./compressor.md): Un compresseur de scripts pour gagner de la place

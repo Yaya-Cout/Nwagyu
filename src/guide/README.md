@@ -16,6 +16,7 @@ calculator. Here is the list of the apps that are currently available:
 - [Mandelbrot](./apps/mandelbrot.md): A Mandelbrot set explorer
 - [Sierpinski](./apps/sierpinski.md): A Sierpinski triangle animation
 - [Storage](./apps/storage.md): An app to get informations about storage usage
+- [Compressor](./apps/compressor.md): A script compressor to save space
 
 ## How to install
 
