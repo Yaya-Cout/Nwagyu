@@ -104,7 +104,7 @@ ne devrait pas arriver sauf si vous modifiez le fichier en utilisant une autre
 façon. Au moment où j'écris cette application, aucun outil de ce type n'existe
 sans ordinateur donc cela ne devrait pas être un problème.
 
-### Compresser d'autres fichiers que des scrips Python
+### Compresser d'autres fichiers que des scripts Python
 
 La compression de d'autres fichiers que du Python n'est pas implémentée car il
 n'y aurait pas de réel avantage à l'avoir.
