@@ -40,6 +40,8 @@ votre fichier sera de nouveau disponible. Sinon, lisez la section
 
 Vous pouvez télécharger l'application Compressor depuis ce lien :
 
+- [Compressor v1.0.1](https://yaya-cout.github.io/Nwagyu/assets/apps/compressor-1.0.1.nwa),
+  correction de crashs et bugs lorsque le stockage est plein
 - [Compressor v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/compressor-1.0.0.nwa)
 
 ## Installation
@@ -52,14 +54,26 @@ Pour installer l'application Compressor, suivez les instructions dans le guide
 Voici des solutions à certains problèmes courants que vous pouvez rencontrer
 avec cette application
 
-### Error: Couldn't write file
+### Error: Storage is full
 
-Vous n'avez pas assez de place pour stocker le nouveau fichier. Cela devrait
-arriver seulement en décompressant des fichiers. Dans ce cas, essayez de
-compresser ou de supprimer d'autres fichiers.
+Vous n'avez pas assez de stockage libre pour stocker le nouveau fichier. Cela
+devrait principalement arriver en décompressant des fichiers. Dans ce cas,
+essayez de compresser ou supprimer d'autres fichiers avant de réessayer
+
+Cette erreur affiche également l'espace disponible requis et actuel pour vous
+aider à visualiser combien de mémoire vous devez libérer.
 
 Notez que vous ne pouvez pour le moment pas supprimer de fichier compressé sans
 le décompresser sans ordinateur, voir [Yaya-Cout/Compressor#2](https://codeberg.org/Yaya-Cout/Compressor/issues/2).
+
+### Error: Couldn't write file
+
+Vous n'avez pas assez de place pour stocker le nouveau fichier. Cela ne devrait
+jamais arriver car vous obtiendriez `Error: Storage is full` à la place. Si vous
+obtenez cette erreur, le fichier est définitivement perdu.
+
+Si cela devait arriver, merci d'ouvrir un [ticket](https://codeberg.org/Yaya-Cout/Compressor/issues)
+pour investiguer ce problème.
 
 ### Error: Output file already exists
 

@@ -39,6 +39,8 @@ the [troubleshooting](#troubleshooting) section.
 
 You can download the Compressor app from this link:
 
+- [Compressor v1.0.1](https://yaya-cout.github.io/Nwagyu/assets/apps/compressor-1.0.1.nwa);
+  fix crashs and bugs when storage is full
 - [Compressor v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/compressor-1.0.0.nwa)
 
 ## Installation
@@ -50,17 +52,31 @@ To install the Compressor app, follow the instructions in the
 
 Here are solutions to some common problems you can encounter with this app
 
-### Error: Couldn't write file
+### Error: Storage is full
 
-You don't have enough free space to store the new file. This should happen only
-when decompressing files. In this case, try to compress or delete other files.
+You don't have enough free space to store the new file. This should mainly
+happen when decompressing files. In this case, try to compress or delete other
+files before retrying.
+
+This error also show required free space and current free space to help you to
+visualize how much memory you need to free.
 
 Note that you can't delete compressed files without decompressing them for now
-without a computer, see [Yaya-Cout/Compressor#2](https://codeberg.org/Yaya-Cout/Compressor/issues/2).
+without a computer, see [#2](https://codeberg.org/Yaya-Cout/Compressor/issues/2).
+
+### Error: Couldn't write file
+
+You don't have enough free space to store the new file. This should never happen
+as you would get `Error: Storage is full` instead. If you get this error, the
+file is definitely lost.
+
+In this case, please open an [issue](https://codeberg.org/Yaya-Cout/Compressor/issues)
+to investigate this case.
 
 ### Error: Output file already exists
 
 This error means the output file is already created.
+
 When compressing, it means you already have a compressed file with the same
 name. In this case, rename the file you want to compress from the Python app and
 retry.
