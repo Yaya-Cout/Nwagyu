@@ -36,9 +36,10 @@ des limitations de NumWorks), donc voici une liste :
 
 Vous pouvez télécharger l'application Nofrendo depuis ce lien :
 
-- [Nofrendo v1.2.1](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.2.1.nwa)
-- [Nofrendo v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.2.0.nwa) (bug dans l'implémentation du stockage, utilisez plutôt la v1.2.1)
-- [Nofrendo v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.1.0.nwa)
+- [Nofrendo v1.2.2](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.2.2.nwa), correction de problèmes de mémoire lors de l'écriture des sauvegardes
+- [Nofrendo v1.2.1](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.2.1.nwa), correction de quelques problèmes de mémoire (crashs)
+- [Nofrendo v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.2.0.nwa), ajout des sauvegardes
+- [Nofrendo v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.1.0.nwa), ajout de la touche tangente pour réinitialiser l'émulateur
 - [Nofrendo v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.0.0.nwa)
 
 ## Installation

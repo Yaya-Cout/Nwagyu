@@ -39,7 +39,7 @@ the [troubleshooting](#troubleshooting) section.
 
 You can download the Compressor app from this link:
 
-- [Compressor v1.0.1](https://yaya-cout.github.io/Nwagyu/assets/apps/compressor-1.0.1.nwa);
+- [Compressor v1.0.1](https://yaya-cout.github.io/Nwagyu/assets/apps/compressor-1.0.1.nwa),
   fix crashs and bugs when storage is full
 - [Compressor v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/compressor-1.0.0.nwa)
 
