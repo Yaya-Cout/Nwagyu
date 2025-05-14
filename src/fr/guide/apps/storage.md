@@ -4,8 +4,7 @@ Cette application simple vous laisse vérifier l'espace disponible pour les
 scripts Python sur votre calculatrice. Elle affiche l'espace disponible et
 libre, l'espace total, un pourcentage de l'espace utilisé / le total ainsi que
 le modèle deviné (s'il est incorrect, l'application va planter, et s'il est
-inconnu, l'application va agir comme si la calculatrice est une N0110 ou une
-N0120).
+inconnu, l'application va agir comme si la calculatrice était une N0120).
 
 ## Téléchargement
 

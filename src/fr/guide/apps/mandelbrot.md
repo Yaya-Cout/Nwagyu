@@ -1,7 +1,6 @@
 # Mandelbrot
 
-Cette application dessine l'
-[ensemble de Mandelbrot](https://fr.wikipedia.org/wiki/Ensemble_de_Mandelbrot)
+Cette application dessine l'[ensemble de Mandelbrot](https://fr.wikipedia.org/wiki/Ensemble_de_Mandelbrot)
 sur l'écran de votre calculatrice.
 
 ## Origine

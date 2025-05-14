@@ -2,17 +2,16 @@
 
 Voici une liste des applications actuellement disponibles :
 
-- [Lua](./lua.md): Un langage de programmation pour créer vos propres programmes
-- [Peanut-GB](./peanut-gb.md): Un émulateur GameBoy
-- [Periodic](./periodic.md): Un tableau periodique des éléments
-- [KhiCAS](./khicas.md): Un CAS (Computer Algebra System) qui peut résoudre
+- [Peanut-GB](./peanut-gb.md): Émulateur GameBoy
+- [Nofrendo](./nofrendo.md): Émulateur NES
+- [KhiCAS](./khicas.md): CAS (Computer Algebra System) qui peut résoudre
   des équations et faire des calculs avancés
-- [Nofrendo](./nofrendo.md): Un émulateur NES
-- [Wabbitemu](./wabbitemu.md): Un émulateur TI-84
-- [Playa](./playa.md): Un lecteur de vidéo
-- [PNG Viewer](./pngviewer.md): Un visionneur d'image PNG
-- [Mandelbrot](./mandelbrot.md): Un visualiseur de Mandelbrot
-- [Sierpinski](./sierpinski.md): Une animation du triangle de Sierpinski
-- [Storage](./storage.md): Une application pour obtenir des informations à
-                                propos du stockage
-- [Compressor](./compressor.md): Un compresseur de scripts pour gagner de la place
+- [Lua](./lua.md): Langage de programmation pour créer vos propres programmes
+- [Periodic](./periodic.md): Tableau periodique des éléments
+- [Wabbitemu](./wabbitemu.md): Émulateur TI-84
+- [Playa](./playa.md): Lecteur de vidéo
+- [PNG Viewer](./pngviewer.md): Visionneur d'image PNG
+- [Mandelbrot](./mandelbrot.md): Visualiseur de Mandelbrot
+- [Sierpinski](./sierpinski.md): Animation du triangle de Sierpinski
+- [Storage](./storage.md): Connaître votre usage du stockage
+- [Compressor](./compressor.md): Compresseur de scripts Python pour gagner de la place

@@ -5,20 +5,19 @@ votre calculatrice NumWorks.
 
 Voici la liste des applications qui sont actuellement disponibles :
 
-- [Lua](./apps/lua.md): Un langage de programmation pour créer vos propres programmes
-- [Peanut-GB](./apps/peanut-gb.md): Un émulateur GameBoy
-- [Periodic](./apps/periodic.md): Un tableau periodique des éléments
-- [KhiCAS](./apps/khicas.md): Un CAS (Computer Algebra System) qui peut résoudre
+- [Peanut-GB](./apps/peanut-gb.md): Émulateur GameBoy
+- [Nofrendo](./apps/nofrendo.md): Émulateur NES
+- [KhiCAS](./apps/khicas.md): CAS (Computer Algebra System) qui peut résoudre
   des équations et faire des calculs avancés
-- [Nofrendo](./apps/nofrendo.md): Un émulateur NES
-- [Wabbitemu](./apps/wabbitemu.md): Un émulateur TI-84
-- [Playa](./apps/playa.md): Un lecteur de vidéo
-- [PNG Viewer](./apps/pngviewer.md): Un visionneur d'image PNG
-- [Mandelbrot](./apps/mandelbrot.md): Un visualiseur de Mandelbrot
-- [Sierpinski](./apps/sierpinski.md): Une animation du triangle de Sierpinski
-- [Storage](./apps/storage.md): Une application pour obtenir des informations à
-                                propos du stockage
-- [Compressor](./apps/compressor.md): Un compresseur de scripts pour gagner de la place
+- [Lua](./apps/lua.md): Langage de programmation pour créer vos propres programmes
+- [Periodic](./apps/periodic.md): Tableau periodique des éléments
+- [Wabbitemu](./apps/wabbitemu.md): Émulateur TI-84
+- [Playa](./apps/playa.md): Lecteur de vidéo
+- [PNG Viewer](./apps/pngviewer.md): Visionneur d'image PNG
+- [Mandelbrot](./apps/mandelbrot.md): Visualiseur de Mandelbrot
+- [Sierpinski](./apps/sierpinski.md): Animation du triangle de Sierpinski
+- [Storage](./apps/storage.md): Connaître votre usage du stockage
+- [Compressor](./apps/compressor.md): Compresseur de scripts Python pour gagner de la place
 
 ## Comment installer ?
 
