@@ -48,8 +48,9 @@ To modify the behavior of the emulator, you can use theses keys:
 
 You can download the Peanut-GB app from this link:
 
-- [Peanut-GB v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.0.nwa)
-- [Peanut-GB v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.1.0.nwa)
+- [Peanut-GB v1.2.1](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.1.nwa), memory fix during save writing
+- [Peanut-GB v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.0.nwa), performance improvements, frame limiter, On/Off and Home keys
+- [Peanut-GB v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.1.0.nwa), save support, fullscreen with ratio, new palettes, alpha key to start
 - [Peanut-GB v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.0.0.nwa)
 - [Peanut-GB (Color)](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc.nwa)
 

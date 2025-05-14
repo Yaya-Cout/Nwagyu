@@ -41,8 +41,7 @@ Pour modifier le comportement de l'émulateur, vous pouvez utiliser ces touches�
 | 2      | Utiliser une palette en échelle de gris                         |
 | 3      | Utiliser une palette en échelle de gris inversée                |
 | 4      | Utiliser la palette Peanut-GB originale                         |
-| +      | Afficher en plein écran étiré                                   |
-| ×      | Afficher en plein écran en conservant le ratio                  |
+| +      | Afficher en plein écran                                         |
 | -      | Afficher avec le ratio original                                 |
 | 7      | Afficher le temps de traitement par image                       |
 | 9      | Activer les touches On/Off et Home, et éteindre la calculatrice |
@@ -51,8 +50,9 @@ Pour modifier le comportement de l'émulateur, vous pouvez utiliser ces touches�
 
 Vous pouvez télécharger l'application Peanut-GB depuis ce lien :
 
-- [Peanut-GB v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.0.nwa)
-- [Peanut-GB v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.1.0.nwa)
+- [Peanut-GB v1.2.1](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.1.nwa), correction de problèmes de mémoire lors de l'écriture des sauvegardes
+- [Peanut-GB v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.0.nwa), amélioration de performances, limiteur d'images, touches On/Off et Home
+- [Peanut-GB v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.1.0.nwa), sauvegarde, plein écran avec ratio, nouvelles palettes, touche alpha pour start
 - [Peanut-GB v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.0.0.nwa)
 - [Peanut-GB (Color)](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc.nwa)
 
