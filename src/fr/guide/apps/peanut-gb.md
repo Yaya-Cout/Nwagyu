@@ -54,20 +54,20 @@ Vous pouvez télécharger l'application Peanut-GB depuis ce lien :
 - [Peanut-GB v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.0.nwa), amélioration de performances, limiteur d'images, touches On/Off et Home
 - [Peanut-GB v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.1.0.nwa), sauvegarde, plein écran avec ratio, nouvelles palettes, touche alpha pour start
 - [Peanut-GB v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.0.0.nwa)
-- [Peanut-GB (Color)](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc.nwa)
+
+Peanut-GBC est une version de Peanut-GB avec affichage en couleur des jeux
+Gameboy Color. Pour des jeux Gameboy traditionnelle, privilégiez Peanut-GB, qui
+est plus optimisé et rapide.
+
+- [Peanut-GBC v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc-1.1.0.nwa), sauvegarde, équivalent à Peanut-GB v1.2.1
+- [Peanut-GBC v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc-1.0.0.nwa)
 
 ::: warning
-Peanut-GB (Color) nécessite plus de RAM et de temps processeur, donc certains
-jeux ne vont pas marcher du tout, ou alors pas en temps réel (par exemple, 2
-secondes dans le monde réel vont durer 1 seconde dans le jeu).
+Peanut-GBC nécessite plus de RAM et de temps processeur, donc certains
+jeux ne vont pas marcher du tout, ou alors pas en temps réel (par exemple, 1,5
+seconde dans le monde réel vont durer 1 seconde dans le jeu).
 La plupart des jeux Gameboy Color peuvent tourner sur Peanut-GB normal en
 échelle de gris avec des meilleures performances.
-:::
-
-::: tip
-Pour le moment, seulement Peanut-GB v1.1.0 et supérieur supportent les
-sauvegardes de jeux, donc vous ne pourrez pas sauvegarder votre jeux dans
-Penaut-GB (Color) pour le moment
 :::
 
 ## Installation
@@ -129,5 +129,8 @@ Le code source de Peanut-GB à partir de la v1.1.0 est disponible
 Le code source de Peanut-GB v1.0.0 est disponible
 [ici](https://github.com/nwagyu/peanutgb/).
 
-Le code source de Peanut-GB (Color) est disponible
+Le code source de Peanut-GBC à partir de la v1.1.0 est disponible
+[ici](https://codeberg.org/Yaya-Cout/peanutgbc).
+
+Le code source de Peanut-GBC v1.0.0 est disponible
 [ici](https://github.com/Lisra-git/peanutgb/).

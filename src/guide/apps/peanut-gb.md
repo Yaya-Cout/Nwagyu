@@ -48,23 +48,25 @@ To modify the behavior of the emulator, you can use theses keys:
 
 You can download the Peanut-GB app from this link:
 
+Peanut-GB:
+
 - [Peanut-GB v1.2.1](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.1.nwa), memory fix during save writing
 - [Peanut-GB v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.0.nwa), performance improvements, frame limiter, On/Off and Home keys
 - [Peanut-GB v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.1.0.nwa), save support, fullscreen with ratio, new palettes, alpha key to start
 - [Peanut-GB v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.0.0.nwa)
-- [Peanut-GB (Color)](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc.nwa)
+
+Peanut-GBC is a Peanut-GB version with color support for Gameboy Color games.
+For traditional Gameboy games, prefer Peanut-GB which is optimized and faster.
+
+- [Peanut-GBC v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc-1.1.0.nwa), save support, equivalent to Peanut-GB v1.2.1
+- [Peanut-GBC v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc-1.0.0.nwa)
 
 ::: warning
 Peanut-GB (Color) require more RAM and use more CPU time, so some games won't
-work at all or will not work in realtime (e.g. 2 second in the real world will
+work at all or will not work in realtime (e.g. 1.5 second in the real world will
 last 1 second in the game).
 Most Gameboy Color games can run on normal Peanut-GB in greyscale for better
 performance.
-:::
-
-::: tip
-At the time, only Peanut-GB v1.1.0 and later support games saves, so you won't
-be able to save you game on Peanut-GB (Color) for now.
 :::
 
 ## Installation
@@ -122,5 +124,8 @@ Source code for Peanut-GB v1.1.0 and later is available
 Source code for Peanut-GB v1.0.0 is available
 [here](https://github.com/nwagyu/peanutgb/).
 
-Source code for Peanut-GB (Color) is available
+Source code for Peanut-GBC v1.1.0 and later is available
+[here](https://codeberg.org/Yaya-Cout/peanutgbc).
+
+Source code for Peanut-GBC v1.0.0 is available
 [here](https://github.com/Lisra-git/peanutgb/).
