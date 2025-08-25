@@ -321,7 +321,7 @@ It's one of the most useful header, and contain many informations:
 | 0x24  | 4            | uint32 | Magic (before Epsilon 22) (0xFEEDC0DE) | Determine if the userland header is valid            |
 | 0x24  | 4            | uint32 | Username start (after Epsilon 22)      | Start of the flash zone where username is written    |
 | 0x28  | 4            | uint32 | Username end (after Epsilon 22)        | End of the flash zone where username is written      |
-| 0x3C  | 4            | uint32 | Magic (after Epsilon 22) (0xFEEDC0DE)  | Determine if the userland header is valid            |
+| 0x2C  | 4            | uint32 | Magic (after Epsilon 22) (0xFEEDC0DE)  | Determine if the userland header is valid            |
 
 Username flash zone only appeared with Epsilon 22, so it wasn't in the userland header before.
 
