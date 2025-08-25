@@ -140,6 +140,9 @@ qui ne sont pas des scripts Pythons, comme
 Notez que pour le moment, aucun de ces outils ne permet de décompression
 automatique.
 
+L'application [Backup](./backup.md) est également capable de sauvegarder les
+fichiers compressés comme n'importe quel autre fichier binaire.
+
 Les fichiers compressés *devraient* être décompressibles avec LZ4 sur un
 ordinateur, mais je n'ai pas testé.
 

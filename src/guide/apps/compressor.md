@@ -131,6 +131,9 @@ display the calculator files, including non-Python ones, like
 
 Note that, for now, none of these tools allow transparent decompression.
 
+The [Backup](./backup.md) app is also able to backup compressed files just like
+any other binary file.
+
 Compressed files *should* be decompressibles using LZ4 on a computer, but I
 didn't actually test.
 
