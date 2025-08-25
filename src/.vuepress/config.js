@@ -105,6 +105,7 @@ export default defineUserConfig({
             "sierpinski",
             "storage",
             "compressor",
+            "backup",
           ],
         },
         {
@@ -150,6 +151,7 @@ export default defineUserConfig({
             "sierpinski",
             "storage",
             "compressor",
+            "backup",
           ],
         },
         {

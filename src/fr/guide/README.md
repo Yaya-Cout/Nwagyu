@@ -18,6 +18,7 @@ Voici la liste des applications qui sont actuellement disponibles :
 - [Sierpinski](./apps/sierpinski.md): Animation du triangle de Sierpinski
 - [Storage](./apps/storage.md): Connaître votre usage du stockage
 - [Compressor](./apps/compressor.md): Compresseur de scripts Python pour gagner de la place
+- [Backup](./apps/backup.md): Sauvegardez sans fil le stockage de votre calculatrice
 
 ## Comment installer ?
 

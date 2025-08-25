@@ -16,3 +16,4 @@ Here is the list of the apps that are currently available:
 - [Sierpinski](./sierpinski.md): Sierpinski triangle animation
 - [Storage](./storage.md): Know your storage usage
 - [Compressor](./compressor.md): Python script compressor to save space
+- [Backup](./backup.md): Wirelessly backup your calculator storage
