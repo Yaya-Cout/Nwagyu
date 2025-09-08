@@ -196,7 +196,7 @@ Here is a quick guide about it, assuming the toolchain is already installed:
 git clone https://github.com/numworks/epsilon-sample-app-rust
 cd epsilon-sample-app-rust
 
-# To build and install the app on you calculator directly.
+# To build and install the app on your calculator directly.
 cargo run
 
 # To simply build your app
@@ -212,9 +212,31 @@ flashed from NumWorks website just as any normal external app.
 
 @tab Zig
 
-No template for Zig is available, but
-[NumWolfstein](https://github.com/zenith391/numworks-wolfenstein) is an app
-written in Zig so you can use it as an example.
+No *official* template for Zig is available, but there is a template made by the
+community: [epsilon-sample-app-zig](https://github.com/Sietse2202/epsilon-sample-app-zig).
+
+To use it, follow the instructions on the README.
+
+To install the toolchain, simply install the toolchain using
+[zig](https://ziglang.org/download/) or your distributions packages.
+
+Here is a quick guide about it, assuming the toolchain is already installed:
+<!-- TODO: Toolchain installation -->
+
+```bash
+git clone https://github.com/Sietse2202/epsilon-sample-app-zig
+cd epsilon-sample-app-zig
+
+# To build and install the app on your calculator directly.
+zig build install-nwa
+
+# To simply build your app
+zig build nwa
+```
+
+The nwa file is located under
+`zig-out/bin`, and is ready to be
+flashed from NumWorks website just as any normal external app.
 :::
 
 ::: details Upgrading `nwlink`
