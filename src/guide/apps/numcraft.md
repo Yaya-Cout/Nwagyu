@@ -1,8 +1,8 @@
 # Numcraft
 
-Everybody loves Minecraft-like games. Did you ever wanted to play it on your
+Everybody loves Minecraft-like games. Did you ever want to play it on your
 calculator? Thanks to Numcraft, your dreams can now be realized. Enter a 3D game
-usually running between 20 FPS and 40 FPS during normal gameplay (speed depend
+usually running between 20 FPS and 40 FPS during normal gameplay (speed depends
 on your calculator model) directly on your calculator. Build anything you want
 in this sandbox as long as it fit the map and your creativity.
 
@@ -20,7 +20,7 @@ the game is in rapid development):
 ## How to play
 
 The controls can look complex for the first time, but once you understand them,
-the're quite easy to remember:
+they're quite easy to remember:
 
 | Action                  | NumWorks          |
 | ----------------------- | ----------------- |
