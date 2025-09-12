@@ -13,20 +13,20 @@ Jeu conçu par [Yannis300307](https://github.com/yannis300307/).
 Les contrôles peuvent sembler complexe à première vue, mais une fois que vous
 les comprenez, ils deviennent plutôt simples à retenir :
 
-| Action                                       | NumWorks          |
-| -------------------------------------------- | ----------------- |
-| Caméra                                       | Arrow keys        |
-| Avancer                                      | Toolbox           |
-| Reculer                                      | Comma             |
-| Gauche                                       | Imaginary (i)     |
-| Droite                                       | Power (e^x)       |
-| Monter                                       | Shift             |
-| Descendre                                    | Exponential (e^x) |
-| Déplacer le sélecteur de bloc vers la gauche | Left parenthesis  |
-| Déplacer le sélecteur de bloc vers la droite | Right parenthesis |
-| Poser un block                               | OK                |
-| Casser un block                              | Back              |
-| Sauvegarder et quitter                       | EXE               |
+| Action                                       | NumWorks            |
+| -------------------------------------------- | ------------------- |
+| Caméra                                       | Flèches             |
+| Avancer                                      | Boite à outils      |
+| Reculer                                      | Virgule             |
+| Gauche                                       | Imaginaire (i)      |
+| Droite                                       | Puissance (e^x)     |
+| Monter                                       | Shift               |
+| Descendre                                    | Exponentielle (e^x) |
+| Déplacer le sélecteur de bloc vers la gauche | Parenthèse gauche   |
+| Déplacer le sélecteur de bloc vers la droite | Parenthèse droite   |
+| Poser un block                               | OK                  |
+| Casser un block                              | Retour              |
+| Sauvegarder et quitter                       | EXE                 |
 
 Les touches de déplacement (avancer, reculer, gauche et droite) forment une
 croix directionnelle comme les flèches sur un ordinateur (ou les touches ZQSD si
