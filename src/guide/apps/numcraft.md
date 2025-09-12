@@ -8,6 +8,15 @@ in this sandbox as long as it fit the map and your creativity.
 
 Game created by [Yannis300307](https://github.com/yannis300307/).
 
+## Download
+
+Official releases are available on [GitHub Releases](https://github.com/yannis300307/NumcraftRust/releases).
+
+If you prefer, you can download Numcraft from this link (could be outdated as
+the game is in rapid development):
+
+- [Numcraft v0.0.8](https://yaya-cout.github.io/Nwagyu/assets/apps/numcraft-0.0.8.nwa)
+
 ## How to play
 
 The controls can look complex for the first time, but once you understand them,
@@ -31,14 +40,7 @@ the're quite easy to remember:
 The motion keys (forward, backward, left and right) keys form a pattern like a
 computer arrow keys (or WASD keys if you prefer).
 
-## Download
-
-Official releases are available on [GitHub Releases](https://github.com/yannis300307/NumcraftRust/releases).
-
-If you prefer, you can download Numcraft from this link (could be outdated as
-the game is in rapid development):
-
-- [Numcraft v0.0.8](https://yaya-cout.github.io/Nwagyu/assets/apps/numcraft-0.0.8.nwa)
+![Controls](./numcraft-controls.svg)
 
 ## Installation
 

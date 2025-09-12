@@ -8,6 +8,15 @@ dans ce monde, limité par la taille du monde et votre créativité.
 
 Jeu conçu par [Yannis300307](https://github.com/yannis300307/).
 
+## Téléchargement
+
+Les versions officielles sont disponibles sur [GitHub Releases](https://github.com/yannis300307/NumcraftRust/releases).
+
+Si vous préférez, vous pouvez télécharger Numcraft depuis ce lien (qui pourrait
+ne pas être à jour car le jeu est en développement rapide) :
+
+- [Numcraft v0.0.8](https://yaya-cout.github.io/Nwagyu/assets/apps/numcraft-0.0.8.nwa)
+
 ## Comment jouer
 
 Les contrôles peuvent sembler complexe à première vue, mais une fois que vous
@@ -32,14 +41,7 @@ Les touches de déplacement (avancer, reculer, gauche et droite) forment une
 croix directionnelle comme les flèches sur un ordinateur (ou les touches ZQSD si
 vous préférez).
 
-## Téléchargement
-
-Les versions officielles sont disponibles sur [GitHub Releases](https://github.com/yannis300307/NumcraftRust/releases).
-
-Si vous préférez, vous pouvez télécharger Numcraft depuis ce lien (qui pourrait
-ne pas être à jour car le jeu est en développement rapide) :
-
-- [Numcraft v0.0.8](https://yaya-cout.github.io/Nwagyu/assets/apps/numcraft-0.0.8.nwa)
+![Contrôles](./numcraft-controls.svg)
 
 ## Installation
 
