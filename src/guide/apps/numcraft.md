@@ -15,6 +15,7 @@ Official releases are available on [GitHub Releases](https://github.com/yannis30
 If you prefer, you can download Numcraft from this link (could be outdated as
 the game is in rapid development):
 
+- [Numcraft v0.0.9](https://yaya-cout.github.io/Nwagyu/assets/apps/numcraft-0.0.9.nwa), creative mode, inventory
 - [Numcraft v0.0.8](https://yaya-cout.github.io/Nwagyu/assets/apps/numcraft-0.0.8.nwa)
 
 ## How to play
@@ -33,6 +34,7 @@ they're quite easy to remember:
 | Go downward             | Exponential (e^x) |
 | Move block cursor left  | Left parenthesis  |
 | Move block cursor right | Right parenthesis |
+| Open inventory          | Var               |
 | Place a block           | OK                |
 | Destroy a block         | Back              |
 | Save and exit           | EXE               |
