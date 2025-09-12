@@ -19,6 +19,7 @@ Voici la liste des applications qui sont actuellement disponibles :
 - [Storage](./apps/storage.md): Connaître votre usage du stockage
 - [Compressor](./apps/compressor.md): Compresseur de scripts Python pour gagner de la place
 - [Backup](./apps/backup.md): Sauvegardez sans fil le stockage de votre calculatrice
+- [Numcraft](./apps/numcraft.md): Jeu de bac à sable type Minecraft
 
 ## Comment installer ?
 

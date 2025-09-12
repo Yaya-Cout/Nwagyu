@@ -18,6 +18,7 @@ calculator. Here is the list of the apps that are currently available:
 - [Storage](./apps/storage.md): Know your storage usage
 - [Compressor](./apps/compressor.md): Python script compressor to save space
 - [Backup](./apps/backup.md): Wirelessly backup your calculator storage
+- [Numcraft](./apps/numcraft.md): Minecraft-like sandbox game
 
 ## How to install
 

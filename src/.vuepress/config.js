@@ -106,6 +106,7 @@ export default defineUserConfig({
             "storage",
             "compressor",
             "backup",
+            "numcraft",
           ],
         },
         {
@@ -152,6 +153,7 @@ export default defineUserConfig({
             "storage",
             "compressor",
             "backup",
+            "numcraft",
           ],
         },
         {
