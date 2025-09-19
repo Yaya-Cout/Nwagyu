@@ -36,6 +36,7 @@ des limitations de NumWorks), donc voici une liste :
 
 Vous pouvez télécharger l'application Nofrendo depuis ce lien :
 
+- [Nofrendo v1.2.3](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.2.3.nwa), correction de problèmes de mémoire lors de l'écriture des sauvegardes
 - [Nofrendo v1.2.2](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.2.2.nwa), correction de problèmes de mémoire lors de l'écriture des sauvegardes
 - [Nofrendo v1.2.1](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.2.1.nwa), correction de quelques problèmes de mémoire (crashs)
 - [Nofrendo v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/nofrendo-1.2.0.nwa), ajout des sauvegardes
