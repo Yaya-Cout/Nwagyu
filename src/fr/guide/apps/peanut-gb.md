@@ -50,6 +50,7 @@ Pour modifier le comportement de l'émulateur, vous pouvez utiliser ces touches�
 
 Vous pouvez télécharger l'application Peanut-GB depuis ce lien :
 
+- [Peanut-GB v1.2.2](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.2.nwa), correction de problèmes de mémoire lors de l'écriture des sauvegardes
 - [Peanut-GB v1.2.1](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.1.nwa), correction de problèmes de mémoire lors de l'écriture des sauvegardes
 - [Peanut-GB v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.0.nwa), amélioration de performances, limiteur d'images, touches On/Off et Home
 - [Peanut-GB v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.1.0.nwa), sauvegarde, plein écran avec ratio, nouvelles palettes, touche alpha pour start
@@ -59,6 +60,7 @@ Peanut-GBC est une version de Peanut-GB avec affichage en couleur des jeux
 Gameboy Color. Pour des jeux Gameboy traditionnelle, privilégiez Peanut-GB, qui
 est plus optimisé et rapide.
 
+- [Peanut-GBC v1.1.1](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc-1.1.1.nwa), équivalent à Peanut-GB v1.2.2
 - [Peanut-GBC v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc-1.1.0.nwa), sauvegarde, équivalent à Peanut-GB v1.2.1
 - [Peanut-GBC v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc-1.0.0.nwa)
 
