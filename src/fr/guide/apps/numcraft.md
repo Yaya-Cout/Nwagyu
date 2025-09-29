@@ -15,8 +15,13 @@ Les versions officielles sont disponibles sur [GitHub Releases](https://github.c
 Si vous préférez, vous pouvez télécharger Numcraft depuis ce lien (qui pourrait
 ne pas être à jour car le jeu est en développement rapide) :
 
+- [Numcraft v0.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/numcraft-0.1.0.nwa), mode survie, collisions, objets
 - [Numcraft v0.0.9](https://yaya-cout.github.io/Nwagyu/assets/apps/numcraft-0.0.9.nwa), mode créatif, inventaire
 - [Numcraft v0.0.8](https://yaya-cout.github.io/Nwagyu/assets/apps/numcraft-0.0.8.nwa)
+
+::: warning
+Les fichiers de sauvegarde ne sont pas compatibles entre toutes les versions.
+:::
 
 ## Comment jouer
 
