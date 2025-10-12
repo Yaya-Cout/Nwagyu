@@ -26,7 +26,8 @@ légèrement plus compliquées :
 
 1. Téléchargez le fichier `.nwa`, par exemple `playa.nwa`
 2. Téléchargez les données supplémentaires pour l'application, par exemple
-   `video.bin`
+   `video.bin` pour Player, une ROM en `.gb`/`.gbc` pour Peanut-GB/GBC, une ROM
+   en `.nes` pour Nofrendo, un fichier `.png` pour PNG Viewer…
 3. Allez sur l'[installateur d'applications de NumWorks]
 4. Sélectionnez l'application `.nwa`. L'installateur va vous dire que cette
    application a besoin d'un fichier externe
