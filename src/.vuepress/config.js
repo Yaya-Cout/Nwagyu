@@ -216,6 +216,14 @@ export default defineUserConfig({
           ]
         },
         {
+          text: "Developers tips",
+          link: '/reference/tips/',
+          prefix: '/reference/tips/',
+          children: [
+            "rust_heap",
+          ]
+        },
+        {
           text: 'User documentation',
           link: '/guide/',
           children: [
