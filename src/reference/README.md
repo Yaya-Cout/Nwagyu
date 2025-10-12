@@ -29,3 +29,7 @@ Here's what is documented at the time, separated under different categories :
 
 - [Communication with the computer (DFU)](others/dfu.md)
 - [Downloading Epsilon from NumWorks' website](others/downloading-epsilon.md)
+
+### [Developer tips](tips/)
+
+- [[Rust] Using a heap allocator when developing apps](tips/rust_heap.md)

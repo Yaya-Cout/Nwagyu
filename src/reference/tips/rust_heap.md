@@ -1,6 +1,6 @@
 # [Rust] Using a heap allocator when developing apps
 
-When you develop NWA applications in Rust, you have to use the `#[no_std]` flag to avoid using system dependencies. This is called embedded programming. But with embedded programming in Rust, this flag disables the default global allocator, which means : no Vec, no Strings and no dynamic allocations in general. When you program nwa apps using C, you can rely on the [implementation of `_sbrk`](https://github.com/numworks/epsilon/blob/9072ab80a16d4c15222699f73896282a65eecd54/eadk/src/platform.c#L18) provided by eadk which allows a seamless use of malloc. But here, we are in Rust, so there is no malloc and no `_sbrk`. So how can we achieve dynamic allocation ?
+When you develop NWA applications in Rust, you have to use the `#[no_std]` flag to avoid using system dependencies. This is called embedded programming. But with embedded programming in Rust, this flag disables the default global allocator, which means: no Vec, no Strings and no dynamic allocations in general. When you program nwa apps using C, you can rely on the [implementation of `_sbrk`](https://github.com/numworks/epsilon/blob/9072ab80a16d4c15222699f73896282a65eecd54/eadk/src/platform.c#L18) provided by eadk which allows a seamless use of malloc. But here, we are in Rust, so there is no malloc and no `_sbrk`. So how can we achieve dynamic allocation?
 
 ## Use third party allocators
 
@@ -14,11 +14,12 @@ In order to init `embedded_alloc`, you need to know the start and the size of th
 ::: info Actually, the pointer to `_heap_end` seems to be broken and the address to `_heap_end` seems to point outside of the heap. `&_heap_end - &_heap_start` gives a heap size of 140 KB but in fact, the heap seems to be limited to 100 KB so writing more than 100 KB will crash the calculator. Knowing that, you should hardcode the size of the heap to avoid having undefined behaviors.
 :::
 
-
 ## Init the heap allocator
+
 That being said, let's begin writing some Rust code!
 
-Firstly, you need to declare the `_heap_start` symbol in `eadk.rs`. To do so, you can simply add this at the end of the file :
+Firstly, you need to declare the `_heap_start` symbol in `eadk.rs`. To do so, you can simply add this at the end of the file:
+
 ```rust
 unsafe extern "C" {
     pub static mut _heap_start: u8;
@@ -36,6 +37,7 @@ To do so, add the following line in the dependencies in your `Cargo.toml`:
 ```toml
 cortex-m = {version="*", features=["critical-section-single-core"]}
 ```
+
 And replace the `*` with the latest version. See the [`cortex-m` crates.io page](https://crates.io/crates/cortex-m).
 
 You can now go back to your main.rs file and init the heap allocator.
@@ -55,6 +57,7 @@ extern crate alloc;
 ```
 
 Now you can define the global heap with the `#[global_allocator]` flag. It has to be static.
+
 ```rust
 #[global_allocator]
 static HEAP: Heap = Heap::empty();
@@ -65,6 +68,7 @@ The last thing we have to do to finish initializing the heap is to... initialize
 **Warning: unsafe Rust incoming**
 
 The initialization must be the first thing that is called in your program to prevent potential issues.
+
 ```rust
 #[unsafe(no_mangle)] // Required by no_main
 fn main() {
@@ -84,9 +88,11 @@ And here we are! We have a fully featured global allocator in Rust!
 This allocator is the same as the std allocator with one exception: we don't have `std`. So instead of using the `std` crate, you have to use the `alloc` crate.
 
 So, each time you want to use the allocator, use
+
 ```rust
 use alloc::vec::Vec;
 ```
+
 Here, `Vec` is an example, but it also works with `format!()` or even `String`.
 
 I highly encourage you to check the [documentation for `embedded-alloc`](https://docs.rs/embedded-alloc/0.6.0/embedded_alloc/).
