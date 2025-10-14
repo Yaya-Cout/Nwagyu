@@ -2,8 +2,10 @@
 
 Obtenez un tableau periodique des éléments sur votre calculatrice NumWorks !
 
+::: info
 Depuis Epsilon 20, la NumWorks possède un tableau periodique intégré, donc cette
 application n'est plus vraiment utile.
+:::
 
 ## Contrôles
 

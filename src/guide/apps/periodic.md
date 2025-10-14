@@ -2,8 +2,10 @@
 
 Get a periodic table of elements on your NumWorks calculator!
 
+::: info
 Since Epsilon 20, the NumWorks comes with a built-in periodic table of elements,
 so this app is not really useful anymore.
+:::
 
 ## Controls
 
