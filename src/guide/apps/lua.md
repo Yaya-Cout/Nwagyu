@@ -3,6 +3,14 @@
 This app loads and run [Lua](https://www.lua.org/about.html) scripts. Lua is a
 powerful, fast, lightweight, embeddable scripting language.
 
+## How to use the app
+
+This app except a lua file to be given as external file. The syntax is usual
+Lua, with two special functions for the NumWorks Calculator:
+
+- `display_draw_string(text, x, y, large font as boolean, foreground color as int, background color as int)` (last 3 arguments are optional)
+- `timing_msleep(duration_in_ms)`
+
 ## Download
 
 You can download the Lua app from this link:
