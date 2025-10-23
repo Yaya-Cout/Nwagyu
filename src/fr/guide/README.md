@@ -7,33 +7,33 @@ Voici la liste des applications qui sont actuellement disponibles :
 
 ## Liste des applications
 
-### Mathématiques
+### Sciences
 
 - [KhiCAS](./apps/khicas.md): CAS (Computer Algebra System) qui peut résoudre
   des équations et faire des calculs avancés
+- [Periodic](./apps/periodic.md): Tableau periodique des éléments
 
 ### Jeux et émulateurs
 
 - [Peanut-GB](./apps/peanut-gb.md): Émulateur GameBoy
 - [Nofrendo](./apps/nofrendo.md): Émulateur NES
 - [Numcraft](./apps/numcraft.md): Jeu de bac à sable type Minecraft
+- [Wabbitemu](./apps/wabbitemu.md): Émulateur TI-84
 
 ### Outils
 
 - [Storage](./apps/storage.md): Connaître votre usage du stockage
 - [Compressor](./apps/compressor.md): Compresseur de scripts Python pour gagner de la place
 - [Backup](./apps/backup.md): Sauvegardez sans fil le stockage de votre calculatrice
+- [Lua](./apps/lua.md): Langage de programmation pour créer vos propres programmes
 
 ### Multimédia
 
 - [Playa](./apps/playa.md): Lecteur de vidéo
 - [PNG Viewer](./apps/pngviewer.md): Visionneur d'image PNG
 
-### Autres
+### Démo
 
-- [Lua](./apps/lua.md): Langage de programmation pour créer vos propres programmes
-- [Wabbitemu](./apps/wabbitemu.md): Émulateur TI-84
-- [Periodic](./apps/periodic.md): Tableau periodique des éléments
 - [Mandelbrot](./apps/mandelbrot.md): Visualiseur de Mandelbrot
 - [Sierpinski](./apps/sierpinski.md): Animation du triangle de Sierpinski
 
