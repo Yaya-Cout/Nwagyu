@@ -88,8 +88,10 @@ DFU files often need to be extracted before use (Upsilon Website can extract and
 flash DFU files, but it's not the case of most apps).
 
 I don't have the time to rewrite a script (and I don't know the DFU format very
-well), but you can use the script from the [downgrade documentation] (used for
-N0110 unlocking, and work well).
+well), but you can either user use this [dfuse-extractor](https://github.com/the6p4c/dfuse-extract)
+(which separates the DFU image into 3 files, internal, slotA and slotB)
+or use the script from the [downgrade documentation] (used for
+N0110 unlocking, and works well).
 
 The script work fine for N0110 and N0115. For N0120, you need to replace
 `internal_size = 64 * 1024` by `internal_size = 512 * 1024` (line 53, just after
