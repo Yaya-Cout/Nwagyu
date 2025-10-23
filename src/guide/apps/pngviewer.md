@@ -25,3 +25,8 @@ You can download the PNG Viewer app from this link:
 
 To install the PNG Viewer app, follow the instructions in the
 [how to install](../help/how-to-install.md) guide.
+
+## Source code
+
+Source code for PNG Viewer is available
+[here](https://github.com/nwagyu/pngviewer).
