@@ -36,3 +36,9 @@ You can download the Playa app from this link:
 
 To install the Playa app, follow the instructions in the
 [how to install](../help/how-to-install.md) guide.
+
+## Source code
+
+Source code for Playa is unfortunately missing, as it's creator
+([ScarlettSpell](https://github.com/ScarlettSpell)) published it only in
+compiled version.
