@@ -16,3 +16,8 @@ You can download the Sierpinski app from this link:
 
 To install the Sierpinski app, follow the instructions in the
 [how to install](../help/how-to-install.md) guide.
+
+## Source code
+
+Source code for Sierpinski is available
+[here](https://github.com/nwagyu/sierpinski).
