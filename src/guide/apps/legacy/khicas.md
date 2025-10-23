@@ -57,4 +57,9 @@ the desktop version of KhiCAS.
 To install KhiCAS, follow the instructions in the
 [how to install](../../help/how-to-install.md) guide.
 
+## Source code
+
+The source code for this legacy KhiCAS version is available
+[here](https://github.com/nwagyu/khicas).
+
 [new version]: ../khicas.md

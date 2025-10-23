@@ -55,3 +55,8 @@ More information can be found [here (in French)](https://xcas.univ-grenoble-alpe
 
 The old KhiCAS port can be found [here](./legacy/khicas.md), but you shouldn't
 use it unless you need it for a specific reason.
+
+## Source code
+
+Source code for KhiCAS is available
+[here](https://www-fourier.univ-grenoble-alpes.fr/~parisse/numworks/khicasnwen.html#sec38).

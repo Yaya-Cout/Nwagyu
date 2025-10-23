@@ -62,3 +62,8 @@ Plus d'informations peuvent être trouvées [ici](https://xcas.univ-grenoble-alp
 L'ancienne version de KhiCAS peut être trouvée [ici](./legacy/khicas.md), mais
 vous ne devrez pas l'utiliser sauf si vous en avez besoin pour une raison
 spécifique.
+
+## Code source
+
+Le code source de KhiCAS est disponible
+[ici](https://www-fourier.univ-grenoble-alpes.fr/~parisse/numworks/khicasnw.html#sec57).
