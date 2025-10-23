@@ -19,3 +19,9 @@ Vous pouvez télécharger l'application Wabbitemu depuis ce lien :
 
 Pour installer l'application Wabbitemu, suivez les instructions dans le guide
 [comment installer](../help/how-to-install.md).
+
+## Code source
+
+Le code source de Wabbitemu n'est malheureusement pas disponible, son créateur
+original ([ScarlettSpell](https://github.com/ScarlettSpell)) n'ayant publié
+cette application que sous forme compilée.
