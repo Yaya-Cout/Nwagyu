@@ -21,3 +21,8 @@ You can download the Lua app from this link:
 
 To install the Lua app, follow the instructions in the
 [how to install](../help/how-to-install.md) guide.
+
+## Source code
+
+Source code for Lua is available
+[here](https://github.com/nwagyu/lua).
