@@ -3,22 +3,38 @@
 Nwagyu is a collection of free `nwa` apps that you can install on your NumWorks
 calculator. Here is the list of the apps that are currently available:
 
-- [Peanut-GB](./apps/peanut-gb.md): Gameboy emulator
-- [Nofrendo](./apps/nofrendo.md): NES emulator
+## App list
+
+### Maths
+
 - [KhiCAS](./apps/khicas.md): CAS (Computer Algebra System) that can solve equations
   and do advanced calculations
-- [Lua](./apps/lua.md): Scripting language that you can use to create your own
-  programs
-- [Periodic](./apps/periodic.md): Periodic table of elements
-- [Wabbitemu](./apps/wabbitemu.md): TI-84 emulator
-- [Playa](./apps/playa.md): Video player
-- [PNG Viewer](./apps/pngviewer.md): PNG image viewer
-- [Mandelbrot](./apps/mandelbrot.md): Mandelbrot set explorer
-- [Sierpinski](./apps/sierpinski.md): Sierpinski triangle animation
+
+### Games and emulators
+
+- [Peanut-GB](./apps/peanut-gb.md): Gameboy emulator
+- [Nofrendo](./apps/nofrendo.md): NES emulator
+- [Numcraft](./apps/numcraft.md): Minecraft-like sandbox game
+
+### Tools
+
 - [Storage](./apps/storage.md): Know your storage usage
 - [Compressor](./apps/compressor.md): Python script compressor to save space
 - [Backup](./apps/backup.md): Wirelessly backup your calculator storage
-- [Numcraft](./apps/numcraft.md): Minecraft-like sandbox game
+
+### Media
+
+- [Playa](./apps/playa.md): Video player
+- [PNG Viewer](./apps/pngviewer.md): PNG image viewer
+
+### Other
+
+- [Wabbitemu](./apps/wabbitemu.md): TI-84 emulator
+- [Lua](./apps/lua.md): Scripting language that you can use to create your own
+  programs
+- [Periodic](./apps/periodic.md): Periodic table of elements
+- [Mandelbrot](./apps/mandelbrot.md): Mandelbrot set explorer
+- [Sierpinski](./apps/sierpinski.md): Sierpinski triangle animation
 
 ## How to install
 
