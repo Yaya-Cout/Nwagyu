@@ -39,6 +39,12 @@ légèrement plus compliquées :
 Si vous voulez installer une application qui fait plus de 2,5 Mo, vous devrez
 utiliser notre [agrandisseur de mémoire](./enlarge-your-memory.md).
 
+::: info
+L'agrandisseur de mémoire n'est généralement pas nécessaire, et peut poser des
+problèmes sur des versions récentes du logiciel de la calculatrice. Si vous
+voulez juste installer des applications, suivez le guide [ci-dessus](#cas-general).
+:::
+
 ## Et si ça ne marche pas ?
 
 Si l'envoi ne marche pas, voici quelques idées à essayer :

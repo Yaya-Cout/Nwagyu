@@ -27,7 +27,8 @@ utile qu'avant.
 ## Utilisation de Nwagra
 
 1. Allez sur l'[installateur d'applications de NumWorks](https://my.numworks.com/apps)
-2. Cliquez sur le marque page “Nwagra”. Le titre de la page devrait désormais afficher « Enlarged Extra Apps ».
+2. Cliquez sur le marque page “Nwagra”. Le titre de la page devrait désormais
+   afficher « Enlarged Extra Apps ».
 3. Vous êtes prêts, vous pouvez utiliser plus d'espace pour installer des applications NWA !
 
 ## Et si ça ne marche pas ?

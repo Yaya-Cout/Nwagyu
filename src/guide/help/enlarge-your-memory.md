@@ -1,6 +1,7 @@
 # Enlarge your memory!
 
-Normally the NumWorks calculator only lets you use around 2.5MB to install apps. But thanks to Nwagra, you’ll be able to use up to 6MB!
+Normally the NumWorks calculator only lets you use around 2.5MB to install apps.
+But thanks to Nwagra, you’ll be able to use up to 6MB!
 
 ::: warning
 Nwagra is broken on recent Epsilon versions. If the calculator start
@@ -43,17 +44,30 @@ You wish!
 
 ### How does it work?
 
-The NumWorks calculator contains two copies of its operating system. Why? To make the update procedure more reliable. When you update your calculator, you’re not overwriting your calculator’s OS: instead, you’re adding a newer OS right next to the current one. This way, if you mess up the update procedure, the previous OS is still present and your calculator, even if not up-to-date, is still working properly.
+The NumWorks calculator contains two copies of its operating system. Why? To
+make the update procedure more reliable. When you update your calculator, you’re
+not overwriting your calculator’s OS: instead, you’re adding a newer OS right
+next to the current one. This way, if you mess up the update procedure, the
+previous OS is still present and your calculator, even if not up-to-date, is
+still working properly.
 
-Now this means that most of the time more than half of the calculator’s available memory is wasted on an unused copy of the OS. Nwagra lets you overwrite the second copy of the OS with custom apps.
+Now this means that most of the time more than half of the calculator’s
+available memory is wasted on an unused copy of the OS. Nwagra lets you
+overwrite the second copy of the OS with custom apps.
 
 ### Will this damage my calculator?
 
-Normally this shouldn’t have any impact. If for some reason your first OS copy suddenly becomes corrupted, then you’ll indeed need to reinstall your calculator’s OS.
+Normally this shouldn’t have any impact. If for some reason your first OS copy
+suddenly becomes corrupted, then you’ll indeed need to reinstall your
+calculator’s OS.
 
 ### How does the bookmarklet work?
 
-The NumWorks OS contains a special marker that tells which part of the Flash memory can be used to install external apps. NumWorks’ app loader website reads this marker over USB to figure out where to install apps. The bookmarklet simply patches the WebUSB calls that NumWorks’ app loader is making and reports more useable space.
+The NumWorks OS contains a special marker that tells which part of the Flash
+memory can be used to install external apps. NumWorks’ app loader website reads
+this marker over USB to figure out where to install apps. The bookmarklet simply
+patches the WebUSB calls that NumWorks’ app loader is making and reports more
+useable space.
 
 ### Is it a joke ?
 
