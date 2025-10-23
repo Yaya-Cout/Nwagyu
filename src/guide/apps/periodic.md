@@ -22,3 +22,8 @@ You can download the Periodic app from this link:
 
 To install the Periodic app, follow the instructions in the
 [how to install](../help/how-to-install.md) guide.
+
+## Source code
+
+Source code for Periodic is available
+[here](https://github.com/nwagyu/periodic).

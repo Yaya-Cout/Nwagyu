@@ -22,3 +22,8 @@ Vous pouvez télécharger l'application Periodic depuis ce lien :
 
 Pour installer l'application Periodic, suivez les instructions dans le guide
 [comment installer](../help/how-to-install.md).
+
+## Code source
+
+Le code source de Periodic est disponible
+[ici](https://github.com/nwagyu/periodic).
