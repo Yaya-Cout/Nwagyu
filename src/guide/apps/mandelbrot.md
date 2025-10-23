@@ -28,3 +28,8 @@ You can download the Mandelbrot app from this link:
 
 To install the Mandelbrot app, follow the instructions in the
 [how to install](../help/how-to-install.md) guide.
+
+## Source code
+
+Source code for Mandelbrot is available
+[here](https://github.com/nwagyu/mandelbrot).
