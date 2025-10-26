@@ -1,10 +1,12 @@
-import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 import { searchPlugin } from '@vuepress/plugin-search'
 
-export default defineUserConfig({
+// Base URL for website
+const BASE = "/Nwagyu/"
+
+export default {
   bundler: viteBundler(),
   plugins: [
     searchPlugin({
@@ -20,28 +22,32 @@ export default defineUserConfig({
   ],
 
   /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
+   * Ref: https://v2.vuepress.vuejs.org/reference/config.html#title
    */
   title: 'Nwagyu!',
   /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
+   * Ref: https://v2.vuepress.vuejs.org/reference/config.html#description
    */
   description: "Beefy bytes for your NumWorks!",
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
+   * ref: https://v2.vuepress.vuejs.org/reference/config.html#head
    */
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['link', { rel: "shortcut icon", href: "/Nwagyu/favicon.ico"}],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+
+    // Load JavaScript for visit counter
+    ['script', { src: BASE + 'counter.js' }],
   ],
+  // head: ['link', { rel: 'icon', href: '/logo.png' }],
 
   // Base url
-  base: '/Nwagyu/',
+  base: BASE,
 
   locales: {
     // The key is the path for the locale to be nested under.
@@ -59,7 +65,7 @@ export default defineUserConfig({
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
+   * ref: https://ecosystem.vuejs.press/themes/default/
    */
   theme: defaultTheme({
     repo: 'https://github.com/Yaya-Cout/Nwagyu',
@@ -263,4 +269,4 @@ export default defineUserConfig({
       }
     }
   }),
-})
+}
