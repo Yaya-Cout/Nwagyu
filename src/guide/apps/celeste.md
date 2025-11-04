@@ -25,17 +25,17 @@ If you prefer, you can download Celeste from this link:
 The controls are quite simple to use in-game, with only the navigation buttons
 being useful for the game itself:
 
-| Action             | NumWorks  |
-| ------------------ | --------- |
-| Dash               | OK        |
-| Jump               | Back      |
-| Move around        | Arrows    |
-| Pause              | Backspace |
-| Save state         | Shift     |
-| Load state         | Alpha     |
-| Toogle screenshake | Toolbox   |
-| Reset              | XNT       |
-| Exit               | Home      |
+| Action             | NumWorks         |
+| ------------------ | ---------------- |
+| Dash               | OK               |
+| Jump               | Back             |
+| Move around        | Arrows           |
+| Pause              | Backspace        |
+| Save state         | Shift            |
+| Load state         | Alpha            |
+| Toogle screenshake | Toolbox          |
+| Reset              | XNT (long press) |
+| Exit               | Home             |
 
 ## Installation
 

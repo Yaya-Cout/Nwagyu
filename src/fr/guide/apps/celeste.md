@@ -22,20 +22,20 @@ Si vous préférez, vous pouvez télécharger Celeste depuis ce lien :
 
 ## Comment jouer
 
-Les contrôles peuvent sembler complexe à première vue, mais une fois que vous
-les comprenez, ils deviennent plutôt simples à retenir :
+Les contrôles sont plutôt simples à utiliser dans le jeu, avec uniquement les
+touches de navigations étant utiles pour le jeu lui-même
 
-| Action                                       | NumWorks       |
-| -------------------------------------------- | -------------- |
-| Dash                                         | OK             |
-| Sauer                                        | Retour         |
-| Se déplacer                                  | Flèches        |
-| Pause                                        | Backspace      |
-| Sauvegarder                                  | Shift          |
-| Charger la sauvegarde                        | Alpha          |
-| Désactiver les tremblements d'écrans         | Boite à outils |
-| Réinitialiser                                | XNT            |
-| Quitter                                      | Home           |
+| Action                                       | NumWorks         |
+| -------------------------------------------- | ---------------- |
+| Dash                                         | OK               |
+| Sauter                                       | Retour           |
+| Se déplacer                                  | Flèches          |
+| Pause                                        | Backspace        |
+| Sauvegarder                                  | Shift            |
+| Charger la sauvegarde                        | Alpha            |
+| Désactiver les tremblements d'écrans         | Boite à outils   |
+| Réinitialiser                                | XNT (appui long) |
+| Quitter                                      | Home             |
 
 ## Installation
 
