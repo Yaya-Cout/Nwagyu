@@ -28,21 +28,21 @@ Game Boy’s:
 | Start                         | Backspace                              |
 | Start (Alternate)             | Alpha                                  |
 | Start (Alternate, see below)  | On/Off                                 |
-| Toolbox                       | Write current save to storage          |
-| 0                             | Write current save to storage and exit |
 
 To modify the behavior of the emulator, you can use theses keys:
 
-| Key | Action                                                 |
-| --- | ------------------------------------------------------ |
-| 1   | Use the original game boy palette                      |
-| 2   | Use a pure greyscale palette                           |
-| 3   | Use an inverted greyscale palette                      |
-| 3   | Use Peanut-GB original palette                         |
-| +   | Render the screen in fullscreen                        |
-| -   | Render the screen with the original aspect ratio       |
-| 7   | Show frame timings                                     |
-| 9   | Enable On/Off and Home keys, and suspend the calculator |
+| Key     | Action                                                  |
+| ------- | ------------------------------------------------------- |
+| 1       | Use the original game boy palette                       |
+| 2       | Use a pure greyscale palette                            |
+| 3       | Use an inverted greyscale palette                       |
+| 3       | Use Peanut-GB original palette                          |
+| +       | Render the screen in fullscreen                         |
+| -       | Render the screen with the original aspect ratio        |
+| 7       | Show frame timings                                      |
+| 9       | Enable On/Off and Home keys, and suspend the calculator |
+| Toolbox | Write current save to storage                           |
+| 0       | Write current save to storage and exit                  |
 
 ## Download
 

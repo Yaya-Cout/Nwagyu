@@ -20,31 +20,31 @@ C'est plutôt intuitif, vu que les touches de la NumWorks ressemblent beaucoup
 à celles d'une Game Boy. Cependant, voici une liste des connexions entre celles
 de la NumWorks et celles de la Game Boy :
 
-| Game Boy                              | NumWorks                                                 |
-| ------------------------------------- | -------------------------------------------------------- |
-| Flèches                               | Flèches                                                  |
-| A                                     | Retour                                                   |
-| B                                     | OK                                                       |
-| Select                                | Shift                                                    |
-| Select (Alternative, voir ci-dessous) | Home                                                     |
-| Start                                 | Effacer                                                  |
-| Start (Alternative)                   | Alpha                                                    |
-| Start (Alternative, voir ci-dessous)  | On/Off                                                   |
-| Boite à outils                        | Écrire la sauvegarde actuelle sur le stockage            |
-| 0                                     | Écrire la sauvegarde actuelle sur le stockage et quitter |
+| Game Boy                                                 | NumWorks       |
+| -------------------------------------------------------- | -------------- |
+| Flèches                                                  | Flèches        |
+| A                                                        | Retour         |
+| B                                                        | OK             |
+| Select                                                   | Shift          |
+| Select (Alternative, voir ci-dessous)                    | Home           |
+| Start                                                    | Effacer        |
+| Start (Alternative)                                      | Alpha          |
+| Start (Alternative, voir ci-dessous)                     | On/Off         |
 
 Pour modifier le comportement de l'émulateur, vous pouvez utiliser ces touches :
 
-| Touche | Action                                                          |
-| ------ | --------------------------------------------------------------- |
-| 1      | Utiliser la palette originale Game Boy                          |
-| 2      | Utiliser une palette en échelle de gris                         |
-| 3      | Utiliser une palette en échelle de gris inversée                |
-| 4      | Utiliser la palette Peanut-GB originale                         |
-| +      | Afficher en plein écran                                         |
-| -      | Afficher avec le ratio original                                 |
-| 7      | Afficher le temps de traitement par image                       |
-| 9      | Activer les touches On/Off et Home, et éteindre la calculatrice |
+| Touche         | Action                                                          |
+| -------------- | --------------------------------------------------------------- |
+| 1              | Utiliser la palette originale Game Boy                          |
+| 2              | Utiliser une palette en échelle de gris                         |
+| 3              | Utiliser une palette en échelle de gris inversée                |
+| 4              | Utiliser la palette Peanut-GB originale                         |
+| +              | Afficher en plein écran                                         |
+| -              | Afficher avec le ratio original                                 |
+| 7              | Afficher le temps de traitement par image                       |
+| 9              | Activer les touches On/Off et Home, et éteindre la calculatrice |
+| Boite à outils | Écrire la sauvegarde actuelle sur le stockage                   |
+| 0              | Écrire la sauvegarde actuelle sur le stockage et quitter        |
 
 ## Téléchargement
 
