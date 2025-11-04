@@ -18,6 +18,7 @@ Voici la liste des applications qui sont actuellement disponibles :
 - [Peanut-GB](./apps/peanut-gb.md): Émulateur GameBoy
 - [Nofrendo](./apps/nofrendo.md): Émulateur NES
 - [Numcraft](./apps/numcraft.md): Jeu de bac à sable type Minecraft
+- [Celeste Classic](./apps/celeste.md): Jeu de plateforme
 - [Wabbitemu](./apps/wabbitemu.md): Émulateur TI-84
 
 ### Outils

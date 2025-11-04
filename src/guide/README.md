@@ -16,6 +16,7 @@ calculator. Here is the list of the apps that are currently available:
 - [Peanut-GB](./apps/peanut-gb.md): Gameboy emulator
 - [Nofrendo](./apps/nofrendo.md): NES emulator
 - [Numcraft](./apps/numcraft.md): Minecraft-like sandbox game
+- [Celeste Classic](./apps/celeste.md): Platform game
 - [Wabbitemu](./apps/wabbitemu.md): TI-84 emulator
 
 ### Tools

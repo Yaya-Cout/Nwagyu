@@ -15,6 +15,7 @@ Here is the list of the apps that are currently available:
 - [Peanut-GB](./peanut-gb.md): Gameboy emulator
 - [Nofrendo](./nofrendo.md): NES emulator
 - [Numcraft](./numcraft.md): Minecraft-like sandbox game
+- [Celeste Classic](./celeste.md): Platform game
 - [Wabbitemu](./wabbitemu.md): TI-84 emulator
 
 ### Tools
