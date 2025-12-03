@@ -15,6 +15,7 @@ Official releases are available on [GitHub Releases](https://github.com/yannis30
 If you prefer, you can download Numcraft from this link (could be outdated as
 the game is in rapid development):
 
+- [Numcraft v0.1.5](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.5/Numcraft.nwa), Increased stability, new setting
 - [Numcraft v0.1.4](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.4/Numcraft.nwa), fix memory corruption
 - [Numcraft v0.1.3](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.3/Numcraft.nwa), better world generation, crafting
 - [Numcraft v0.1.0](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.0/Numcraft.nwa), survival mode, collisions, items
