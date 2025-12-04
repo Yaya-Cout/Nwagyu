@@ -15,6 +15,7 @@ Les versions officielles sont disponibles sur [GitHub Releases](https://github.c
 Si vous préférez, vous pouvez télécharger Numcraft depuis ce lien (qui pourrait
 ne pas être à jour car le jeu est en développement rapide) :
 
+- [Numcraft v0.1.5](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.5/Numcraft.nwa), Meilleure stabilité, nouveau paramètre
 - [Numcraft v0.1.4](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.4/Numcraft.nwa), fix de la corruption de mémoire
 - [Numcraft v0.1.3](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.3/Numcraft.nwa), meilleure génération du monde, crafting
 - [Numcraft v0.1.0](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.0/Numcraft.nwa), mode survie, collisions, objets
