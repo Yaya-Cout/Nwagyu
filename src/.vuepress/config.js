@@ -113,6 +113,7 @@ export default {
             "compressor",
             "backup",
             "numcraft",
+            "celeste",
           ],
         },
         {
@@ -160,6 +161,7 @@ export default {
             "compressor",
             "backup",
             "numcraft",
+            "celeste",
           ],
         },
         {
