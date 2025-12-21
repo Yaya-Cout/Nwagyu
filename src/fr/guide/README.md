@@ -1,9 +1,10 @@
 # Introduction
 
 Nwagyu est une collection d'applications `nwa` que vous pouvez installer sur
-votre calculatrice NumWorks.
+votre calculatrice NumWorks. Voici la liste des applications qui sont
+actuellement disponibles :
 
-Voici la liste des applications qui sont actuellement disponibles :
+> *Do you speak English ? Switch to the [English version](../../guide/)*
 
 ## Liste des applications
 

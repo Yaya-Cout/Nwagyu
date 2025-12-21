@@ -3,6 +3,8 @@
 Nwagyu is a collection of free `nwa` apps that you can install on your NumWorks
 calculator. Here is the list of the apps that are currently available:
 
+> *Vous êtes francophone ? Passez à la [version française](../fr/guide/)*
+
 ## App list
 
 ### Sciences
