@@ -28,6 +28,7 @@ Voici une liste des applications actuellement disponibles :
 ### Multimédia
 
 - [Playa](./playa.md): Lecteur de vidéo
+- [Video Player](./apps/videoplayer.md): Lecteur de vidéo plus avancé
 - [PNG Viewer](./pngviewer.md): Visionneur d'image PNG
 
 ### Démo

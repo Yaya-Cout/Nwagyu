@@ -32,6 +32,7 @@ calculator. Here is the list of the apps that are currently available:
 ### Media
 
 - [Playa](./apps/playa.md): Video player
+- [Video Player](./apps/videoplayer.md): More advanced video player
 - [PNG Viewer](./apps/pngviewer.md): PNG image viewer
 
 ### Demo

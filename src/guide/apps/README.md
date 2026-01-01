@@ -29,6 +29,7 @@ Here is the list of the apps that are currently available:
 ### Media
 
 - [Playa](./playa.md): Video player
+- [Video Player](./videoplayer.md): More advanced video player
 - [PNG Viewer](./pngviewer.md): PNG image viewer
 
 ### Demo

@@ -32,6 +32,7 @@ actuellement disponibles :
 ### Multimédia
 
 - [Playa](./apps/playa.md): Lecteur de vidéo
+- [Video Player](./apps/videoplayer.md): Lecteur de vidéo plus avancé
 - [PNG Viewer](./apps/pngviewer.md): Visionneur d'image PNG
 
 ### Démo
