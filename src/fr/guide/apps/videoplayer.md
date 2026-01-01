@@ -9,7 +9,7 @@ Les versions officielles sont disponibles sur [GitHub Releases](https://github.c
 
 Ou si vous préférez :
 
-- [VideoPlayer 1.1.1](https://yaya-cout.github.io/Nwagyu/assets/apps/VideoPlayer-1.1.1.nwa)
+- [VideoPlayer 1.1.1](https://yaya-cout.github.io/Nwagyu/assets/apps/videoplayer-1.1.1.nwa)
 
 ## Comment obtenir des vidéos
 
@@ -68,12 +68,11 @@ pour plus d'informations.
 ## Pourquoi ne pas utiliser Playa ?
 
 - Playa n'est pas open source tandis que VideoPlayer l'est.
-- Le binaire de Playa pèse plus de 1MB, ce qui est assez grand et peut ne pas laisser
-  beaucoup d'espace pour les vidéos sur les calculatrices avec une faible capacité de stockage.
-  Tandis que VideoPlayer ne pèse que 27KB.
-- VideoPlayer offre plus de fonctionnalités comme le changement de fps à la volée, et un mode debug
-  pour vérifier les performances. Les préférences sont sauvegardées dans le stockage de la calculatrice.
-- La conversion des vidéos pour VideoPlayer est plus flexible et plus optimisée.
+- Le binaire de Playa pèse 249KB. Tandis que VideoPlayer ne pèse que 27KB.
+- VideoPlayer offre plus de fonctionnalités comme le changement de fps à la volée pour s'adapter à la vidéo convertie,
+  et un mode debug pour vérifier les performances. Les préférences sont sauvegardées dans le stockage de la calculatrice.
+- La conversion des vidéos pour VideoPlayer est plus flexible car on peut choisir les fps sur la calculatrice,
+  la video n'est donc pas accélée j'usqu'au limite de la calculatrice. Et donc ça laisse du stockage pour changer d'autres paramètres.
 
 ## Code source
 

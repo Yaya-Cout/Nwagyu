@@ -9,7 +9,7 @@ Official releases are available on [GitHub Releases](https://github.com/SaltyMol
 
 Or if you prefer:
 
-- [VideoPlayer 1.1.1](https://yaya-cout.github.io/Nwagyu/assets/apps/VideoPlayer-1.1.1.nwa)
+- [VideoPlayer 1.1.1](https://yaya-cout.github.io/Nwagyu/assets/apps/videoplayer-1.1.1.nwa)
 
 ## How to get videos
 
@@ -68,11 +68,11 @@ guide for more information.
 ## Why not use Playa ?
 
 - Playa is not open source while VideoPlayer is.
-- Playa bin weigh over 1MB, which is quite large and may not leave much space for 
-  videos on calculators with low storage capacity. While VideoPlayer weighs only 27KB.
-- VideoPlayer offers more features like changing fps on the fly, and a debug mode 
-  to check performance. Preferences are saved on the calculator storage.
-- Converting videos for VideoPlayer is more flexible and more optimized.
+- Playa bin weigh 249KB. While VideoPlayer weighs only 27KB.
+- VideoPlayer offers more features like changing target fps on the fly to match with the converted video,
+  and a debug mode to check performance. Preferences are saved on the calculator storage.
+- The video conversion for VideoPlayer is more flexible since you can choose target fps on the calculator,
+  so the video is not sped up to the calculator limit. And thus it leaves storage to change other parameters.
 
 ## Source code
 
