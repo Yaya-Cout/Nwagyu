@@ -7,7 +7,7 @@ permet de lire n'importe quelle vidéo qui a été convertie dans un format comp
 
 Les versions officielles sont disponibles sur [GitHub Releases](https://github.com/SaltyMold/Video-Player-for-Numworks/releases).
 
-Ou si vous préférez :
+Si vous préférez, vous pouvez utiliser ce lien direct :
 
 - [VideoPlayer 1.1.1](https://yaya-cout.github.io/Nwagyu/assets/apps/videoplayer-1.1.1.nwa)
 
@@ -17,24 +17,28 @@ Vous pouvez prendre des vidéos d'exemple depuis le [dossier samples](https://gi
 sur le dépôt GitHub.
 Ou convertir vos propres vidéos en suivant les instructions ci-dessous.
 
-Pour convertir une vidéo, vous pouvez utiliser l'outil en ligne de commande `ffmpeg`. 
-Voici une commande exemple supposant que votre vidéo s'appelle `input.mp4` 
+Pour convertir une vidéo, vous pouvez utiliser l'outil en ligne de commande `ffmpeg`.
+Voici une commande exemple supposant que votre vidéo s'appelle `input.mp4`
 dans le répertoire courant :
 
-Gardez la résolution à 320×240. Ajustez `-q:v`, `fps=` et `-t` pour la qualité, les fps et la durée.
+Gardez la résolution à 320×240. Ajustez `-q:v`, `fps=` et `-t` pour la qualité,
+les fps et la durée.
 
 Avec recadrage :
+
 ```bash
-ffmpeg -i input.mp4 \ 
+ffmpeg -i input.mp4 \
   -vf "scale=320:240:force_original_aspect_ratio=increase,crop=320:240,setsar=1:1,fps=15" \ # Crop à 320x240
   -t 00:00:30 \ # Limiter à 30 secondes
   -vcodec mjpeg \ # Utiliser le codec MJPEG
   -q:v 24 -an \ # Qualité et pas d'audio
-  output.mjpeg 
+  output.mjpeg
 ```
+
 Sans recadrage :
+
 ```bash
-ffmpeg -i input.mp4 \ 
+ffmpeg -i input.mp4 \
   -vf "scale=320:240:force_original_aspect_ratio=increase,setsar=1:1,fps=15" \ # Scale à 320x240
   -t 00:00:30 \ # Limiter à 30 secondes
   -vcodec mjpeg \ # Utiliser le codec MJPEG
@@ -60,19 +64,22 @@ Si vous changez les fps, ils sont sauvegardés dans le stockage de la calculatri
 
 ## Installation
 
-Allez sur **[my.numworks.com/apps](https://my.numworks.com/apps)** pour envoyer le fichier **`nwa`**
-sur votre calculatrice avec la vidéo **`mjpeg`**.
-Vous pouvez aussi suivre les instructions dans le guide [comment installer ?](../help/how-to-install.md)
-pour plus d'informations.
+Pour installer l'application Video Player, suivez les instructions dans le guide
+[comment installer](../help/how-to-install.md) pour l'installer avec le fichier
+`mjpeg`.
 
 ## Pourquoi ne pas utiliser Playa ?
 
 - Playa n'est pas open source tandis que VideoPlayer l'est.
 - Le binaire de Playa pèse 249KB. Tandis que VideoPlayer ne pèse que 27KB.
-- VideoPlayer offre plus de fonctionnalités comme le changement de fps à la volée pour s'adapter à la vidéo convertie,
-  et un mode debug pour vérifier les performances. Les préférences sont sauvegardées dans le stockage de la calculatrice.
-- La conversion des vidéos pour VideoPlayer est plus flexible car on peut choisir les fps sur la calculatrice,
-  la video n'est donc pas accélée j'usqu'au limite de la calculatrice. Et donc ça laisse du stockage pour changer d'autres paramètres.
+- VideoPlayer offre plus de fonctionnalités comme le changement de fps à la
+  volée pour s'adapter à la vidéo convertie,
+  et un mode debug pour vérifier les performances. Les préférences sont
+  sauvegardées dans le stockage de la calculatrice.
+- La conversion des vidéos pour VideoPlayer est plus flexible car on peut
+  choisir les fps sur la calculatrice,
+  la video n'est donc pas accélérée jusqu'aux limites de la calculatrice. Cela
+  laisse donc du stockage pour changer d'autres paramètres.
 
 ## Code source
 
