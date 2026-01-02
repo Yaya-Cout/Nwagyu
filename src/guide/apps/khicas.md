@@ -48,8 +48,9 @@ for NumWorks (because of NumWorks limitations) :
 Because of NumWorks limitations, KhiCAS need to be flashed with a special way as
 a workaround for NumWorks external app system.
 
-More information can be found [here (in French)](https://xcas.univ-grenoble-alpes.fr/nw/nws.html)
-(you need to go in the installation section at `Installation Numworks N0110 verrouillée, N0115/N0120`).
+More information can be found [here](https://xcas.univ-grenoble-alpes.fr/nw/nws_en.html#install)
+(you need to go in the installation section at `Installation on a locked N0110, or a N0115/N0120`,
+the link should automatically go at the right place in the page).
 
 ## Legacy version
 

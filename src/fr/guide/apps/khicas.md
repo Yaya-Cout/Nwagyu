@@ -19,7 +19,7 @@ quel contexte.
 
 Il y a différentes sources pour apprendre à utiliser KhiCAS :
 
-- Une [documentation rapide ](https://github.com/Yaya-Cout/KhiCAS_guide/blob/626b9786ff19504152628cfa42447c87ab73f648/KhiCAS_guide.pdf)
+- Une [documentation rapide](https://github.com/Yaya-Cout/KhiCAS_guide/blob/626b9786ff19504152628cfa42447c87ab73f648/KhiCAS_guide.pdf)
   en français avec des illustrations, qui devrait être simple pour commencer à
   utiliser KhiCAS
 - La [vidéo de Schraf](https://www.youtube.com/watch?v=wykeOAVYMFI) pour
@@ -53,9 +53,10 @@ NumWorks (à cause des limites imposées par NumWorks) :
 À cause des limites imposées par NumWorks, KhiCAS doit être installé d'une
 manière spéciale pour contourner ces limites.
 
-Plus d'informations peuvent être trouvées [ici](https://xcas.univ-grenoble-alpes.fr/nw/nws.html)
+Plus d'informations peuvent être trouvées [ici](https://xcas.univ-grenoble-alpes.fr/nw/nws.html#install)
 (vous devez juste aller dans la section d'installation, au niveau de
-`Installation Numworks N0110 verrouillée, N0115/N0120`).
+`Installation pour Epsilon >= 19.5 (N0110) ou 20.1 (N0120)`, le lien devrait
+automatiquement vous amener au bon endroit sur la page).
 
 ## Ancienne version
 
