@@ -9,6 +9,7 @@ Les versions officielles sont disponibles sur [GitHub Releases](https://github.c
 
 Si vous préférez, vous pouvez utiliser ce lien direct :
 
+- [VideoPlayer 1.1.2](https://yaya-cout.github.io/Nwagyu/assets/apps/videoplayer-1.1.2.nwa), moins d'utilisation de la mémoire et corrections mineures
 - [VideoPlayer 1.1.1](https://yaya-cout.github.io/Nwagyu/assets/apps/videoplayer-1.1.1.nwa)
 
 ## Comment obtenir des vidéos
