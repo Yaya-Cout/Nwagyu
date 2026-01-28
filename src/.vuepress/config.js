@@ -115,6 +115,7 @@ export default {
             "backup",
             "numcraft",
             "celeste",
+            "conway",
           ],
         },
         {
@@ -164,6 +165,7 @@ export default {
             "backup",
             "numcraft",
             "celeste",
+            "conway",
           ],
         },
         {
