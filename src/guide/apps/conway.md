@@ -50,7 +50,7 @@ You can download the Conway app from this link:
 To install the Conway app, follow the instructions in the
 [how to install](../help/how-to-install.md) guide.
 
-If you wish to embed a pattern (.cwp file)
+If you wish to embed a pattern (.cwp file on the calculator, src/input.txt when compiling), edit the source code to compile using external_data
 
 ## Source code
 
