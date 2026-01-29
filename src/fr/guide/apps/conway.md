@@ -55,6 +55,10 @@ Vous pouves télécharger l'application avec ce lien:
 Pour installer l'application, veuillez suivres les instructions sur
 [comment installer](../help/how-to-install.md) (guide).
 
+Pour implémenter vos fichiers issus d'images (par le script python), veuillez modifier le code source pour
+qu'il compile avec "external_data" (une ou deux lignes sont à activer). Le fichier issu du script devrait se
+situer à "src/input.txt" par défaut. Une version qui accepte un fichier externe sera mis à disposition bientôt.
+
 ## Source code
 
 Le code source est disponible [ici](https://github.com/MartiPuigV/Conway-NWA)
