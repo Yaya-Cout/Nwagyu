@@ -5,7 +5,7 @@ Après un placement initial de cellules vivants sur un échiquier
 de cellules mortes, le jeu se poursuit tout seul, affectant à chaque
 cellule la vie ou la mort, selon des règles de voisinage.
 Il existe des configurations de cellules très intéressantes qui ont été
-découverts depuis bien longtemps déjà.
+découverts depuis bien longtemps, comme le [glider](https://conwaylife.com/wiki/Glider) (page en anglais).
 
 ## Fonctionnalités
 
