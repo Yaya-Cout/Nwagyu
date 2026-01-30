@@ -41,11 +41,15 @@ le deuxieme point démarque le rectangle qui sera copié.
 - `÷` : Alterne entre copie stricte et transparente. Une copie stricte du presse-papier
   copie également les cellules mortes. Une copie transparente ne copie que les cellules vivantes.
 
-- `Alpha`: Change de palette, entre les 3 palettes:
+- `Alpha`: Change de palette, entre les 3 palettes (see below)
 
-Blanc
-Vert
-Abricot / Beige
+<!-- Rest of the table -->
+
+Les palettes disponibles sont :
+
+- Blanc
+- Vert
+- Abricot / Beige
 
 Les couleurs vert et abricot ont été prises [ici](https://www.deviantart.com/advancedfan2020/art/Game-Boy-Palette-Set-Color-HEX-Part-12-920496174)
 
