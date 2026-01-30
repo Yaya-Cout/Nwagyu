@@ -52,7 +52,7 @@ Peach / Beige
 
 Green and Peach colors come from [here](https://www.deviantart.com/advancedfan2020/art/Game-Boy-Palette-Set-Color-HEX-Part-12-920496174)
 
-- `x` (multiplication): Copies the entire screen as a pattern
+- `×` (multiplication): Copies the entire screen as a pattern
 
 - `(` & `)`: Cycle through 4 different scales. Changes only apply when loading settings
 at app start. Don't forget to save config with `EXE` (see below)
