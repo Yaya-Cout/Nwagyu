@@ -14,7 +14,7 @@ les cellules
 - Un système de sauvegarde de cellules. On peut selectionner une portion de
 la simulation, qui sera sauvegardé comme fichier sur la calculatrice, que l'on
 pourra ensuite venir coller n'importe ou sur la simulation.
-- Un script python dans le repo originel du code source permet de transformer une
+- Un script python dans le dépôt original du code source permet de transformer une
 image en noir et blanc en fichier de sauvegarde, que l'on peut ensuite greffer au
 programme si on le compile en activant 2 lignes du code source.
 - 3 palettes de couleurs
