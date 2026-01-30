@@ -58,7 +58,7 @@ Les couleurs vert et abricot ont été prises [ici](https://www.deviantart.com/a
 - `(` & `)`: Change l'échelle de la simulation. Ne prend effet qu'après avoir sauvegardé les configurations
   (voir ci-dessous) et relancé l'application.
 
-- `EXE`: Sauvegarde les configurations (palette, durée d'itération, etc) localement.
+- `EXE` : Sauvegarde les configurations (palette, durée d'itération, etc).
 
 Un guide mis-à-jour se trouve dans le repo du code source, lien en dessous.
 
