@@ -15,8 +15,7 @@ les cellules
 la simulation, qui sera sauvegardé comme fichier sur la calculatrice, que l'on
 pourra ensuite venir coller n'importe où sur la simulation.
 - Un script python dans le dépôt original du code source permet de transformer une
-image en noir et blanc en fichier de sauvegarde, que l'on peut ensuite greffer au
-programme si on le compile en activant 2 lignes du code source.
+image en noir et blanc en motif de cellules que l'on peut ensuite intégrer au programme (voir ci-dessous)
 - 3 palettes de couleurs
 - Un fichier de configuration persistent
 - De nombreux paramètres modifiables, tels que la durée d'une itération ou l'échelle
@@ -24,28 +23,31 @@ programme si on le compile en activant 2 lignes du code source.
 
 ## Contrôles
 
-- `OK` : Permet de basculer entre l'editeur et la simulation
-Lorsque l'on est dans le menu, les flèches permettent de déplacer un curseur.
+|**Touche**        |**Action**|
+| ---------------- | ------------------------------------------------------------------- |
+| `OK`             | Permet de basculer entre l'éditeur et la simulation                 |
+| `Flèches`        | Permettent de déplacer le curseur (mode éditeur)                    |
+| `Boîte à outils` | Rend la cellule sous le curseur vivante (mode editeur)              |
+| `Effacer`        | Rend la cellule sous le curseur morte (mode editeur)                |
+| `Shift`          | Permet de séléctionner une zone à copier sur le presse-papier       | 
+| `Ans`            | Copie le contenu du presse-papier au niveau du curseur              |
+| `+` & `-`        | Permet de changer la durée d'une itération de la simulation         |
+| `÷`              | Alterne entre copie stricte et transparente (voir section Détails)  |
+| `Alpha`          | Change de palette, parmi les 3 palettes (voir section Détails)      |
+| `×`              | Copie l'entièreté de l'écran au presse-papier                       |
+| `(` & `)`        | Change l'échelle de la simulation (voir section Détails)            |
+| `EXE`            | Sauvegarde les configurations (palette, durée d'itération, etc)     |
 
-- `Boîte à outils`:  Rend la cellule sous le curseur vivante (mode editeur)
+Un guide mis à jour se trouve dans le dépôt du code source, lien ci-dessous.
 
-- `Effacer` Rend la cellule sous le curseur morte (mode editeur)
+## Détails
 
-- `Shift`: Permet de placer le premier point de la zone de selection. En reappuyant,
-le deuxieme point démarque le rectangle qui sera copié.
+### Copie stricte et transparente
 
-- `Ans` : copie le contenu du presse-papier au niveau du curseur.
+- Une copie stricte du presse-papier copie autant les cellules mortes que vivantes.
+- Une copie transparent ne copie que les cellules vivantes.
 
-- `+` & `-`: Permettent d'augmenter et diminuer la durée d'une itération de la simulation
-
-- `÷` : Alterne entre copie stricte et transparente. Une copie stricte du presse-papier
-  copie également les cellules mortes. Une copie transparente ne copie que les cellules vivantes.
-
-- `Alpha`: Change de palette, entre les 3 palettes (see below)
-
-<!-- Rest of the table -->
-
-Les palettes disponibles sont :
+### Les palettes disponibles
 
 - Blanc
 - Vert
@@ -53,14 +55,13 @@ Les palettes disponibles sont :
 
 Les couleurs vert et abricot ont été prises [ici](https://www.deviantart.com/advancedfan2020/art/Game-Boy-Palette-Set-Color-HEX-Part-12-920496174)
 
-- `×` : Copie l'écran en entier au presse-papier.
+### Résolution de simulation
 
-- `(` & `)`: Change l'échelle de la simulation. Ne prend effet qu'après avoir sauvegardé les configurations
-  (voir ci-dessous) et relancé l'application.
+IMPORTANT:: Les effets de la modification de la résolution ne se font qu'après avoir sauvegardé ses configurations,
+en appuyant sur `EXE`, puis en sortant et reouvrant l'application.
 
-- `EXE` : Sauvegarde les configurations (palette, durée d'itération, etc).
-
-Un guide mis à jour se trouve dans le dépôt du code source, lien ci-dessous.
+La résolution de la simulation se mesure en pixels par cellule et compte actuellement 4 valeurs possibles,
+soit des carrés de 2, 4, 5 et 8 pixels par cellule. Par défaut, la valeur de 5 pixels par cellule est choisie. 
 
 ## Téléchargement
 
@@ -76,11 +77,9 @@ Pour installer l'application, veuillez suivres les instructions sur
 
 ## Utilisation d'une image
 
-Pour implémenter vos fichiers issus d'images (par le script python), veuillez modifier le code source pour
-qu'il compile avec "external_data" (une ou deux lignes sont à activer). Le fichier issu du script devrait se
-situer à "src/input.txt" par défaut. Une version qui accepte un fichier externe sera mis à disposition bientôt,
-probablement sur le repo source ci-dessous.
+Veuillez télécharger l'application acceptant `external_data`. Avec le script python fourni sur mon dépôt (voir ci-dessous),
+générez un fichier `.cwp`, qui sera utilisé comme fichier externe lors du processus d'installation, (voir guide ci-dessus).
 
-## Source code
+## Code source
 
 Le code source est disponible [ici](https://github.com/MartiPuigV/Conway-NWA)
