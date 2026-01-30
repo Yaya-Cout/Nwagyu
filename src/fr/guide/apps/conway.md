@@ -19,7 +19,7 @@ image en noir et blanc en fichier de sauvegarde, que l'on peut ensuite greffer a
 programme si on le compile en activant 2 lignes du code source.
 - 3 palettes de couleurs
 - Un fichier de configuration persistent
-- De nombreux paramètres modifiables, tels que la durée d'une itération, l'échelle
+- De nombreux paramètres modifiables, tels que la durée d'une itération ou l'échelle
   de la simulation.
 
 ## Contrôles
