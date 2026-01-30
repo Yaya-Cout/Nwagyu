@@ -24,7 +24,7 @@ programme si on le compile en activant 2 lignes du code source.
 
 ## Contrôles
 
-- `OK`: Permet de basculer entre l'editeur et la simulation
+- `OK` : Permet de basculer entre l'editeur et la simulation
 Lorsque l'on est dans le menu, les flèches permettent de déplacer un curseur.
 
 - `Boîte à outils`:  Rend la cellule sous le curseur vivante (mode editeur)
