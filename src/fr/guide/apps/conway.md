@@ -38,7 +38,7 @@ le deuxieme point démarque le rectangle qui sera copié.
 
 - `+` & `-`: Permettent d'augmenter et diminuer la durée d'une itération de la simulation
 
-- `/` (division): Alterne entre copie stricte et transparente. Une copie stricte du presse-papier
+- `÷` : Alterne entre copie stricte et transparente. Une copie stricte du presse-papier
   copie également les cellules mortes. Une copie transparente ne copie que les cellules vivantes.
 
 - `Alpha`: Change de palette, entre les 3 palettes:
