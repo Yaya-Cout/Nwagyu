@@ -4,8 +4,8 @@ Conway's Game of Life is a simulation game dating back to 1970.
 After an initial placement of live cells on an infinite grid of otherwise
 dead cells, the game plays itself, with rules defining which cells should
 live, die or be born on the next iteration.
-Some patterns have been found like the glider, which will move forever in
-a diagonal path.
+Some patterns have been found like the [glider](https://conwaylife.com/wiki/Glider),
+which will move forever in a diagonal path.
 
 ## Features
 
