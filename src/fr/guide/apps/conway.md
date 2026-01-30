@@ -17,30 +17,44 @@ pourra ensuite venir coller n'importe ou sur la simulation.
 - Un script python dans le repo originel du code source permet de transformer une
 image en noir et blanc en fichier de sauvegarde, que l'on peut ensuite greffer au
 programme si on le compile en activant 2 lignes du code source.
+- 3 palettes de couleurs
+- Un fichier de configuration persistent
+- De nombreux paramètres modifiables, tels que la durée d'une itération, l'échelle
+  de la simulation.
 
 ## Contrôles
 
-Voici les contrôles pour la version 1.0.0:
-
-La touche OK permet de basculer entre le menu editeur et la simulation
-
+- `OK`: Permet de basculer entre l'editeur et la simulation
 Lorsque l'on est dans le menu, les flèches permettent de déplacer un curseur.
-La boîte à outils et la touche à sa droite (effacer) permettent de faire vivre
-ou mourir (respectivement) la cellule sous le curseur.
 
-En appuyant sur shift, on place le premier point de la zone de selection. En reappuyant,
-le deuxieme point démarque le rectangle qui sera copié. Le fichier local s'appelle "pattern.cwp"
-La touche Ans (reponse) copie le contenu du fichier au niveau du curseur. 
+- `Boîte à outils`:  Rend la cellule sous le curseur vivante (mode editeur)
 
-La vitesse de la simulation peut être modifiée avec les touches + et -.
-La touche + augmente le temps entre chaque image (ralenti la simlation)
-et la touche - fait l'inverse.
+- `Effacer` Rend la cellule sous le curseur morte (mode editeur)
 
-En appuyant sur la touche diviser, la couleur des cellules vivantes change entre 3 couleurs:
+- `Shift`: Permet de placer le premier point de la zone de selection. En reappuyant,
+le deuxieme point démarque le rectangle qui sera copié.
 
-Blanc (0xFFFF) Vert (0xBECA) Abricot (0xFDCF)
+- `Ans` (reponse): copie le contenu du presse-papier au niveau du curseur.
 
-(Les couleurs vert et abricot viennent d'une palette de GameBoy)
+- `+` & `-`: Permettent d'augmenter et diminuer la durée d'une itération de la simulation
+
+- `/` (division): Alterne entre copie stricte et transparente. Une copie stricte du presse-papier
+  copie également les cellules mortes. Une copie transparente ne copie que les cellules vivantes.
+
+- `Alpha`: Change de palette, entre les 3 palettes:
+
+Blanc
+Vert
+Abricot / Beige
+
+Les couleurs vert et abricot ont été prises [ici](https://www.deviantart.com/advancedfan2020/art/Game-Boy-Palette-Set-Color-HEX-Part-12-920496174)
+
+- `x` (multiplication): Copie l'écran en entier au presse-papier.
+
+- `(` & `)`: Change l'échelle de la simulation. Ne prend effet qu'après avoir sauvegardé les configurations
+  (voir ci-dessous) et relancé l'application.
+
+- `EXE`: Sauvegarde les configurations (palette, durée d'itération, etc) localement.
 
 Un guide mis-à-jour se trouve dans le repo du code source, lien en dessous.
 
@@ -48,6 +62,7 @@ Un guide mis-à-jour se trouve dans le repo du code source, lien en dessous.
 
 Vous pouves télécharger l'application avec ce lien:
 
+- [Conway v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/conway-1.1.0.nwa), Bugs résolus et interface améliorée
 - [Conway v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/conway-1.0.0.nwa), Version initiale
 
 ## Installation
@@ -57,7 +72,8 @@ Pour installer l'application, veuillez suivres les instructions sur
 
 Pour implémenter vos fichiers issus d'images (par le script python), veuillez modifier le code source pour
 qu'il compile avec "external_data" (une ou deux lignes sont à activer). Le fichier issu du script devrait se
-situer à "src/input.txt" par défaut. Une version qui accepte un fichier externe sera mis à disposition bientôt.
+situer à "src/input.txt" par défaut. Une version qui accepte un fichier externe sera mis à disposition bientôt,
+probablement sur le repo source ci-dessous.
 
 ## Source code
 
