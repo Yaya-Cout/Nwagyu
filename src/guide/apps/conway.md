@@ -40,7 +40,7 @@ locally copied in a file called "pattern.cwp" on your calculator.
 
 ! They do not represent the speed, but rather the time between each frame !
 
-- `/` (division): Toggles strict/transparent pasting. Transparent pasting only pastes
+- `÷`: Toggles strict/transparent pasting. Transparent pasting only pastes
 live cells, while strict will overwrite the entire selection rectangle with what the
 pattern contains, even writing dead cells to the grid.
 
