@@ -60,7 +60,7 @@ Les couleurs vert et abricot ont été prises [ici](https://www.deviantart.com/a
 
 - `EXE` : Sauvegarde les configurations (palette, durée d'itération, etc).
 
-Un guide mis-à-jour se trouve dans le repo du code source, lien en dessous.
+Un guide mis à jour se trouve dans le dépôt du code source, lien ci-dessous.
 
 ## Téléchargement
 
