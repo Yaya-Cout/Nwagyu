@@ -40,7 +40,7 @@ calculator. Here is the list of the apps that are currently available:
 - [Mandelbrot](./apps/mandelbrot.md): Mandelbrot set explorer
 - [Sierpinski](./apps/sierpinski.md): Sierpinski triangle animation
 - [Conway](./apps/conway.md): Conway's Game of Life simulation
-  
+
 ## How to install
 
 To install apps, you need to follow the instructions in the
