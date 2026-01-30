@@ -13,54 +13,57 @@ which will move forever in a diagonal path.
 - A persistent pattern copy system, allowing you to copy any cell structure
 you may have created into the calculators memory, making it persistent even if
 you close the app. You can then paste these patterns wherever you like on the grid.
-- Can turn a black and white image into a pattern file (`.cwp`), using the python
-script provided in the source code repo. The file can later be used as an external
-data file (uncomment some lines doing that in the source code then recompile).
+- Can turn a black and white image into a usable pattern. See below for instructions!
 - 3 different color palettes to choose from
 - A settings file to save your preferences
 - Customizable settings, such as frame time, simulation scale and more.
 
 ## Controls
 
-- `OK`: switch between pause (menu/edit mode) and running the simulation.
-When in edit mode, use the arrows to control a pink cursor.
+|**Key**     |**Action**                                                   |
+| ---------- | ----------------------------------------------------------- |
+|`OK`        | Switch between pause (edit mode) and running the simulation |
+|`Arrows`    | Move the cursor around (in edit mode)                       |
+|`Toolbox`   | Draw cell under cursor (in edit mode)                       |
+|`Backspace` | Erase cell under cursor (in edit mode)                      |
+|`Shift`     | Select area to copy (can later be pasted)                   |
+|`Ans`       | Paste copied pattern at your cursor position                |
+|`+` & `-`   | Increase/decrease frame duration                            |
+|`÷`         | Toggles strict/transparent pasting (details below)          |
+|`Alpha`     | Cycles between the 3 color palettes (see below)             |
+|`×`         | Copies the entire screen as a pattern                       |
+|`(` & `)`   | Cycle through 4 different resolutions (see below!)          |
+|`EXE`       | Save current configuration (palette, frame time, ...)       |
 
-- `Toolbox`: Draw cell under cursor if in edit mode.
+An updated guide about the controls can be found on my repo with the source code, link below. This one might be outdated.
 
-- `Backspace`: Erase cell under cursor if in edit mode.
-  (located to the right of toolbox, below OK and Return)
+## Details
 
-- `Shift`: places your first point of a selection rectangle. When
-pressing shift a second time, the cells inside the shown rectangle will be
-locally copied in a file called "pattern.cwp" on your calculator.
+### Strict vs. Transparent pasting:
 
-- `Ans`: Paste copied pattern at your cursor position.
+- Strict pasting will paste anything the original pattern contains, including dead cells. This might overwrite
+live cells with dead ones.
+- Transparent pasting, as its name suggest, acts as a transparent "image", and will
+only paste live cells. In transparent mode, selecting too large an area with too many dead cells is not a
+problem, as pasting will not overwrite a large rectangle with dead cells.
 
-- `+` & `-`: Change simulation speed.
+### Color palettes:
 
-! They do not represent the speed, but rather the time between each frame !
-
-- `÷`: Toggles strict/transparent pasting. Transparent pasting only pastes
-live cells, while strict will overwrite the entire selection rectangle with what the
-pattern contains, even writing dead cells to the grid.
-
-- `Alpha`: Cycles between the 3 color palettes
-
-White
-Green
-Peach / Beige
+- White
+- Green
+- Peach / Beige
 
 Green and Peach colors come from [here](https://www.deviantart.com/advancedfan2020/art/Game-Boy-Palette-Set-Color-HEX-Part-12-920496174)
 
-- `×` (multiplication): Copies the entire screen as a pattern
+### Resolution:
 
-- `(` & `)`: Cycle through 4 different scales. Changes only apply when loading settings
-at app start. Don't forget to save config with `EXE` (see below)
+IMPORTANT:: For resolution changes to apply, you must change resolution, save configuration changes with `EXE`, then quit
+and open the app again. The grid is created when the app opens, and needs to be reopened each time you want to change the
+resolution. Future updates might circumvent this flaw.
 
-- `EXE`: Save current config (Color palette, grid scale, simulation speed)
-The configurations should automatically load when the app launches.
-
-An updated guide about the controls can be found on my repo with the source code, link below. This one might be outdated.
+Changes how many pixels wide a cell is. The available resolutions as of 1.1.0 are 2, 4, 5 and 8 pixel wide squares for a cell.
+A 1:1 pixel:cell ratio was doable in older versions, but newer versions fall short of RAM for that luxury. Don't worry about
+over- or undershooting those values, as it will simply wrap around.
 
 ## Download
 
@@ -74,8 +77,11 @@ You can download the Conway app from this link:
 To install the Conway app, follow the instructions in the
 [how to install](../help/how-to-install.md) guide.
 
-If you wish to embed a pattern (`.cwp` file on the calculator, `src/input.txt` when compiling), edit the source code to compile using external_data
-A `.nwa` file accepting external_data might be available on my repo.
+## Embedding your image as a pattern
+
+Use the python script provided on my source repo (see below) and turn your image into a `.cwp` file (should be straightforward).
+Download the `.nwa` marked as accepting `external_data`, and add the `.cwp` file as the input file to the `.nwa` when following
+the above installation guide.
 
 ## Source code
 
