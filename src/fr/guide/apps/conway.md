@@ -34,7 +34,7 @@ Lorsque l'on est dans le menu, les flèches permettent de déplacer un curseur.
 - `Shift`: Permet de placer le premier point de la zone de selection. En reappuyant,
 le deuxieme point démarque le rectangle qui sera copié.
 
-- `Ans` (reponse): copie le contenu du presse-papier au niveau du curseur.
+- `Ans` : copie le contenu du presse-papier au niveau du curseur.
 
 - `+` & `-`: Permettent d'augmenter et diminuer la durée d'une itération de la simulation
 
