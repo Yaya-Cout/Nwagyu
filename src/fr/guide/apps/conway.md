@@ -49,7 +49,7 @@ Abricot / Beige
 
 Les couleurs vert et abricot ont été prises [ici](https://www.deviantart.com/advancedfan2020/art/Game-Boy-Palette-Set-Color-HEX-Part-12-920496174)
 
-- `x` (multiplication): Copie l'écran en entier au presse-papier.
+- `×` : Copie l'écran en entier au presse-papier.
 
 - `(` & `)`: Change l'échelle de la simulation. Ne prend effet qu'après avoir sauvegardé les configurations
   (voir ci-dessous) et relancé l'application.
