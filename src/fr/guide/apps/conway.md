@@ -9,7 +9,7 @@ découverts depuis bien longtemps déjà.
 
 ## Fonctionnalités
 
-- Un menu qui te permet de mettre en pause la simulation et de modifier
+- Un menu qui permet de mettre en pause la simulation et de modifier
 les cellules
 - Un système de sauvegarde de cellules. On peut selectionner une portion de
 la simulation, qui sera sauvegardé comme fichier sur la calculatrice, que l'on
