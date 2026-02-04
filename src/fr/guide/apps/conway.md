@@ -67,7 +67,7 @@ soit des carrés de 2, 4, 5 et 8 pixels par cellule. Par défaut, la valeur de 5
 
 ## Téléchargement
 
-Vous pouves télécharger l'application avec ce lien:
+Vous pouvez télécharger l'application avec ce lien:
 
 - [Conway v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/conway-1.1.0.nwa), Correction de bugs et interface améliorée
 - [Conway v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/conway-1.0.0.nwa), Version initiale
