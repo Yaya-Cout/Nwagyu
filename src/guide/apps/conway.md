@@ -35,7 +35,7 @@ you close the app. You can then paste these patterns wherever you like on the gr
 |`(` & `)`   | Cycle through 4 different resolutions (see below!)          |
 |`EXE`       | Save current configuration (palette, frame time, ...)       |
 
-An updated guide about the controls can be found on my repo with the source code, link below. This one might be outdated.
+An updated guide about the controls can be found on my repo with the source code, link [below](#source-code). This one might be outdated.
 
 ## Details
 
