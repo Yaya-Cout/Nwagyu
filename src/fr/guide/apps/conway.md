@@ -47,7 +47,7 @@ Un guide mis à jour se trouve dans le dépôt du code source, lien [ci-dessous]
 - Une copie stricte du presse-papier copie autant les cellules mortes que vivantes.
 - Une copie transparent ne copie que les cellules vivantes.
 
-### Les palettes disponibles
+### Palettes disponibles
 
 - Blanc
 - Vert
