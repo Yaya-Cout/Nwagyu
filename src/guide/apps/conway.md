@@ -32,7 +32,7 @@ you close the app. You can then paste these patterns wherever you like on the gr
 |`÷`         | Toggles strict/transparent pasting (details below)          |
 |`Alpha`     | Cycles between the 3 color palettes (see below)             |
 |`×`         | Copies the entire screen as a pattern                       |
-|`(` & `)`   | Cycle through 4 different resolutions (see below!)          |
+|`(` & `)`   | Cycle through 4 different resolutions (see below)           |
 |`EXE`       | Save current configuration (palette, frame time, ...)       |
 
 An updated guide about the controls can be found on my repo with the source code, link [below](#source-code). This one might be outdated.
