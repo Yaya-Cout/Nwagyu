@@ -55,7 +55,7 @@ problem, as pasting will not overwrite a large rectangle with dead cells.
 
 Green and Peach colors come from [here](https://www.deviantart.com/advancedfan2020/art/Game-Boy-Palette-Set-Color-HEX-Part-12-920496174)
 
-### Resolution:
+### Resolution
 
 IMPORTANT:: For resolution changes to apply, you must change resolution, save configuration changes with `EXE`, then quit
 and open the app again. The grid is created when the app opens, and needs to be reopened each time you want to change the
