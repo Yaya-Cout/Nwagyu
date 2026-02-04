@@ -39,7 +39,7 @@ An updated guide about the controls can be found on my repo with the source code
 
 ## Details
 
-### Strict vs. Transparent pasting:
+### Strict vs. Transparent pasting
 
 - Strict pasting will paste anything the original pattern contains, including dead cells. This might overwrite
 live cells with dead ones.
