@@ -27,8 +27,8 @@ image en noir et blanc en motif de cellules que l'on peut ensuite intégrer au p
 | ---------------- | ------------------------------------------------------------------- |
 | `OK`             | Permet de basculer entre l'éditeur et la simulation                 |
 | `Flèches`        | Permettent de déplacer le curseur (mode éditeur)                    |
-| `Boîte à outils` | Rend la cellule sous le curseur vivante (mode editeur)              |
-| `Effacer`        | Rend la cellule sous le curseur morte (mode editeur)                |
+| `Boîte à outils` | Rend la cellule sous le curseur vivante (mode éditeur)              |
+| `Effacer`        | Rend la cellule sous le curseur morte (mode éditeur)                |
 | `Shift`          | Permet de séléctionner une zone à copier sur le presse-papier       | 
 | `Ans`            | Copie le contenu du presse-papier au niveau du curseur              |
 | `+` & `-`        | Permet de changer la durée d'une itération de la simulation         |
