@@ -38,7 +38,7 @@ image en noir et blanc en motif de cellules que l'on peut ensuite intégrer au p
 | `(` & `)`        | Change l'échelle de la simulation (voir section Détails)            |
 | `EXE`            | Sauvegarde les configurations (palette, durée d'itération, etc)     |
 
-Un guide mis à jour se trouve dans le dépôt du code source, lien ci-dessous.
+Un guide mis à jour se trouve dans le dépôt du code source, lien [ci-dessous](#code-source).
 
 ## Détails
 
