@@ -57,8 +57,10 @@ Les couleurs vert et abricot ont été prises [ici](https://www.deviantart.com/a
 
 ### Résolution de simulation
 
-IMPORTANT:: Les effets de la modification de la résolution ne se font qu'après avoir sauvegardé ses configurations,
+::: warning
+Les effets de la modification de la résolution ne se font qu'après avoir sauvegardé ses configurations,
 en appuyant sur `EXE`, puis en sortant et reouvrant l'application.
+:::
 
 La résolution de la simulation se mesure en pixels par cellule et compte actuellement 4 valeurs possibles,
 soit des carrés de 2, 4, 5 et 8 pixels par cellule. Par défaut, la valeur de 5 pixels par cellule est choisie. 
