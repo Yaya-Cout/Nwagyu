@@ -47,7 +47,7 @@ live cells with dead ones.
 only paste live cells. In transparent mode, selecting too large an area with too many dead cells is not a
 problem, as pasting will not overwrite a large rectangle with dead cells.
 
-### Color palettes:
+### Color palettes
 
 - White
 - Green
