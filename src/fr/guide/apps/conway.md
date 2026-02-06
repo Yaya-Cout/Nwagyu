@@ -7,13 +7,15 @@ cellule la vie ou la mort, selon des règles de voisinage.
 Il existe des configurations de cellules très intéressantes qui ont été
 découverts depuis bien longtemps, comme le [glider](https://conwaylife.com/wiki/Glider) (page en anglais).
 
+Cette application a été crée par [MartiPuigV](https://github.com/MartiPuigV)
+
 ## Fonctionnalités
 
 - Un menu qui permet de mettre en pause la simulation et de modifier
 les cellules
 - Un système de sauvegarde de cellules. On peut selectionner une portion de
-la simulation, qui sera sauvegardé comme fichier sur la calculatrice, que l'on
-pourra ensuite venir coller n'importe où sur la simulation.
+la simulation, qui sera sauvegardé comme fichier sur la calculatrice. On pourra
+ensuite venir coller cette séléction n'importe où sur la simulation.
 - Un script python dans le dépôt original du code source permet de transformer une
 image en noir et blanc en motif de cellules que l'on peut ensuite intégrer au programme (voir ci-dessous)
 - 3 palettes de couleurs
@@ -23,22 +25,25 @@ image en noir et blanc en motif de cellules que l'on peut ensuite intégrer au p
 
 ## Contrôles
 
-|**Touche**        |**Action**|
-| ---------------- | ------------------------------------------------------------------- |
-| `OK`             | Permet de basculer entre l'éditeur et la simulation                 |
-| `Flèches`        | Permettent de déplacer le curseur (mode éditeur)                    |
-| `Boîte à outils` | Rend la cellule sous le curseur vivante (mode éditeur)              |
-| `Effacer`        | Rend la cellule sous le curseur morte (mode éditeur)                |
-| `Shift`          | Permet de séléctionner une zone à copier sur le presse-papier       | 
-| `Ans`            | Copie le contenu du presse-papier au niveau du curseur              |
-| `+` & `-`        | Permet de changer la durée d'une itération de la simulation         |
-| `÷`              | Alterne entre copie stricte et transparente (voir section Détails)  |
-| `Alpha`          | Change de palette, parmi les 3 palettes (voir section Détails)      |
-| `×`              | Copie l'entièreté de l'écran au presse-papier                       |
-| `(` & `)`        | Change l'échelle de la simulation (voir section Détails)            |
-| `EXE`            | Sauvegarde les configurations (palette, durée d'itération, etc)     |
+|**Touche**           |**Action**                                                           |
+| ----------------    | ------------------------------------------------------------------- |
+| `OK`                | Permet de basculer entre l'éditeur et la simulation                 |
+| `Flèches`           | Permettent de déplacer le curseur                                   |
+| `Boîte à outils`    | Rend la cellule sous le curseur vivante                             |
+| `Effacer`           | Rend la cellule sous le curseur morte                               |
+| `Shift`             | Permet de séléctionner une zone à copier sur le presse-papier       | 
+| `Ans`               | Copie le contenu du presse-papier au niveau du curseur              |
+| `+` & `-`           | Permet de changer la durée d'une itération de la simulation         |
+| `÷`                 | Alterne entre copie stricte et transparente (voir section Détails)  |
+| `Alpha`             | Change de palette, parmi les 3 palettes (voir section Détails)      |
+| `×`                 | Copie l'entièreté de l'écran au presse-papier                       |
+| `(` & `)`           | Change l'échelle de la simulation (voir section Détails)            |
+| `EXE`               | Sauvegarde les configurations (palette, durée d'itération, etc)     |
+| `Retour`            | Permet de simuler une seule itération                               |
+| `Shift` + `Effacer` | Tue toutes les cellules                                             |
+| `Ln`                | Alterne entre police classique et pixel-art                         |
 
-Un guide mis à jour se trouve dans le dépôt du code source, lien [ci-dessous](#code-source).
+Un guide mis à jour se trouve dans le dépôt du [code source](#code-source).
 
 ## Détails
 
@@ -79,9 +84,11 @@ Pour installer l'application, veuillez suivres les instructions sur
 
 ## Utilisation d'une image
 
-Veuillez télécharger l'application acceptant `external_data`. Avec le script python fourni sur mon dépôt (voir ci-dessous),
-générez un fichier `.cwp`, qui sera utilisé comme fichier externe lors du processus d'installation, (voir guide ci-dessus).
+Avec le script python fourni sur mon dépôt (voir ci-dessous), générez un fichier `.cwp` à partir de l'image des cellules.
+Vous pouvez ensuite aller sur [ce site](https://yaya-cout.github.io/Numworks-connector/#/), et envoyer votre fichier sur la
+calculatrice. Changez le numero sur le nom du fichier (par exemple "pattern3.cwp"), pour avoir plusieurs fichiers en même temps.
 
 ## Code source
 
 Le code source est disponible [ici](https://github.com/MartiPuigV/Conway-NWA)
+[dépot]: https://github.com/MartiPuigV/Conway-NWA
