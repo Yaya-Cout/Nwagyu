@@ -57,9 +57,11 @@ Green and Peach colors come from [here](https://www.deviantart.com/advancedfan20
 
 ### Resolution
 
-IMPORTANT:: For resolution changes to apply, you must change resolution, save configuration changes with `EXE`, then quit
+::: warning
+For resolution changes to apply, you must change resolution, save configuration changes with `EXE`, then quit
 and open the app again. The grid is created when the app opens, and needs to be reopened each time you want to change the
 resolution. Future updates might circumvent this flaw.
+:::
 
 Changes how many pixels wide a cell is. The available resolutions as of 1.1.0 are 2, 4, 5 and 8 pixel wide squares for a cell.
 A 1:1 pixel:cell ratio was doable in older versions, but newer versions fall short of RAM for that luxury. Don't worry about
