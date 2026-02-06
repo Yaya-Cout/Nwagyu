@@ -7,6 +7,8 @@ live, die or be born on the next iteration.
 Some patterns have been found like the [glider](https://conwaylife.com/wiki/Glider),
 which will move forever in a diagonal path.
 
+This app was created by [MartiPuigV](https://github.com/MartiPuigV)
+
 ## Features
 
 - Editor menu, where you can pause and edit the simulation at any moment.
@@ -20,20 +22,23 @@ you close the app. You can then paste these patterns wherever you like on the gr
 
 ## Controls
 
-|**Key**     |**Action**                                                   |
-| ---------- | ----------------------------------------------------------- |
-|`OK`        | Switch between pause (edit mode) and running the simulation |
-|`Arrows`    | Move the cursor around (in edit mode)                       |
-|`Toolbox`   | Draw cell under cursor (in edit mode)                       |
-|`Backspace` | Erase cell under cursor (in edit mode)                      |
-|`Shift`     | Select area to copy (can later be pasted)                   |
-|`Ans`       | Paste copied pattern at your cursor position                |
-|`+` & `-`   | Increase/decrease frame duration                            |
-|`÷`         | Toggles strict/transparent pasting (details below)          |
-|`Alpha`     | Cycles between the 3 color palettes (see below)             |
-|`×`         | Copies the entire screen as a pattern                       |
-|`(` & `)`   | Cycle through 4 different resolutions (see below)           |
-|`EXE`       | Save current configuration (palette, frame time, ...)       |
+|**Key**                |**Action**                                                   |
+| --------------------- | ----------------------------------------------------------- |
+| `OK`                  | Switch between pause (edit mode) and running the simulation |
+| `Arrows`              | Move the cursor around (in edit mode)                       |
+| `Toolbox`             | Draw cell under cursor (in edit mode)                       |
+| `Backspace`           | Erase cell under cursor (in edit mode)                      |
+| `Shift`               | Select area to copy (can later be pasted)                   |
+| `Ans`                 | Paste copied pattern at your cursor position                |
+| `+` & `-`             | Increase/decrease frame duration                            |
+| `÷`                   | Toggles strict/transparent pasting (details below)          |
+| `Alpha`               | Cycles between the 3 color palettes (see below)             |
+| `×`                   | Copies the entire screen as a pattern                       |
+| `(` & `)`             | Cycle through 4 different resolutions (see below)           |
+| `EXE`                 | Save current configuration (palette, frame time, ...)       |
+| `Back`                | Allows you to step through the simulation                   |
+| `Shift` + `Backspace` | Kills all cells                                             |
+| `Ln`                  | Toggle pixel font                                           |
 
 An updated guide about the controls can be found on my repo with the source code, link [below](#source-code). This one might be outdated.
 
@@ -63,9 +68,8 @@ and open the app again. The grid is created when the app opens, and needs to be 
 resolution. Future updates might circumvent this flaw.
 :::
 
-Changes how many pixels wide a cell is. The available resolutions as of 1.1.0 are 2, 4, 5 and 8 pixel wide squares for a cell.
-A 1:1 pixel:cell ratio was doable in older versions, but newer versions fall short of RAM for that luxury. Don't worry about
-over- or undershooting those values, as it will simply wrap around.
+Changes how many pixels wide a cell is. The available resolutions as of 1.2.0 are 1, 2, 4, 5 and 8 pixel wide squares for a cell.
+Don't worry about over- or undershooting those values, as it will simply wrap around.
 
 ## Download
 
@@ -82,8 +86,8 @@ To install the Conway app, follow the instructions in the
 ## Embedding your image as a pattern
 
 Use the python script provided on my source repo (see below) and turn your image into a `.cwp` file (should be straightforward).
-Download the `.nwa` marked as accepting `external_data`, and add the `.cwp` file as the input file to the `.nwa` when following
-the above installation guide.
+By using the [connector](https://yaya-cout.github.io/Numworks-connector/#/) website, you can upload that file to your calculator.
+Make sure to change the digit of the file name (default: "pattern0.cwp"), to allow up to 10 unique pattern files at a time.
 
 ## Source code
 
