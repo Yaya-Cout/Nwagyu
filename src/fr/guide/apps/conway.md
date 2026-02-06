@@ -16,7 +16,7 @@ les cellules
 - Un système de sauvegarde de cellules. On peut selectionner une portion de
 la simulation, qui sera sauvegardé comme fichier sur la calculatrice. On pourra
 ensuite venir coller cette séléction n'importe où sur la simulation.
-- Un script python dans le dépôt original du code source permet de transformer une
+- Un script python dans le [dépôt original](#code-source) du code source permet de transformer une
 image en noir et blanc en motif de cellules que l'on peut ensuite intégrer au programme (voir ci-dessous)
 - 3 palettes de couleurs
 - Un fichier de configuration persistent
@@ -91,4 +91,3 @@ calculatrice. Changez le numero sur le nom du fichier (par exemple "pattern3.cwp
 ## Code source
 
 Le code source est disponible [ici](https://github.com/MartiPuigV/Conway-NWA)
-[dépot]: https://github.com/MartiPuigV/Conway-NWA
