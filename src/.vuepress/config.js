@@ -200,7 +200,8 @@ export default {
         //   // collapsible: true,
         //   children: [
         //     "1-create",
-        //     "2-cleanup-template"
+        //     "2-cleanup-template",
+        //     "3-moving-the-snake",
         //   ],
         // },
         {

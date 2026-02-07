@@ -8,3 +8,4 @@ Start by creating a project or directly jump to the section you want to follow:
 
 - [1 - Project creation](1-create.md)
 - [2 - Cleaning up the template](2-cleanup-template.md)
+- [3 - Moving the snake](3-moving-the-snake.md)
