@@ -1,4 +1,4 @@
-# Project creation
+# Part 1: Project creation
 
 ## Introduction
 
