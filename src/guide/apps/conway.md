@@ -75,6 +75,7 @@ Don't worry about over- or undershooting those values, as it will simply wrap ar
 
 You can download the Conway app from this link:
 
+- [Conway v1.2.2](https://yaya-cout.github.io/Nwagyu/assets/apps/conway-1.2.2.nwa), 1:1 cell:pixel ratio, bug fixes & enhancements
 - [Conway v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/conway-1.1.0.nwa), Rework of all aspects, bug fixes. UX and UI.
 - [Conway v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/conway-1.0.0.nwa), First version
 
