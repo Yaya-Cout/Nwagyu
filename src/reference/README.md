@@ -9,6 +9,10 @@ Here's what is documented at the time, separated under different categories :
 
 ## Categories
 
+<!-- ### [Tutorial](tutorial/)
+
+- [1 - Project creation](tutorial/1-create.md) -->
+
 ### [External apps](apps/)
 
 - [Creating your own application](apps/creating-application.md)

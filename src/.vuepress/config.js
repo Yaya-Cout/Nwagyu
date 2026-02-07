@@ -191,6 +191,15 @@ export default {
           children: [
           ]
         },
+        // {
+        //   text: 'Tutorial',
+        //   link: '/reference/tutorial/',
+        //   prefix: '/reference/tutorial/',
+        //   // collapsible: true,
+        //   children: [
+        //     "1-create"
+        //   ],
+        // },
         {
           text: 'External apps',
           link: '/reference/apps/',
