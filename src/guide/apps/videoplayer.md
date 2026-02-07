@@ -9,6 +9,7 @@ Official releases are available on [GitHub Releases](https://github.com/SaltyMol
 
 If you prefer, you can use this direct link:
 
+- [VideoPlayer 1.1.2](https://yaya-cout.github.io/Nwagyu/assets/apps/videoplayer-1.1.2.nwa), less memory usage and minor fixes
 - [VideoPlayer 1.1.1](https://yaya-cout.github.io/Nwagyu/assets/apps/videoplayer-1.1.1.nwa)
 
 ## How to get videos
