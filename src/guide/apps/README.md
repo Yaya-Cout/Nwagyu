@@ -36,4 +36,4 @@ Here is the list of the apps that are currently available:
 
 - [Mandelbrot](./mandelbrot.md): Mandelbrot set explorer
 - [Sierpinski](./sierpinski.md): Sierpinski triangle animation
-- [Conway](./apps/conway.md): Conway's Game of Life simulation
+- [Conway](./conway.md): Conway's Game of Life simulation

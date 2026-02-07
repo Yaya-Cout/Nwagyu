@@ -39,7 +39,7 @@ actuellement disponibles :
 
 - [Mandelbrot](./apps/mandelbrot.md): Visualiseur de Mandelbrot
 - [Sierpinski](./apps/sierpinski.md): Animation du triangle de Sierpinski
-- [Conway](./conway.md): Simulation du Jeu de la Vie de Conway
+- [Conway](./apps/conway.md): Simulation du Jeu de la Vie de Conway
 
 ## Comment installer ?
 
