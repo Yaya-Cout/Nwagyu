@@ -199,7 +199,8 @@ export default {
         //   prefix: '/reference/tutorial/',
         //   // collapsible: true,
         //   children: [
-        //     "1-create"
+        //     "1-create",
+        //     "2-cleanup-template"
         //   ],
         // },
         {

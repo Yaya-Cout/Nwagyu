@@ -11,7 +11,8 @@ Here's what is documented at the time, separated under different categories :
 
 <!-- ### [Tutorial](tutorial/)
 
-- [1 - Project creation](tutorial/1-create.md) -->
+- [1 - Project creation](tutorial/1-create.md)
+- [2 - Cleaning up the template](tutorial/2-cleanup-template.md) -->
 
 ### [External apps](apps/)
 

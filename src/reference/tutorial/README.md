@@ -7,3 +7,4 @@ score saving or custom maps.
 Start by creating a project or directly jump to the section you want to follow:
 
 - [1 - Project creation](1-create.md)
+- [2 - Cleaning up the template](2-cleanup-template.md)
