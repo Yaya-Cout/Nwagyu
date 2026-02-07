@@ -31,6 +31,12 @@ sudo apt install git make gcc-arm-none-eabi npm  # Ubuntu/Debian (choose this on
 sudo pacman -S git make arm-none-eabi-gcc arm-none-eabi-newlib npm  # Arch Linux
 ```
 
+On macOS, you can use the following command instead:
+
+```bash
+brew install numworks/tap/arm-none-eabi-gcc node
+```
+
 Now, let's begin the fun and clone the official template:
 
 ```bash

@@ -94,6 +94,12 @@ sudo apt install git make gcc-arm-none-eabi npm # Ubuntu/Debian
 sudo pacman -S git make arm-none-eabi-gcc arm-none-eabi-newlib npm # Arch Linux
 ```
 
+On macOS, you should be able to use this command instead
+
+```bash
+brew install numworks/tap/arm-none-eabi-gcc node
+```
+
 Here is a quick guide about it, assuming the toolchain is already installed:
 
 ```bash
@@ -136,6 +142,12 @@ Linux distribution, or adapt the commands if it's not listed):
 ```bash
 sudo apt install git make gcc-arm-none-eabi npm # Ubuntu/Debian
 sudo pacman -S git make arm-none-eabi-gcc arm-none-eabi-newlib npm # Arch Linux
+```
+
+On macOS, you should be able to use this command instead
+
+```bash
+brew install numworks/tap/arm-none-eabi-gcc node
 ```
 
 Here is a quick guide about it, assuming the toolchain is already installed:
@@ -187,6 +199,15 @@ sudo apt install git rustup gcc npm
 npm install -g nwlink
 rustup default stable
 rustup target add thumbv7em-none-eabihf
+```
+
+On macOS, you should be able to use this command instead
+
+```bash
+brew install rustup node # Or equivalent on your OS
+rustup-init
+rustup target add thumbv7em-none-eabihf
+cargo build
 ```
 
 Here is a quick guide about it, assuming the toolchain is already installed:
