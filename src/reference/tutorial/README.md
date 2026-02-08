@@ -10,3 +10,4 @@ Start by creating a project or directly jump to the section you want to follow:
 - [2 - Cleaning up the template](2-cleanup-template.md)
 - [3 - Moving the snake](3-moving-the-snake.md)
 - [4 - Handling snake length](4-snake-length.md)
+- [5 - Eating fruits](5-fruits.md)

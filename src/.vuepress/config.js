@@ -202,7 +202,8 @@ export default {
         //     "1-create",
         //     "2-cleanup-template",
         //     "3-moving-the-snake",
-        //     "4-snake-length"
+        //     "4-snake-length",
+        //     "5-fruits",
         //   ],
         // },
         {
