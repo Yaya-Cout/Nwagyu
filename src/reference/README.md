@@ -15,7 +15,8 @@ Here's what is documented at the time, separated under different categories :
 - [2 - Cleaning up the template](tutorial/2-cleanup-template.md)
 - [3 - Moving the snake](tutorial/3-moving-the-snake.md)
 - [4 - Handling snake length](tutorial/4-snake-length.md)
-- [5 - Eating fruits](tutorial/5-fruits.md) -->
+- [5 - Eating fruits](tutorial/5-fruits.md)
+- [5 - Game over](tutorial/6-game-over.md) -->
 
 ### [External apps](apps/)
 

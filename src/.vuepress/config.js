@@ -204,6 +204,7 @@ export default {
         //     "3-moving-the-snake",
         //     "4-snake-length",
         //     "5-fruits",
+        //     "6-game-over",
         //   ],
         // },
         {
