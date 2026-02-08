@@ -13,7 +13,8 @@ Here's what is documented at the time, separated under different categories :
 
 - [1 - Project creation](tutorial/1-create.md)
 - [2 - Cleaning up the template](tutorial/2-cleanup-template.md)
-- [3 - Moving the snake](tutorial/3-moving-the-snake.md) -->
+- [3 - Moving the snake](tutorial/3-moving-the-snake.md)
+- [4 - Handling snake length](tutorial/4-snake-length.md) -->
 
 ### [External apps](apps/)
 
