@@ -96,8 +96,8 @@ out of the screen, so I will suggest you to add it to `main.h` as a constant:
 #include "eadk.h"
 
 #define SNAKE_SIZE 10
-#define SNAKE_MAX_X_COORDINATE EADK_SCREEN_WIDTH / SNAKE_SIZE
-#define SNAKE_MAX_Y_COORDINATE EADK_SCREEN_HEIGHT / SNAKE_SIZE
+#define SNAKE_MAX_X_COORDINATE EADK_SCREEN_WIDTH / SNAKE_SIZE - 1
+#define SNAKE_MAX_Y_COORDINATE EADK_SCREEN_HEIGHT / SNAKE_SIZE - 1
 
 void error(char * message);
 ```

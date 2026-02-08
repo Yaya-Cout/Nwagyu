@@ -12,3 +12,4 @@ Start by creating a project or directly jump to the section you want to follow:
 - [4 - Handling snake length](4-snake-length.md)
 - [5 - Eating fruits](5-fruits.md)
 - [6 - Game over](6-game-over.md)
+- [7 - Map edge handling](7-map-edge.md)

@@ -205,6 +205,7 @@ export default {
         //     "4-snake-length",
         //     "5-fruits",
         //     "6-game-over",
+        //     "7-map-edge",
         //   ],
         // },
         {
