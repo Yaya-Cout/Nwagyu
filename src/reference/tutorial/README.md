@@ -14,3 +14,4 @@ Start by creating a project or directly jump to the section you want to follow:
 - [6 - Game over](6-game-over.md)
 - [7 - Map edge handling](7-map-edge.md)
 - [8 - Frame limiter](8-frame-limiter.md)
+- [9 - Progressive fruits spawning](9-fruits-spawning.md)
