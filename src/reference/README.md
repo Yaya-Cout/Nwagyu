@@ -17,7 +17,8 @@ Here's what is documented at the time, separated under different categories :
 - [4 - Handling snake length](tutorial/4-snake-length.md)
 - [5 - Eating fruits](tutorial/5-fruits.md)
 - [6 - Game over](tutorial/6-game-over.md)
-- [7 - Map edge handling](tutorial/7-map-edge.md) -->
+- [7 - Map edge handling](tutorial/7-map-edge.md)
+- [8 - Frame limiter](tutorial/8-frame-limiter.md) -->
 
 ### [External apps](apps/)
 

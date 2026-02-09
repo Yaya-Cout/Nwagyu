@@ -206,6 +206,7 @@ export default {
         //     "5-fruits",
         //     "6-game-over",
         //     "7-map-edge",
+        //     "8-frame-limiter",
         //   ],
         // },
         {
