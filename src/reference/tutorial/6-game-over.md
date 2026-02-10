@@ -156,8 +156,8 @@ void add_fruit() {
     }
 
     for (int i = 0; i < SNAKE_FRUITS_MAX_TRY ; i++) {
-        uint16_t x = eadk_random() % (320 / SNAKE_SIZE);
-        uint16_t y = eadk_random() % (240 / SNAKE_SIZE);
+        uint16_t x = eadk_random() % (SNAKE_MAX_X_COORDINATE);
+        uint16_t y = eadk_random() % (SNAKE_MAX_Y_COORDINATE);
 
         if (check_snake_collision((snake_element_t){x, y}, true)) {
             continue;

@@ -112,8 +112,8 @@ And simplify our code using the new constants:
 
 ```c
 void add_fruit() {
-    uint16_t x = eadk_random() % (320 / SNAKE_SIZE);
-    uint16_t y = eadk_random() % (240 / SNAKE_SIZE);
+    uint16_t x = eadk_random() % (SNAKE_MAX_X_COORDINATE);
+    uint16_t y = eadk_random() % (SNAKE_MAX_Y_COORDINATE);
 
     for (int i = 0; i < SNAKE_MAX_FRUITS ; i++) {
         if ((FRUITS[i].x == UINT16_MAX) && (FRUITS[i].y == UINT16_MAX)) {
