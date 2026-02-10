@@ -15,3 +15,4 @@ Start by creating a project or directly jump to the section you want to follow:
 - [7 - Map edge handling](7-map-edge.md)
 - [8 - Frame limiter](8-frame-limiter.md)
 - [9 - Progressive fruits spawning](9-fruits-spawning.md)
+- [10 - Score calculator and saving](10-score.md)
