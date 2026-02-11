@@ -152,20 +152,20 @@ do {
     eadk_keyboard_state_t keyboard = eadk_keyboard_scan();
 
     if (eadk_keyboard_key_down(keyboard, eadk_key_up)) {
-    up();
+        up();
     }
     if (eadk_keyboard_key_down(keyboard, eadk_key_right)) {
-    right();
+        right();
     }
     if (eadk_keyboard_key_down(keyboard, eadk_key_down)) {
-    down();
+        down();
     }
     if (eadk_keyboard_key_down(keyboard, eadk_key_left)) {
-    left();
+        left();
     }
 
     if (eadk_keyboard_key_down(keyboard, eadk_key_back) || eadk_keyboard_key_down(keyboard, eadk_key_home) || eadk_keyboard_key_down(keyboard, eadk_key_on_off)) {
-    return 0;
+        return 0;
     }
 
     eadk_timing_msleep(1);
