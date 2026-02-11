@@ -20,7 +20,8 @@ Here's what is documented at the time, separated under different categories :
 - [7 - Map edge handling](tutorial/7-map-edge.md)
 - [8 - Frame limiter](tutorial/8-frame-limiter.md)
 - [9 - Progressive fruits spawning](tutorial/9-fruits-spawning.md)
-- [10 - Score calculator and saving](tutorial/10-score.md) -->
+- [10 - Score calculator and saving](tutorial/10-score.md)
+- [11 - Map support](tutorial/11-maps.md) -->
 
 ### [External apps](apps/)
 

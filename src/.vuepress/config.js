@@ -209,6 +209,7 @@ export default {
         //     "8-frame-limiter",
         //     "9-fruits-spawning",
         //     "10-score",
+        //     "11-maps",
         //   ],
         // },
         {
