@@ -75,7 +75,6 @@ git push -u origin main
 ```
 
 After these commands, my app is available on my own repo: <https://codeberg.org/Yaya-Cout/Snake>
-:::
 
 ## Fixing templates issues
 
