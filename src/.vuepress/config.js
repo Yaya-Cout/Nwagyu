@@ -210,6 +210,7 @@ export default {
         //     "9-fruits-spawning",
         //     "10-score",
         //     "11-maps",
+        //     "12-icon",
         //   ],
         // },
         {

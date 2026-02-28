@@ -17,3 +17,4 @@ Start by creating a project or directly jump to the section you want to follow:
 - [9 - Progressive fruits spawning](9-fruits-spawning.md)
 - [10 - Score calculator and saving](10-score.md)
 - [11 - Map support](11-maps.md)
+- [12 - App icon](12-icon.md)
