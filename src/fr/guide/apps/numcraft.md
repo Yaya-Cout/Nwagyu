@@ -15,6 +15,10 @@ Les versions officielles sont disponibles sur [GitHub Releases](https://github.c
 Si vous préférez, vous pouvez télécharger Numcraft depuis ce lien (qui pourrait
 ne pas être à jour car le jeu est en développement rapide) :
 
+- [Numcraft v0.1.7](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.7/Numcraft.nwa), correction du curseur et de la gravité
+
+::: details Anciennes versions
+
 - [Numcraft v0.1.6](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.6/Numcraft.nwa), meilleure stabilité, support Upsilon
 - [Numcraft v0.1.5](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.5/Numcraft.nwa), meilleure stabilité, nouveau paramètre
 - [Numcraft v0.1.4](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.4/Numcraft.nwa), fix de la corruption de mémoire
@@ -23,10 +27,7 @@ ne pas être à jour car le jeu est en développement rapide) :
 - [Numcraft v0.0.9](https://github.com/yannis300307/NumcraftRust/releases/download/v0.0.9/Numcraft.nwa), mode créatif, inventaire
 - [Numcraft v0.0.8](https://github.com/yannis300307/NumcraftRust/releases/download/v0.0.8/Numcraft.nwa)
 
-<!-- - [Numcraft v0.1.3](https://yaya-cout.github.io/Nwagyu/assets/apps/numcraft-0.1.3.nwa), meilleure génération du monde, crafting
-- [Numcraft v0.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/numcraft-0.1.0.nwa), mode survie, collisions, objets
-- [Numcraft v0.0.9](https://yaya-cout.github.io/Nwagyu/assets/apps/numcraft-0.0.9.nwa), mode créatif, inventaire
-- [Numcraft v0.0.8](https://yaya-cout.github.io/Nwagyu/assets/apps/numcraft-0.0.8.nwa) -->
+:::
 
 ::: warning
 Les fichiers de sauvegarde ne sont pas toujours compatibles entre toutes les versions. La compatibilté est indiquée sur la page de chaque release.
