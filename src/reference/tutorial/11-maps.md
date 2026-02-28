@@ -27,7 +27,7 @@ These values are starting at 0, so we need to add one to the size we are going
 to use for our map.
 
 Create a new folder `maps` in your `src` folder and create a new raw text file
-named `base.txt`. 
+named `base.txt`.
 
 ::: warning
 

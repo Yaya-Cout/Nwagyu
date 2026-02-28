@@ -292,10 +292,10 @@ your app (preferably with source code available) to get it added to the website
 Here are the steps to follow:
 
 1. Fork the repository
-2. Add you app to `src/.vuepress/public/assets/apps/appname-X.Y.Z.nwa`
+2. Add your app to `src/.vuepress/public/assets/apps/appname-X.Y.Z.nwa`
 3. Create a page for your app in `src/guide/apps/appname.md` with the same
    structure as other pages.
-4. Reference you app in `src/guide/README.md` and `src/guide/apps/README.md`
+4. Reference your app in `src/guide/README.md` and `src/guide/apps/README.md`
 5. Repeat all the steps for the french translations by replacing `src/guide` by
    `src/fr/guide` in paths.
 6. Add your app to the navbar inside `src/.vuepress/config.js`, in the

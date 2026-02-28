@@ -53,7 +53,7 @@ I use [Codeberg](https://codeberg.org/) to host my git repo because I agree with
 their political views, but you can use others git providers like Gitlab, GitHub
 or Sourcehut if you prefer.
 
-The first step to publish you app is to actually create a git repository on a
+The first step to publish your app is to actually create a git repository on a
 server. It is usually quite intuitive. For exemple, on Coderberg you can follow
 this [tutorial](https://docs.codeberg.org/getting-started/first-repository/).
 
@@ -74,7 +74,7 @@ git branch -m master main # Optional, it renames the default branch from "master
 git push -u origin main
 ```
 
-After these commands, my app is available on my own repo: <https://codeberg.org/Yaya-Cout/Snake>
+After these commands, my appr is available on my own repo: <https://codeberg.org/Yaya-Cout/Snake>
 
 ## Fixing templates issues
 
@@ -113,7 +113,7 @@ Open the `Makefile`, and apply the following changes:
 The first one upgrade `nwlink`, and the second one change one of the calls to
 `nwlink` as the syntax changed on the new version.
 
-You app is now ready to run!
+Your app is now ready to run!
 
 ## Updating your git repo
 
@@ -257,7 +257,7 @@ We will actually start coding the app on next section.
 
 ## Getting a NWA file
 
-Having you app on your calculator is great, but how to distribute it? That's
+Having your app on your calculator is great, but how to distribute it? That's
 where `nwa` files enter the game (they are just special `ELF` files, in the same
 format as a computer app).
 
