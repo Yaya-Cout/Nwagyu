@@ -9,7 +9,7 @@ Here's what is documented at the time, separated under different categories :
 
 ## Categories
 
-<!-- ### [Tutorial](tutorial/)
+### [Tutorial](tutorial/)
 
 - [1 - Project creation](tutorial/1-create.md)
 - [2 - Cleaning up the template](tutorial/2-cleanup-template.md)
@@ -24,7 +24,7 @@ Here's what is documented at the time, separated under different categories :
 - [11 - Map support](tutorial/11-maps.md)
 - [12 - App icon](tutorial/12-icon.md)
 - [13 - Increasing speed](tutorial/13-increasing-speed.md)
-- [14 - Conclusion](tutorial/14-conclusion.md) -->
+- [14 - Conclusion](tutorial/14-conclusion.md)
 
 ### [External apps](apps/)
 
