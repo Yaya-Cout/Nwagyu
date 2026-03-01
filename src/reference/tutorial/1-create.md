@@ -17,6 +17,12 @@ to understand more about the NumWorks external apps.
 This page cover a lot of generalities about git usage, which isn't strictly
 required for the app (but ease up debugging and code sharing).
 
+If you need help, simply want to send me a message or want to show your
+creations, don't hesitate to open an issue on the [Nwagyu GitHub repo] or
+[Snake Codeberg repo], join our [Discord server], send me a message on [Matrix]
+(we don't have a NumWorks room yet), by email (I won't write it here to avoid
+bots) or on the Fediverse at [@yayacout@social.linux.pizza](https://social.linux.pizza/@yayacout).
+
 ## Cloning the app
 
 So, to begin with, we will create a new C app based on NumWorks official
