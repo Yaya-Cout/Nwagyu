@@ -214,6 +214,26 @@ ideal for initializing struct lists.
 
 Instead, we will simply use a for loop.
 
+If you only know Python, this syntax may be quite surprising compared to
+`for i in range(SNAKE_MAX_SIZE):`. Otherwise, some languages such as JavaScript
+have syntax inspired by C.
+
+It works in 3 parts:
+
+```c
+for (initial code; condition to reenter the loop; code to be executed at each iteration) {}
+```
+
+The initial code is where you initialize your variable with its type (`x` for
+example). The condition is simply a condition like a while loop. The third
+expression is where you increment your variable.
+
+Note that in C (and in JavaScript which copied the syntax), instead of writing
+`i = i + 1` or `i += 1`, you can shorten the code even more by using `i++`.
+
+This being said, you should now be able to understand (and hopefully write) C
+for loops.
+
 We now need to know to which state do we want to initialize the list. In our
 case, zero initialization isn't correct, because it's a valid snake coordinates.
 `UINT16_MAX` contains the maximum value storable on an `uint16_t`, and shouldn't

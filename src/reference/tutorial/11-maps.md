@@ -360,29 +360,9 @@ uint8_t map_value_at_index(uint32_t x, uint32_t y) {
 }
 ```
 
-To draw the map, we are just iterating on the x and y coordinates. If you only
-know Python, this syntax may be quite surprising compared to
-`for x in range(10):`. Otherwise, some languages such as JavaScript have syntax
-inspired by C.
-
-It works in 3 parts:
-
-```c
-for (initial code; condition to reenter the loop; code to be executed at each iteration) {}
-```
-
-The initial code is where you initialize your variable with its type (`x` for
-example). The condition is simply a condition like a while loop. The third
-expression is where you increment your variable.
-
-Note that in C (and in JavaScript which copied the syntax), instead of writing
-`i = i + 1` or `i += 1`, you can shorten the code even more by using `i++`.
-
-This being said, you should now be able to understand (and hopefully write) C
-for loops.
-
-When iterating on the coordinates, we just need to check if the value is `1`
-(obstacle) and draw a wall at this place.
+To draw the map, we are just iterating on the x and y coordinates. While doing
+so, we just need to check if the value is `1` (obstacle) and draw a wall at this
+place.
 
 I also added a line at the bottom to add a better separation between the game
 area and the score.
