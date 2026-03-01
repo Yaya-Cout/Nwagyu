@@ -18,3 +18,4 @@ Start by creating a project or directly jump to the section you want to follow:
 - [10 - Score calculator and saving](10-score.md)
 - [11 - Map support](11-maps.md)
 - [12 - App icon](12-icon.md)
+- [13 - Increasing speed](13-increasing-speed.md)

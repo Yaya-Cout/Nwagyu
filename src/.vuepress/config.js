@@ -211,6 +211,7 @@ export default {
         //     "10-score",
         //     "11-maps",
         //     "12-icon",
+        //     "13-increasing-speed"
         //   ],
         // },
         {

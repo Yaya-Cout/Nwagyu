@@ -22,7 +22,8 @@ Here's what is documented at the time, separated under different categories :
 - [9 - Progressive fruits spawning](tutorial/9-fruits-spawning.md)
 - [10 - Score calculator and saving](tutorial/10-score.md)
 - [11 - Map support](tutorial/11-maps.md)
-- [12 - App icon](tutorial/12-icon.md) -->
+- [12 - App icon](tutorial/12-icon.md)
+- [13 - Increasing speed](tutorial/13-increasing-speed.md) -->
 
 ### [External apps](apps/)
 
