@@ -3,24 +3,24 @@
 ## Introduction
 
 This is a step-by-step tutorial for external app creation. At the end of this
-tutorial you will have a working snake game with some extra features like high-
-score saving or custom maps.
+tutorial you will have a working snake game with some extra features like
+high-score saving or custom maps.
 
 It's intended to be used by anyone wanting to create an external app in the NWA
 format. The app will be written in C, so minimal C knowledge will be required,
 but Python understanding should be enough to understand the majority of this
-book. A text editor and a Linux/WSL installation is recommanded.
+book. A text editor and a Linux/WSL installation is recommended.
 
 You can complete this tutorial by reading the rest of the [documentation](../)
 to understand more about the NumWorks external apps.
 
 This page cover a lot of generalities about git usage, which isn't strictly
-required for the app (but ease up a lot debugging and code sharing).
+required for the app (but ease up debugging and code sharing).
 
 ## Cloning the app
 
 So, to begin with, we will create a new C app based on NumWorks official
-template. For more informations on templates please read the
+template. For more information on templates please read the
 [Creating your own application](../apps/creating-application.md) page.
 
 We start by installing the dependencies so we won't need to worry about them
@@ -47,14 +47,14 @@ cd Snake  # Select the directory inside your terminal
 ## Publishing to a git repository (optional)
 
 Most people (including me) prefer tracking their work in a git repository to
-share it to others people and keep an history of work done on a project.
+share it to others people and keep a history of work done on a project.
 
 I use [Codeberg](https://codeberg.org/) to host my git repo because I agree with
-their political views, but you can use others git providers like Gitlab, GitHub
+their political views, but you can use others git providers like GitLab, GitHub
 or Sourcehut if you prefer.
 
 The first step to publish your app is to actually create a git repository on a
-server. It is usually quite intuitive. For exemple, on Coderberg you can follow
+server. It is usually quite intuitive. For example, on Coderberg you can follow
 this [tutorial](https://docs.codeberg.org/getting-started/first-repository/).
 
 At this point, your local git repo is still configured to use NumWorks'
@@ -74,7 +74,7 @@ git branch -m master main # Optional, it renames the default branch from "master
 git push -u origin main
 ```
 
-After these commands, my appr is available on my own repo: <https://codeberg.org/Yaya-Cout/Snake>
+After these commands, my apps is available on my own repo: <https://codeberg.org/Yaya-Cout/Snake>
 
 ## Fixing templates issues
 
@@ -142,13 +142,13 @@ git restore --staged Makefile
 You are now back to the point before the `git add`.
 
 If you want to only commit some parts of a file, use `git add -p` (if you don't
-specify a filename, it will go though all the files of your project)
+specify a filename, it will go through all the files of your project)
 
 ```bash
 git add -p Makefile
 ```
 
-It will shows the diff for each change, which you can add using "y" or ignore
+It will show the diff for each change, which you can add using "y" or ignore
 using "n"
 :::
 
@@ -277,3 +277,8 @@ the `src/input.txt` file then install the app (we will remove this requirement
 on the next page).
 
 If you managed to run the app, let's go on to the real app creation!
+
+[Nwagyu GitHub repo]: https://github.com/Yaya-Cout/Nwagyu/issues
+[Snake Codeberg repo]: https://codeberg.org/Yaya-Cout/Snake/issues
+[Discord server]: https://discord.gg/omega-community-663420259851567114
+[Matrix]: https://matrix.to/#/@yaya.cout:tchncs.de

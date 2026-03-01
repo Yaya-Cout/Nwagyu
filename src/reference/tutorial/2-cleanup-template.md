@@ -5,8 +5,8 @@ last bit of preparation before app creation: removing useless things from the
 template (I will add them back during the tutorial if needed)
 
 The template contains lots of unnecessary code (at least for now), so I
-recommand you to backup the original `main.c` file and create a new one with the
-following content:
+recommend you to back up the original `main.c` file and create a new one with
+the following content:
 
 ```c
 #include <eadk.h>

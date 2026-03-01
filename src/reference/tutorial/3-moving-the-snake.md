@@ -35,7 +35,7 @@ int y = 0;
 
 We also need to save the snake direction. To simplify the code we will use
 constants (in C++ or in Rust an enum would be more adapted, but C doesn't have
-such structures). To have a more clear code let's create an header file, as we
+such structures). To have a more clear code let's create a header file, as we
 will likely need these values in other files.
 
 Create `main.h` with the following content:
@@ -71,7 +71,7 @@ the current coordinates and save the old ones in another variable. The old
 variables will be replaced with a list when the snake will have a size.
 
 The first step is to create an infinite loop. Unfortunately, the template use an
-old C version without built-in booleans so you need to include `stdbool.h` at
+old C version without built-in Booleans so you need to include `stdbool.h` at
 the top of the file (or use `while (1)` instead).
 
 ```c
@@ -104,7 +104,7 @@ while (true) {
 
 If you look at this code, you may notice I've added an `error` function: the
 `direction` shouldn't be invalid, but in case it does, our code won't be
-intended for it so I prefer to handle this case. It can be helpful in case you
+intended for it, so I prefer to handle this case. It can be helpful in case you
 get memory corruption too.
 
 Here's the code of my `error` function, which just displays a text on a red
@@ -134,7 +134,7 @@ Let's start by defining the snake size in the `main.h` file:
 
 For the display itself, we will use `eadk_display_push_rect_uniform`. It takes
 as argument an `eadk_rect_t` and an `eadk_color_t`. The color is just a renamed
-`uint16_t` value, so any 16 bit color (RGB565) will work, but I prefer using the
+`uint16_t` value, so any 16-bit color (RGB565) will work, but I prefer using the
 constants for clarity.
 
 ```c
@@ -143,8 +143,8 @@ eadk_display_push_rect_uniform((eadk_rect_t){old_x * SNAKE_SIZE, old_y * SNAKE_S
 ```
 
 You can see I'm using a cast for initializing the `eadk_rect_t`, I don't know if
-there's a better syntax for it in C, but this one is working and is efficient so
-I just use it.
+there's a better syntax for it in C, but this one is working and is efficient,
+so I just use it.
 
 An `eadk_rect_t` has 4 fields: x index, y index, width, height. Their order is
 similar to the Python `fill_rect` function.
@@ -166,9 +166,9 @@ eadk_timing_msleep(100);
 If you execute the app right now, you will now see the snake moving on the
 screen (and wrapping around), which is way better.
 
-An useful feature could be to actually change the snake direction (I'm not a
+A useful feature could be to actually change the snake direction (I'm not a
 professional snake dev, but I think users will prefer if they can control the
-snake :)
+snake :))
 
 ## Handling key press
 
@@ -198,8 +198,8 @@ if (eadk_keyboard_key_down(keyboard, eadk_key_left) && direction != SNAKE_DIRECT
 }
 ```
 
-Notice how we check for the current direction to prevent the user doing an
-U-turn (which makes no sense in a snake)
+Notice how we check for the current direction to prevent the user doing a U-turn
+(which makes no sense in a snake)
 
 We can also allow the user to exit the app (the automatic OnOff and Home keys
 handling is quite slow sometimes):
@@ -218,5 +218,5 @@ Some features are still missing from the snake at that point:
 - Best score saving
 - Obstacles/world-wrap
 
-In the next part, we will replace the coordinates system with a list
+In the next part, we will replace the coordinate system with a list
 containing the coordinates of each element of the snake.

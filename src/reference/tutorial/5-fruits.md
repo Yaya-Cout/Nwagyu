@@ -26,7 +26,7 @@ typedef struct {
 void init_fruits();
 ```
 
-In `fruits.c`, we define the list and its init code:
+In `fruits.c`, we define the list and its initialization code:
 
 ```c
 #include "fruits.h"
@@ -75,11 +75,11 @@ y = random.randint(0, 240 / SNAKE_SIZE)
 
 In the NumWorks C API, there is no function such as `randint`. Instead, you have
 `eadk_random()` which returns 32 bits of random data, which can be stored as a
-float (to get a random floating-point number) or a an `int`/`uint` to get an
+float (to get a random floating-point number) or an `int`/`uint` to get a
 (signed or not) integer.
 
 Once you have an integer, you can use a [modulo](https://en.wikipedia.org/wiki/Modulo)
-(the rest of an euclidean division, or if you prefer, congruences) to cap its
+(the rest of a Euclidean division, or if you prefer, congruences) to cap its
 value.
 
 The Python code will translate this way in C:
@@ -133,12 +133,12 @@ start the game with one fruit.
 We have a snake, and we have fruits. How about making both interact?
 
 The idea is to have the `main.c` asking `snake.c` about its location, then
-asking `fruits.c` to know weather a fruit is present at this location. If a
+asking `fruits.c` to know whether a fruit is present at this location. If a
 fruit is present, `main.c` will increase the snake length and ask `fruits.c` to
 remove the current fruit (and spawn a new fruit if no fruit is present anymore).
 
-This will also allows `main.c` to keep track of the number of eaten fruits in
-the future as a score.
+This will also allow `main.c` to keep track of the number of eaten fruits in the
+future as a score.
 
 Let's implement it:
 

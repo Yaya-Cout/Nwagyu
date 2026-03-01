@@ -48,7 +48,7 @@ First, we need to define our target time. It was previously hardcoded at 100 in
 `eadk_timing_msleep(100)`, but we may want to adjust it in the future based on
 score so let's declare a variable instead.
 
-In `main()`, outside of the main loop, we add
+In `main()`, outside the main loop, we add
 
 ```c
 uint32_t target_frame_duration = 100;
@@ -81,15 +81,15 @@ while (true) {
 }
 ```
 
-As you can see, we mesure the duration of the whole loop, then compute how much
+As you can see, we measure the duration of the whole loop, then compute how much
 to sleep.
 
 One important difference between C and Python is the risk of overflow. As said
-in the last part, a negative uint is undefined behaviour. In this
-implementation, we can have a negative `timeToSleep`, if the frame duration is
-higher than the target time. To simplify the implementation, I've chosen to rely
-on this overflow being higher than `target_frame_duration` and avoid sleeping in
-this case, even if it's not technically valid.
+in the last part, a negative uint is undefined behavior. In this implementation,
+we can have a negative `timeToSleep`, if the frame duration is higher than the
+target time. To simplify the implementation, I've chosen to rely on this
+overflow being higher than `target_frame_duration` and avoid sleeping in this
+case, even if it's not technically valid.
 
 ## More complex frame limiters
 
@@ -128,7 +128,7 @@ Wii, which has a really great [blog](https://dolphin-emu.org/blog/)) will start
 telling you you need to worry about frame pacing too, but let's try to get our
 game run realtime before worrying about this kind of stuff.
 
-If you are writing a ressource-intensive game, or would like to have your game
+If you are writing a resource-intensive game, or would like to have your game
 use the full potential of the N0120 while still running fine on N0110, this
 trick will help you.
 

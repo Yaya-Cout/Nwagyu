@@ -16,12 +16,12 @@ with a drawback:
 - A list, but with harder collision checks, which require comparing each element
   of each list against each other (snake positions collisions, head of
   snake-food collisions, head of snake-wall/obstacles collisions)
-- A combinaison of both: a list to save the order of snake elements + a matrix
+- A combination of both: a list to save the order of snake elements + a matrix
   to save the whole state with easy collision checks, but with higher memory
   requirements
 
 As the main limitation on NumWorks is the memory (≈100KiB for NWA apps, 256KiB
-total for N0110/N0115, 564KiB total on the N0120 but only 256 KiB mapped for
+total for N0110/N0115, 564KiB total on the N0120, but only 256 KiB mapped for
 consistency with N0115) instead of the CPU, we will choose the list-based
 approach. In another context (e.g. Numcraft or emulator), we could have chosen
 something else as CPU speed is a limiting factor.
@@ -48,7 +48,7 @@ the whole program execution.
 Dynamic allocation works using `malloc`/`free`, which allow selecting memory
 size at runtime with the risk of memory fragmentation and allocation failure
 (NumWorks made a great [article](https://www.numworks.com/fr/blog/eviter-utilisation-malloc/)
-in french about how and why they wrote Epsilon, the calculator firmware, without
+in French about how and why they wrote Epsilon, the calculator firmware, without
 using any `malloc`)
 
 To allocate using malloc two strategies exists:
@@ -157,7 +157,7 @@ void caller() {
 
 ### Implementation
 
-For our app, we will use a statically allocated list, with an high cap on the
+For our app, we will use a statically allocated list, with a high cap on the
 maximum snake size (like 1000) to be almost sure the user never encounter it
 which will simplify memory management.
 
@@ -214,8 +214,8 @@ ideal for initializing struct lists.
 
 Instead, we will simply use a for loop.
 
-We now need to know to which state do we want to init the list. In our case,
-zero initialization isn't correct, because it's a valid snake coordinates.
+We now need to know to which state do we want to initialize the list. In our
+case, zero initialization isn't correct, because it's a valid snake coordinates.
 `UINT16_MAX` contains the maximum value storable on an `uint16_t`, and shouldn't
 be reached during execution, so we will use that as uninitialized state marker.
 
@@ -240,7 +240,7 @@ In `snake.h`, we will declare our new (public) function:
 void init_snake(snake_element_t original_location);
 ```
 
-In our `main.c` function, we will now init the snake before the main loop.
+In our `main.c` function, we will now initialize the snake before the main loop.
 
 At the top of the file, include the snake header
 
@@ -248,8 +248,8 @@ At the top of the file, include the snake header
 #include "snake.h"
 ```
 
-And then, at the top of the `main` function, we will init our snake, spawning at
-(0,0):
+And then, at the top of the `main` function, we will initialize our snake,
+spawning at (0,0):
 
 ```c
 init_snake((snake_element_t){0, 0});
@@ -434,7 +434,7 @@ We are doing 3 things in this code:
 2. Actually clearing the screen for the disappearing part of the snake
 3. Removing the snake element from the list
 
-With this small change, our game look closer to a real snake, which can move of
+With this small change, our game looks closer to a real snake, which can move of
 the screen. :tada:
 
 Our next step: implementing fruits

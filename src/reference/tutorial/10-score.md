@@ -8,7 +8,7 @@ fruits.
 
 The implementation itself isn't hard, it's just a counter.
 
-In the `main()` function outside of the loop, we just add the current score
+In the `main()` function outside the loop, we just add the current score
 variable:
 
 ```c
@@ -142,7 +142,7 @@ if (check_fruit_collision(snake_location, true)) {
 ```
 
 A small but useful edit is to change the `error` function to not overwrite the
-score so people can see their score when they lost:
+score, so people can see their score when they lost:
 
 ```c
 void error(char * message) {
@@ -168,7 +168,7 @@ To save the best score between game, we need several components:
 3. Writing the file to the storage
 
 For the first point, we need to save each time the user eat something. An
-alternative would be to save on game over, but an user could loose their current
+alternative would be to save on game over, but a user could lose their current
 score if the pressed Home or OnOff during the game (as they are handled
 system-wide, with no way for the app to save any data).
 

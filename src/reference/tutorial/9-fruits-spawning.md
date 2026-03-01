@@ -4,7 +4,7 @@ We could tell our game is finished right now. In fact, it's already much more
 playable than most Python implementations with our key check between frames.
 
 However, a cool feature could be having multiple fruits spawning over time with
-an higher probability when no fruit was eaten in a while.
+a higher probability when no fruit was eaten in a while.
 
 The code is quite simple: we simply set a date to select the next time a fruit
 should spawn.
@@ -15,7 +15,7 @@ In `fruits.h`, we add our constant:
 #define SNAKE_MAX_FRUIT_SPAWN_TIME 15000
 ```
 
-In `fruits.c` we add the required static variable, then code to init it
+In `fruits.c` we add the required static variable, then code to initialize it
 (otherwise it would be null and always trigger a new fruit at startup)
 
 ```c

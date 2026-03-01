@@ -57,7 +57,7 @@ bool check_snake_collision_framebuffer(snake_element_t location) {
 ```
 
 This implementation would work, but it's generally a bad idea to rely on the
-framebuffer, unless you want to save RAM memory. This implementation also need
+framebuffer, unless you want to save RAM memory. This implementation also needs
 to be called before drawing the new snake location, otherwise the snake will
 always be detected as colliding with itself
 
@@ -80,7 +80,7 @@ bool check_snake_collision(snake_element_t location, bool include_head) {
 
 Notice we are iterating from 1 and not 0 if `include_head` is true, as we don't
 want to check against current location in Game over check, but we can actually
-want the other behaviour in other cases.
+want the other behavior in other cases.
 
 This function should also be made public in `snake.h` for future use:
 
@@ -92,13 +92,13 @@ bool check_snake_collision(snake_element_t location, bool include_head);
 
 ### Collision checking
 
-Now we have the collision detection, we need to use it. As we also need handle
-the game over screen, I prefer doing the magic in the `main.c`.
+Now we have the collision detection, we need to use it. As we also need to
+handle the game over screen, I prefer doing the magic in the `main.c`.
 
 I'm not an artist, so I'll just reuse our `error` function to draw the Game over
 screen.
 
-The `main()` function will now contains the following code:
+The `main()` function will now contain the following code:
 
 ```c
 snake_element_t snake_location = get_snake_location();
@@ -117,10 +117,10 @@ Feel free to try implementing a better screen in your own version.
 
 ### Avoid clearing the snake if the player moved just behind it
 
-In the current state, an edge case happen when the head of the snake goes at the
-end of the snake, at the place of the last element (which is disappearing). The
-head of the snake is drawn before the last element being cleared, which results
-in the head of the snake disappearing.
+In the current state, an edge case happens when the head of the snake goes at
+the end of the snake, at the place of the last element (which is disappearing).
+The head of the snake is drawn before the last element being cleared, which
+results in the head of the snake disappearing.
 
 A quick fix is to check for this case at the end of `move()`:
 
@@ -139,7 +139,7 @@ If you play the game for a while, you will notice a small bug: fruits can spawn
 on the snake, so you can't eat them while the snake is on it. It will also
 disappear when the snake will be cleared, so it's not ideal.
 
-Fortunately, a simple fix exist, by reusing `check_snake_collision`:
+Fortunately, a simple fix exists, by reusing `check_snake_collision`:
 
 ```c
 void add_fruit() {

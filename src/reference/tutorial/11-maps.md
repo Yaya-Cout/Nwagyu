@@ -4,7 +4,7 @@ A small addition to the basic snake game done by some implementations are maps:
 you can have obstacles on the map border and in the middle of the screen.
 
 In our case, I will implement custom map support. The implementation will
-contains several parts
+contain several parts
 
 - Raw text files representing maps
 - External file loading in our app
@@ -305,7 +305,7 @@ if (check_snake_collision(snake_location, false)) {
 
 ## Drawing the map
 
-We can know weather our map file is safe, but there's no point in doing so if we
+We can know whether our map file is safe, but there's no point in doing so if we
 don't use it.
 
 To draw our map, we will first create a new function to get data in map at
@@ -371,7 +371,7 @@ It works in 3 parts:
 for (initial code; condition to reenter the loop; code to be executed at each iteration) {}
 ```
 
-The initial code is where you initialize your variable with it's type (`x` for
+The initial code is where you initialize your variable with its type (`x` for
 example). The condition is simply a condition like a while loop. The third
 expression is where you increment your variable.
 
@@ -412,7 +412,7 @@ new pixels are always going to be available, for any `SNAKE_SIZE` value:
 #define SNAKE_MAX_Y_COORDINATE (EADK_SCREEN_HEIGHT - 20) / SNAKE_SIZE - 1
 ```
 
-We also need to create a constant containing our wall color as grey isn't
+We also need to create a constant containing our wall color as gray isn't
 available as an EADK const. In case you want to know, the available colors are:
 
 - black
@@ -427,7 +427,7 @@ screens. To select colors in this format, you can convert by yourself, or use
 this [color picker](https://rgbcolorpicker.com/565) works great (copy the value
 starting with `0x`).
 
-Anyway, we just need to add our grey color, so let's create `map.h` with the
+Anyway, we just need to add our gray color, so let's create `map.h` with the
 following content:
 
 ```c
@@ -521,7 +521,7 @@ if (check_map_collision(snake_location)) {
 }
 ```
 
-The last bit is prevent fruits from spawning on the map, in `add_fruit`
+The last bit is preventing fruits from spawning on the map, in `add_fruit`
 (`fruits.c`):
 
 ```c

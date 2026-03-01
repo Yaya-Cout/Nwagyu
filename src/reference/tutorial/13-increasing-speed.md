@@ -1,6 +1,6 @@
 # Part 13: Increasing speed
 
-The snake game get progressively harder over time due to the snake tail length
+The snake game gets progressively harder over time due to the snake tail length
 increasing, but once you have some strategies, you can manage to almost never
 die. To reduce this problem, we will add a small difficulty touch: increasing
 the snake speed when a fruit is eaten

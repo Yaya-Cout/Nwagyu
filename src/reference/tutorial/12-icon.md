@@ -11,8 +11,8 @@ tutorial, I will use [Inkscape](https://inkscape.org/), one of the best SVG
 editor, which I use for almost everything (I still use GIMP for raster image
 edition, but not for from scratch creation).
 
-Note that creating or reprocessing the icon on GIMP can sometimes leads to
-better results if you want to avoid blurry edges on your icon.
+Note that creating or reprocessing the icon on GIMP can sometimes lead to better
+results if you want to avoid blurry edges on your icon.
 
 ### NumWorks color palette
 
@@ -35,7 +35,7 @@ Note that some native apps (e.g. Distributions) invert background and foreground
 colors, probably to create style variations improving diversity.
 
 Some used colors aren't in this palette, like the Settings icon which use pure
-white for the sliders, and another kind of grey for the background.
+white for the sliders, and another kind of gray for the background.
 
 Be careful with reusing NumWorks branding, as they may not be happy with people
 doing so. Most icons were available in [Epsilon 15](https://github.com/numworks/epsilon/tree/version-15?tab=readme-ov-file),
@@ -75,8 +75,8 @@ Regression icons.
 
 ### Templates
 
-I won't do a design tutorial, as I'm really bad at design. If you want, here
-are templates of Upsilon icons and Epsilon (aka native) icons:
+I won't do a design tutorial, as I'm terrible at design. If you want, here are
+templates of Upsilon icons and Epsilon (aka native) icons:
 
 ![Epsilon](./12-epsilon-icon.svg)
 
