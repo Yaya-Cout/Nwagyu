@@ -23,6 +23,9 @@ creations, don't hesitate to open an issue on the [Nwagyu GitHub repo] or
 (we don't have a NumWorks room yet), by email (I won't write it here to avoid
 bots) or on the Fediverse at [@yayacout@social.linux.pizza](https://social.linux.pizza/@yayacout).
 
+If you want to see the final code version to compare, you can find it here:
+<https://codeberg.org/Yaya-Cout/Snake/>
+
 ## Cloning the app
 
 So, to begin with, we will create a new C app based on NumWorks official
@@ -80,7 +83,7 @@ git branch -m master main # Optional, it renames the default branch from "master
 git push -u origin main
 ```
 
-After these commands, my apps is available on my own repo: <https://codeberg.org/Yaya-Cout/Snake>
+After these commands, my app is available on my own repo: <https://codeberg.org/Yaya-Cout/Snake>
 
 ## Fixing templates issues
 

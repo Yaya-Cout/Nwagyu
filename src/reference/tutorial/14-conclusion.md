@@ -28,6 +28,9 @@ some ideas of possibles improvements, you can try doing the following:
 - Creating another app
 - And of course whatever you want to implement, it's your game after all
 
+The code you should have if you followed the tutorial is available here:
+<https://codeberg.org/Yaya-Cout/Snake/>
+
 If you need help, simply want to send me a message or want to show your
 creations, don't hesitate to open an issue on the [Nwagyu GitHub repo] or
 [Snake Codeberg repo], join our [Discord server], send me a message on [Matrix]
