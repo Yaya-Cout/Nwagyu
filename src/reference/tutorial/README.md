@@ -1,8 +1,8 @@
 # External app tutorial
 
 This is a step-by-step tutorial for external app creation. At the end of this
-tutorial you will have a working snake game with some extra features like high-
-score saving or custom maps.
+tutorial you will have a working snake game with some extra features like
+high-score saving or custom maps.
 
 Start by creating a project or directly jump to the section you want to follow:
 
@@ -19,3 +19,4 @@ Start by creating a project or directly jump to the section you want to follow:
 - [11 - Map support](11-maps.md)
 - [12 - App icon](12-icon.md)
 - [13 - Increasing speed](13-increasing-speed.md)
+- [14 - Conclusion](14-conclusion.md)

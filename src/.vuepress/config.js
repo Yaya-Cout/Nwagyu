@@ -197,7 +197,7 @@ export default {
         //   text: 'Tutorial',
         //   link: '/reference/tutorial/',
         //   prefix: '/reference/tutorial/',
-        //   // collapsible: true,
+        //   collapsible: true,
         //   children: [
         //     "1-create",
         //     "2-cleanup-template",
@@ -211,7 +211,8 @@ export default {
         //     "10-score",
         //     "11-maps",
         //     "12-icon",
-        //     "13-increasing-speed"
+        //     "13-increasing-speed",
+        //     "14-conclusion",
         //   ],
         // },
         {
