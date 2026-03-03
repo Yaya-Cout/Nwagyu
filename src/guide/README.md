@@ -20,6 +20,7 @@ calculator. Here is the list of the apps that are currently available:
 - [Numcraft](./apps/numcraft.md): Minecraft-like sandbox game
 - [Celeste Classic](./apps/celeste.md): Platform game
 - [Wabbitemu](./apps/wabbitemu.md): TI-84 emulator
+- [Chip-8](./apps/chip-8.md): CHIP-8 emulator
 
 ### Tools
 
