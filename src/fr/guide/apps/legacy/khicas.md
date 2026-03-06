@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # KhiCAS
 
 <!-- FIXME: Translate it if it's needed (I didn't translated it because I'm
