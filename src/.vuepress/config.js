@@ -3,7 +3,9 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 // import { redirectPlugin } from '@vuepress/plugin-redirect'
 import { searchPlugin } from '@vuepress/plugin-search'
+import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
+const HOSTNAME = "https://yaya-cout.github.io"
 // Base URL for website
 const BASE = "/Nwagyu/"
 
@@ -27,6 +29,10 @@ export default {
           placeholder: 'Rechercher',
         },
       },
+    }),
+    sitemapPlugin({
+      hostname: HOSTNAME + BASE,
+      // options
     }),
   ],
 
