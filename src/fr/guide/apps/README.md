@@ -17,6 +17,7 @@ Voici une liste des applications actuellement disponibles :
 - [Numcraft](./numcraft.md): Jeu de bac à sable type Minecraft
 - [Celeste Classic](./celeste.md): Jeu de plateforme
 - [Wabbitemu](./wabbitemu.md): Émulateur TI-84
+- [CHIP-8](./chip-8.md): Émulateur CHIP-8
 
 ### Outils
 
