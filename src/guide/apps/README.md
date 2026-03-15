@@ -17,6 +17,7 @@ Here is the list of the apps that are currently available:
 - [Numcraft](./numcraft.md): Minecraft-like sandbox game
 - [Celeste Classic](./celeste.md): Platform game
 - [Wabbitemu](./wabbitemu.md): TI-84 emulator
+- [Wave](./wave.md): A Geometry Dash Wave style game
 
 ### Tools
 
