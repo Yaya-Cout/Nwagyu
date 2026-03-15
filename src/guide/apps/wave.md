@@ -7,7 +7,10 @@ This game isn’t easy—it requires precision, timing, and skill.
 Try to beat the high score *(509 at hard)* and prove your skills! (Like the real game so)
 
 <img src="https://github.com/Aprotonix/NumworksGeometryDashWave/blob/main/doc/game.gif" width="300">
+<sub>Sorry for bad quality ;)</sub>
 
+<br>
+<br>
 
 The game includes **3 difficulty levels**:
 - Easy
