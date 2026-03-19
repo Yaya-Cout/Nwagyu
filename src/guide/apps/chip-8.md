@@ -7,6 +7,7 @@ and more classics.
 ## Usage
 
 To load a ROM, find your desired ROM by searching for it online, most of them should be free (public domain) and easy to find.
+This repository [here](https://github.com/kripod/chip8-roms) contains many games. Make sure to download them as `.ch8`.
 
 Use this unofficial (but very handy) [site](https://yaya-cout.github.io/Numworks-connector/#/) to load your ROMs
 to your calculators filesystem. Ensure it ends in `.ch8` or it won't be recognized.
@@ -42,7 +43,7 @@ even though you probably don't want to use your calculator to debug them.
 
 You can download the CHIP-8 app from this link:
 
-- [CHIP-8 v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/chip-8-v1.0.0.nwa), First release
+- [CHIP-8 v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/chip-8-1.0.0.nwa), First release
 
 ## Installation
 
