@@ -6,7 +6,8 @@ a de vieilles versions de classiques tels que PONG ou TRON.
 ## Usage
 
 Pour charger des ROMs, il suffit de chercher sur internet des ROMs gratuits et libres de droits (cela
-ne devrait pas poser de problèmes).
+ne devrait pas poser de problèmes). Ce dépôt [ici](https://github.com/kripod/chip8-roms) contient une
+multitude de jeux (entre autres). Veuillez télécharger les fichiers avec l'extension `.ch8`.
 
 À l'aide de ce [site](https://yaya-cout.github.io/Numworks-connector/#/), vous pouvez transférer vos fichiers
 `.ch8` sur la calculatrice. Toute autre extension que `.ch8` ne sera pas reconnue.
