@@ -10,7 +10,7 @@ To load a ROM, find your desired ROM by searching for it online, most of them sh
 
 Use this unofficial (but very handy) [site](https://yaya-cout.github.io/Numworks-connector/#/) to load your ROMs
 to your calculators filesystem. Ensure it ends in `.ch8` or it won't be recognized.
-Having a long filename may be ugly in the menu selection -- please keep it simple for your own sake.
+Having a long filename may be unreadable in the menu selection -- please keep it simple for your own sake.
 Eg. `Tetris.ch8`
 
 ## Controls
