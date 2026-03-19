@@ -10,7 +10,7 @@ ne devrait pas poser de problèmes).
 
 À l'aide de ce [site](https://yaya-cout.github.io/Numworks-connector/#/), vous pouvez transférer vos fichiers
 `.ch8` sur la calculatrice. Toute autre extension que `.ch8` ne sera pas reconnue.
-Évitez les noms de fichier trop longs, car cela risque de ne pas rendre très joli l'affichage. 
+Évitez les noms de fichier trop longs, car cela risque de ne pas rentrer sur l'écran. 
 Ex. `Tetris.ch8`
 
 ## Contrôles
