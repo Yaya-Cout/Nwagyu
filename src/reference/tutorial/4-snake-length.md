@@ -448,7 +448,7 @@ if ((SNAKE[max_snake_size].x != UINT16_MAX) && (SNAKE[max_snake_size].y != UINT1
 
 We are doing 3 things in this code:
 
-1. Checking weather the last element is valid. This is useful to avoid drawing
+1. Checking whether the last element is valid. This is useful to avoid drawing
    out of screen when the snake size on screen isn't equal to max_snake_size
    (which is the case when the snake is growing at startup or when eating)
 2. Actually clearing the screen for the disappearing part of the snake

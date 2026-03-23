@@ -85,7 +85,7 @@ Writing a binary to the external flash:
 dfu-util -i 0 -a 0 -s 0x90000000 -D external.bin
 ```
 
-Writing a binary to the external flash (bootloader):
+Writing a binary to the internal flash (bootloader):
 
 ```shell
 dfu-util -i 0 -a 0 -s 0x08000000:leave -D output/release/device/n0110/bootloader.bin
