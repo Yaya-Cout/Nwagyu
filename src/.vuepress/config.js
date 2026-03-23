@@ -131,6 +131,7 @@ export default {
             "numcraft",
             "celeste",
             "conway",
+            "chip-8",
           ],
         },
         {
@@ -181,6 +182,7 @@ export default {
             "numcraft",
             "celeste",
             "conway",
+            "chip-8",
           ],
         },
         {
