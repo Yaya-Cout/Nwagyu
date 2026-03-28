@@ -1,7 +1,7 @@
 import { defaultTheme } from '@vuepress/theme-default'
 import { viteBundler } from '@vuepress/bundler-vite'
 
-// import { redirectPlugin } from '@vuepress/plugin-redirect'
+import { redirectPlugin } from '@vuepress/plugin-redirect'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
@@ -12,14 +12,14 @@ const BASE = "/Nwagyu/"
 export default {
   bundler: viteBundler(),
   plugins: [
-    // redirectPlugin({
-    //   // options
-    //   localeConfig: {
-    //     '/': ['en-US', 'en-UK', 'en'],
-    //     '/fr/': ['fr-FR', 'fr-BE', 'fr-CA', 'fr-LU', 'fr'],
-    //   },
-    //   switchLocale: "modal",
-    // }),
+    redirectPlugin({
+      // options
+      localeConfig: {
+        '/': ['en-US', 'en-UK', 'en'],
+        '/fr/': ['fr-FR', 'fr-BE', 'fr-CA', 'fr-LU', 'fr'],
+      },
+      switchLocale: "popup",
+    }),
     searchPlugin({
       locales: {
         '/': {
