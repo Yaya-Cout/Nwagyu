@@ -19,9 +19,9 @@
   },
   "dependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.26",
-    "@vuepress/plugin-redirect": "^2.0.0-rc.125",
-    "@vuepress/plugin-search": "^2.0.0-rc.125",
-    "@vuepress/plugin-sitemap": "^2.0.0-rc.125",
-    "@vuepress/theme-default": "^2.0.0-rc.125"
+    "@vuepress/plugin-redirect": "^2.0.0-rc.126",
+    "@vuepress/plugin-search": "^2.0.0-rc.126",
+    "@vuepress/plugin-sitemap": "^2.0.0-rc.126",
+    "@vuepress/theme-default": "^2.0.0-rc.126"
   }
 }
