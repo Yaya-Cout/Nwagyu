@@ -55,9 +55,28 @@ export default {
     ['link', { rel: "shortcut icon", href: "/Nwagyu/favicon.ico"}],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'preload', href: '/Nwagyu/cow-head.webp', as: 'image', fetchpriority: 'high'}],
 
     // Load JavaScript for visit counter
-    ['script', { src: BASE + 'counter.js' }],
+    ['script', {}, `
+      window.addEventListener("load", () => {
+        setTimeout(() => {
+          const send = () => {
+            fetch("https://counter.yann.n1n1.xyz:8080/numworks-nwagyu-website-load", {
+              mode: "no-cors",
+              keepalive: true,
+              priority: "low"
+            }).catch(() => {});
+          };
+
+          if ("requestIdleCallback" in window) {
+            requestIdleCallback(send, { timeout: 2000 });
+          } else {
+            send();
+          }
+        }, 1000);
+      });
+    `],
   ],
   // head: ['link', { rel: 'icon', href: '/logo.png' }],
 
