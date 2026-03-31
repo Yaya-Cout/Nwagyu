@@ -93,7 +93,7 @@ Here is a schema describing some external flash layout for unlocked calculators.
 External apps are not stored the same way on locked calculators (NWA).
 
 <!-- TODO: Use the SVG, and find a good way to handle dark theme -->
-![Schema describing different external flash layouts](flash-layout.png)
+![Schema describing different external flash layouts](./flash-layout.png)
 
 [bootloader]: bootloader.md
 [kernel]: kernel.md
