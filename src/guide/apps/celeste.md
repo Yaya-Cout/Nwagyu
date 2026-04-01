@@ -14,6 +14,7 @@ Official releases are available on [GitHub Releases](https://github.com/Benchato
 
 If you prefer, you can download Celeste from this link:
 
+- [Celeste v1.4](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.4.nwa), bug fixes
 - [Celeste v1.3.1](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.3.1.nwa), new icon
 - [Celeste v1.3](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.3.nwa), save support
 - [Celeste v1.2](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.2.nwa), improved performance, frame limiter
