@@ -14,6 +14,7 @@ Les versions officielles sont disponibles sur [GitHub Releases](https://github.c
 
 Si vous préférez, vous pouvez télécharger Celeste depuis ce lien :
 
+- [Celeste v1.5](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.4.0.nwa), sauvegarde améliorée (sauvegarde et chargement auto, retour en arrière), ajout des paramètres et statistiques
 - [Celeste v1.4](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.4.0.nwa), meilleure utilisation mémoire, correction de bugs
 - [Celeste v1.3.1](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.3.1.nwa), nouvelle icône
 - [Celeste v1.3](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.3.nwa), support des sauvegardes
@@ -26,17 +27,18 @@ Si vous préférez, vous pouvez télécharger Celeste depuis ce lien :
 Les contrôles sont plutôt simples à utiliser dans le jeu, avec uniquement les
 touches de navigations étant utiles pour le jeu lui-même
 
-| Action                                       | NumWorks         |
-| -------------------------------------------- | ---------------- |
-| Dash                                         | OK               |
-| Sauter                                       | Retour           |
-| Se déplacer                                  | Flèches          |
-| Pause                                        | Backspace        |
-| Sauvegarder                                  | Shift            |
-| Charger la sauvegarde                        | Alpha            |
-| Désactiver les tremblements d'écrans         | Boite à outils   |
-| Réinitialiser                                | XNT (appui long) |
-| Quitter                                      | Home             |
+| Action                           | NumWorks         |
+| -------------------------------- | ---------------- |
+| Dash                             | OK               |
+| Sauter                           | Retour           |
+| Se déplacer                      | Flèches          |
+| Pause                            | Backspace        |
+| Sauvegarder                      | Shift            |
+| Charger la sauvegarde            | Alpha            |
+| Charger la sauvegarde précédente | Alpha            |
+| Paramètres et statistiques       | Boite à outils   |
+| Réinitialiser                    | XNT (appui long) |
+| Quitter                          | Home             |
 
 ## Installation
 

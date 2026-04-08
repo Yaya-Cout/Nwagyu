@@ -14,6 +14,7 @@ Official releases are available on [GitHub Releases](https://github.com/Benchato
 
 If you prefer, you can download Celeste from this link:
 
+- [Celeste v1.5](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.4.0.nwa), improved saving (rollback, autosave, autoload), added settings and stats
 - [Celeste v1.4](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.4.0.nwa), better memory usage, fix bugs
 - [Celeste v1.3.1](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.3.1.nwa), new icon
 - [Celeste v1.3](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.3.nwa), save support
@@ -34,7 +35,8 @@ being useful for the game itself:
 | Pause              | Backspace        |
 | Save state         | Shift            |
 | Load state         | Alpha            |
-| Toogle screenshake | Toolbox          |
+| Load previous save | Ans              |
+| Settings and stats | Toolbox          |
 | Reset              | XNT (long press) |
 | Exit               | Home             |
 
