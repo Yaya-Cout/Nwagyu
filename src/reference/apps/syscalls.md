@@ -7,7 +7,7 @@ When looking for officially supported methods in external apps, you can look in
 you installed nwlink).
 
 This file is also available in Epsilon source code at
-[eadk/include/eadk/eadk.h](https://github.com/numworks/epsilon/blob/master/eadk/include/eadk/eadk.h).
+[eadk/include/eadk/eadk.h](https://github.com/numworks/epsilon/blob/master/epsilon/eadk/include/eadk/eadk.h).
 
 <!-- TODO: Explain available functions -->
 
@@ -17,7 +17,7 @@ Epsilon external apps are directly talking to the kernel the same way as the
 userland does. It's working based on SVC calls.
 
 The SVC table can be found at
-[ion/src/device/shared/drivers/svcall.h](https://github.com/numworks/epsilon/blob/master/ion/src/device/shared/drivers/svcall.h#L46)
+[ion/src/device/shared/drivers/svcall.h](https://github.com/numworks/epsilon/blob/master/shared/ion/src/device/shared/drivers/svcall.h#L45)
 in Epsilon's source code.
 
 Some of these calls are available in external apps through functions, but not
