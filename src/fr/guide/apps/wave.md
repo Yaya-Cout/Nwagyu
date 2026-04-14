@@ -4,13 +4,7 @@ Envie de jouer à la vague de Geometry Dash sur votre calculatrice ?
 
 Ce jeu n’est pas facile : il demande de la précision, du timing et de l’adresse.
 
-Essayez de battre le meilleur score *(509 en mode difficile)* et prouvez votre niveau !
-
-<img src="https://github.com/Aprotonix/NumworksGeometryDashWave/blob/main/doc/game.gif" width="300">
-<sub>Désolé pour la mauvaise qualité ;)</sub>
-
-<br>
-<br>
+Essayez de battre le meilleur score et prouvez votre niveau !
 
 Le jeu comprend **3 niveaux de difficulté** :
 - Facile
