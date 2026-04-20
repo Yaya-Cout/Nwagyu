@@ -97,7 +97,7 @@ First, you will need a text editor. Any text editor will work (except Notepad on
 Windows which will cause problems with newlines). I usually use [VSCodium](https://vscodium.com/)
 (a fork of Microsoft [VSCode](https://code.visualstudio.com/) with less AI spam
 and less tracking), but you can use any code/raw text editor like [Kate](https://kate-editor.org/)
-or [Noepad++](https://notepad-plus-plus.org/downloads/). Vim and Emacs are also
+or [Notepad++](https://notepad-plus-plus.org/downloads/). Vim and Emacs are also
 quite good, but less intuitive to use for beginners. You can pick any of them,
 we don't need a really sophisticated editor.
 
