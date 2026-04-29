@@ -5,7 +5,7 @@ import { redirectPlugin } from '@vuepress/plugin-redirect'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
-const HOSTNAME = "https://yaya-cout.github.io"
+const HOSTNAME = "https://nwagyu.org"
 // Base URL for website
 // const BASE = "/Nwagyu/"
 const BASE = "/"

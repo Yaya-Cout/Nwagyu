@@ -7,7 +7,7 @@ pouvez charger une vidéo sur votre calculatrice et la lire !
 
 Vous ne pouvez pas utiliser des vidéos normales. À la place, vous devez
 convertir votre vidéo en une séquence d'images. Une vidéo déjà convertie est
-disponible [ici](https://yaya-cout.github.io/Nwagyu/assets/video.bin).
+disponible [ici](https://nwagyu.org/assets/video.bin).
 
 Pour convertir une vidéo, vous pouvez utiliser l'outil en ligne de commande
 `ffmpeg`. Voici un exemple supposant que votre vidéo s'appelle `input.mp4` dans
@@ -30,7 +30,7 @@ le guide [comment installer](../help/how-to-install.md) pour plus de détails.
 
 Vous pouvez télécharger l'application Playa depuis ce lien :
 
-- [Playa](https://yaya-cout.github.io/Nwagyu/assets/apps/playa.nwa)
+- [Playa](https://nwagyu.org/assets/apps/playa.nwa)
 
 ## Installation
 

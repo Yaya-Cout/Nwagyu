@@ -20,7 +20,7 @@ afficher. Suivez les instructions dans le guide
 
 Vous pouvez télécharger l'application PNG Viewer depuis ce lien :
 
-- [PNG Viewer](https://yaya-cout.github.io/Nwagyu/assets/apps/pngviewer.nwa)
+- [PNG Viewer](https://nwagyu.org/assets/apps/pngviewer.nwa)
 
 ## Installation
 

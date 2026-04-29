@@ -16,7 +16,7 @@ du Lua normale, avec deux fonctions spécifiques à la NumWorks :
 
 Vous pouvez télécharger l'application Lua depuis ce lien :
 
-- [Lua](https://yaya-cout.github.io/Nwagyu/assets/apps/lua.nwa)
+- [Lua](https://nwagyu.org/assets/apps/lua.nwa)
 
 ## Installation
 

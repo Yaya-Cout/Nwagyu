@@ -14,7 +14,7 @@ external app using NumWorks' API.
 
 You can download the storage app from this link:
 
-- [Storage](https://yaya-cout.github.io/Nwagyu/assets/apps/storage-1.1.0.nwa)
+- [Storage](https://nwagyu.org/assets/apps/storage-1.1.0.nwa)
 
 ## Installation
 

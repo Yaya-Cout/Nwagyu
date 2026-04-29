@@ -14,13 +14,13 @@ Official releases are available on [GitHub Releases](https://github.com/Benchato
 
 If you prefer, you can download Celeste from this link:
 
-- [Celeste v1.5](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.4.0.nwa), improved saving (rollback, autosave, autoload), added settings and stats
-- [Celeste v1.4](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.4.0.nwa), better memory usage, fix bugs
-- [Celeste v1.3.1](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.3.1.nwa), new icon
-- [Celeste v1.3](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.3.nwa), save support
-- [Celeste v1.2](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.2.nwa), improved performance, frame limiter
-- [Celeste v1.1](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.1.nwa), improved performance
-- [Celeste v1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/celeste-1.0.nwa)
+- [Celeste v1.5](https://nwagyu.org/assets/apps/celeste-1.4.0.nwa), improved saving (rollback, autosave, autoload), added settings and stats
+- [Celeste v1.4](https://nwagyu.org/assets/apps/celeste-1.4.0.nwa), better memory usage, fix bugs
+- [Celeste v1.3.1](https://nwagyu.org/assets/apps/celeste-1.3.1.nwa), new icon
+- [Celeste v1.3](https://nwagyu.org/assets/apps/celeste-1.3.nwa), save support
+- [Celeste v1.2](https://nwagyu.org/assets/apps/celeste-1.2.nwa), improved performance, frame limiter
+- [Celeste v1.1](https://nwagyu.org/assets/apps/celeste-1.1.nwa), improved performance
+- [Celeste v1.0](https://nwagyu.org/assets/apps/celeste-1.0.nwa)
 
 ## How to play
 

@@ -50,18 +50,18 @@ You can download the Peanut-GB app from this link:
 
 Peanut-GB:
 
-- [Peanut-GB v1.2.2](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.2.nwa), potential memory fix during save writing
-- [Peanut-GB v1.2.1](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.1.nwa), memory fix during save writing
-- [Peanut-GB v1.2.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.2.0.nwa), performance improvements, frame limiter, On/Off and Home keys
-- [Peanut-GB v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.1.0.nwa), save support, fullscreen with ratio, new palettes, alpha key to start
-- [Peanut-GB v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgb-1.0.0.nwa)
+- [Peanut-GB v1.2.2](https://nwagyu.org/assets/apps/peanutgb-1.2.2.nwa), potential memory fix during save writing
+- [Peanut-GB v1.2.1](https://nwagyu.org/assets/apps/peanutgb-1.2.1.nwa), memory fix during save writing
+- [Peanut-GB v1.2.0](https://nwagyu.org/assets/apps/peanutgb-1.2.0.nwa), performance improvements, frame limiter, On/Off and Home keys
+- [Peanut-GB v1.1.0](https://nwagyu.org/assets/apps/peanutgb-1.1.0.nwa), save support, fullscreen with ratio, new palettes, alpha key to start
+- [Peanut-GB v1.0.0](https://nwagyu.org/assets/apps/peanutgb-1.0.0.nwa)
 
 Peanut-GBC is a Peanut-GB version with color support for Gameboy Color games.
 For traditional Gameboy games, prefer Peanut-GB which is optimized and faster.
 
-- [Peanut-GBC v1.1.1](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc-1.1.1.nwa), equivalent to Peanut-GB v1.2.2
-- [Peanut-GBC v1.1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc-1.1.0.nwa), save support, equivalent to Peanut-GB v1.2.1
-- [Peanut-GBC v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/peanutgbc-1.0.0.nwa)
+- [Peanut-GBC v1.1.1](https://nwagyu.org/assets/apps/peanutgbc-1.1.1.nwa), equivalent to Peanut-GB v1.2.2
+- [Peanut-GBC v1.1.0](https://nwagyu.org/assets/apps/peanutgbc-1.1.0.nwa), save support, equivalent to Peanut-GB v1.2.1
+- [Peanut-GBC v1.0.0](https://nwagyu.org/assets/apps/peanutgbc-1.0.0.nwa)
 
 ::: warning
 Peanut-GB (Color) require more RAM and use more CPU time, so some games won't

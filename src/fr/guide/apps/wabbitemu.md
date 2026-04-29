@@ -13,7 +13,7 @@ Internet, mais nous ne pouvons pas vous aider pour ça.
 
 Vous pouvez télécharger l'application Wabbitemu depuis ce lien :
 
-- [Wabbitemu](https://yaya-cout.github.io/Nwagyu/assets/apps/wabbitemu.nwa)
+- [Wabbitemu](https://nwagyu.org/assets/apps/wabbitemu.nwa)
 
 ## Installation
 

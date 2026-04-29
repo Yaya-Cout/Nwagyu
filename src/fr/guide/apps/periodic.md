@@ -16,7 +16,7 @@ le tableau periodique
 
 Vous pouvez télécharger l'application Periodic depuis ce lien :
 
-- [Periodic](https://yaya-cout.github.io/Nwagyu/assets/apps/periodic.nwa)
+- [Periodic](https://nwagyu.org/assets/apps/periodic.nwa)
 
 ## Installation
 

@@ -1,7 +1,7 @@
 # Nwagyu
 
 Apps and documentation for your NumWorks, available at
-<https://yaya-cout.github.io/Nwagyu/> in both French and English!
+<https://nwagyu.org/> in both French and English!
 
 ## Rewrite of Nwagyu website
 

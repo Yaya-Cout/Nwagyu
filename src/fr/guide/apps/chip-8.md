@@ -43,7 +43,7 @@ Le débogage et l'avancement d'une instruction n'est pas utile pour l'utilisateu
 
 Vous pouvez télécharger l'application avec ce lien:
 
-- [CHIP-8 v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/chip-8-1.0.0.nwa), Première version
+- [CHIP-8 v1.0.0](https://nwagyu.org/assets/apps/chip-8-1.0.0.nwa), Première version
 
 ## Installation
 

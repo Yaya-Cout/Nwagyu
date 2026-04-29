@@ -11,7 +11,7 @@ pas changer son comportement.
 
 Vous pouvez télécharger l'application Sierpinski depuis ce lien :
 
-- [Sierpinski](https://yaya-cout.github.io/Nwagyu/assets/apps/sierpinski.nwa)
+- [Sierpinski](https://nwagyu.org/assets/apps/sierpinski.nwa)
 
 ## Installation
 

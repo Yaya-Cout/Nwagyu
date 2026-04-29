@@ -15,7 +15,7 @@ Lua, with two special functions for the NumWorks Calculator:
 
 You can download the Lua app from this link:
 
-- [Lua](https://yaya-cout.github.io/Nwagyu/assets/apps/lua.nwa)
+- [Lua](https://nwagyu.org/assets/apps/lua.nwa)
 
 ## Installation
 

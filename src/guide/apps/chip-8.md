@@ -43,7 +43,7 @@ even though you probably don't want to use your calculator to debug them.
 
 You can download the CHIP-8 app from this link:
 
-- [CHIP-8 v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/chip-8-1.0.0.nwa), First release
+- [CHIP-8 v1.0.0](https://nwagyu.org/assets/apps/chip-8-1.0.0.nwa), First release
 
 ## Installation
 

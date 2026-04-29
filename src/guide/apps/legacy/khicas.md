@@ -23,8 +23,8 @@ You should use the [new version] instead.
 You can download the KhiCAS app from this link: (choose the one corresponding
 to your calculator version, written on the back of your calculator)
 
-- [KhiCAS N0110 and N0115](https://yaya-cout.github.io/Nwagyu/assets/apps/khicas.nwa)
-- [KhiCAS N0120](https://yaya-cout.github.io/Nwagyu/assets/apps/khicas-n0120.nwa)
+- [KhiCAS N0110 and N0115](https://nwagyu.org/assets/apps/khicas.nwa)
+- [KhiCAS N0120](https://nwagyu.org/assets/apps/khicas-n0120.nwa)
 
 <!-- The N0120 version is slightly modified, see :
 https://github.com/nwagyu/khicas/issues/2

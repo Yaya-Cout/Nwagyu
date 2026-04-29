@@ -40,9 +40,9 @@ votre fichier sera de nouveau disponible. Sinon, lisez la section
 
 Vous pouvez télécharger l'application Compressor depuis ce lien :
 
-- [Compressor v1.0.1](https://yaya-cout.github.io/Nwagyu/assets/apps/compressor-1.0.1.nwa),
+- [Compressor v1.0.1](https://nwagyu.org/assets/apps/compressor-1.0.1.nwa),
   correction de crashs et bugs lorsque le stockage est plein
-- [Compressor v1.0.0](https://yaya-cout.github.io/Nwagyu/assets/apps/compressor-1.0.0.nwa)
+- [Compressor v1.0.0](https://nwagyu.org/assets/apps/compressor-1.0.0.nwa)
 
 ## Installation
 
