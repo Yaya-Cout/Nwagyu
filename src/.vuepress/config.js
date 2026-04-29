@@ -7,7 +7,8 @@ import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
 const HOSTNAME = "https://yaya-cout.github.io"
 // Base URL for website
-const BASE = "/Nwagyu/"
+// const BASE = "/Nwagyu/"
+const BASE = "/"
 
 export default {
   bundler: viteBundler(),
