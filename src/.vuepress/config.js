@@ -53,10 +53,10 @@ export default {
    */
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['link', { rel: "shortcut icon", href: "/Nwagyu/favicon.ico"}],
+    ['link', { rel: "shortcut icon", href: "/favicon.ico"}],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'preload', href: '/Nwagyu/cow-head.webp', as: 'image', fetchpriority: 'high'}],
+    ['link', { rel: 'preload', href: '/cow-head.webp', as: 'image', fetchpriority: 'high'}],
 
     // Load JavaScript for visit counter
     ['script', {}, `
