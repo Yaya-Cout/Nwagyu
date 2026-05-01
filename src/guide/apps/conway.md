@@ -39,6 +39,7 @@ you close the app. You can then paste these patterns wherever you like on the gr
 | `Back`                | Allows you to step through the simulation                   |
 | `Shift` + `Backspace` | Kills all cells                                             |
 | `Ln`                  | Toggle pixel font                                           |
+| `e^x`                 | Toggle wrap on borders                                      |
 
 An updated guide about the controls can be found on my repo with the source code, link [below](#source-code). This one might be outdated.
 
@@ -71,10 +72,21 @@ resolution. Future updates might circumvent this flaw.
 Changes how many pixels wide a cell is. The available resolutions as of 1.2.0 are 1, 2, 4, 5 and 8 pixel wide squares for a cell.
 Don't worry about over- or undershooting those values, as it will simply wrap around.
 
+### Custom pixel font
+
+The pixel font is a 4x4 font containing the basic characters needed. It's a mix of two fonts, both can be found below in Aknowledgements.
+The spritesheet can be found in `resources/font.png`, and is of course free to use.
+
+### Wrapping
+
+If enabled, wrapping prevents moving structures like gliders from dying when they encounter a border. They will reappear on the other side.
+Wrapping works both horizontally and vertically.
+
 ## Download
 
 You can download the Conway app from this link:
 
+- [Conway v1.2.3](https://nwagyu.org/assets/apps/conway-1.2.3.nwa), Added toggleable wrapping on borders
 - [Conway v1.2.2](https://nwagyu.org/assets/apps/conway-1.2.2.nwa), 1:1 cell:pixel ratio, bug fixes & enhancements
 - [Conway v1.1.0](https://nwagyu.org/assets/apps/conway-1.1.0.nwa), Rework of all aspects, bug fixes. UX and UI.
 - [Conway v1.0.0](https://nwagyu.org/assets/apps/conway-1.0.0.nwa), First version
