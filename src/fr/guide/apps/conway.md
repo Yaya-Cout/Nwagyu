@@ -42,6 +42,7 @@ image en noir et blanc en motif de cellules que l'on peut ensuite intégrer au p
 | `Retour`            | Permet de simuler une seule itération                               |
 | `Shift` + `Effacer` | Tue toutes les cellules                                             |
 | `Ln`                | Alterne entre police classique et pixel-art                         |
+| `e^x`               | Bascule l'enroulage sur les bords                                   |
 
 Un guide mis à jour se trouve dans le dépôt du [code source](#code-source).
 
@@ -70,10 +71,21 @@ en appuyant sur `EXE`, puis en sortant et reouvrant l'application.
 La résolution de la simulation se mesure en pixels par cellule et compte actuellement 4 valeurs possibles,
 soit des carrés de 2, 4, 5 et 8 pixels par cellule. Par défaut, la valeur de 5 pixels par cellule est choisie. 
 
+### Police de caractères
+
+La police pixelisée est une police de 4x4 qui peut se trouver dans le répot source, avec la mention de ses auteurs.
+Elle est bien évidemment libre de tout droits.
+
+### Enroulage
+
+L'enroulage permet de connecter entre eux les murs opposés. Cela permet notamment de créer des structures mouvantes telles que le glider
+qui ne s'arrêterons pas aux bordures mais continuerons en changeant de côté, que ce soit par en haut vers le bas ou de droite à gauche.
+
 ## Téléchargement
 
 Vous pouvez télécharger l'application avec ce lien:
 
+- [Conway v1.2.3](https://nwagyu.org/assets/apps/conway-1.2.2.nwa), Ajout de la foncitonnalité d'enroulage
 - [Conway v1.2.2](https://nwagyu.org/assets/apps/conway-1.2.2.nwa), Meilleure résolution maximale et correction de bugs
 - [Conway v1.1.0](https://nwagyu.org/assets/apps/conway-1.1.0.nwa), Correction de bugs et interface améliorée
 - [Conway v1.0.0](https://nwagyu.org/assets/apps/conway-1.0.0.nwa), Version initiale
