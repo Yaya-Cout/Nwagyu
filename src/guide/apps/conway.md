@@ -74,8 +74,8 @@ Don't worry about over- or undershooting those values, as it will simply wrap ar
 
 ### Custom pixel font
 
-The pixel font is a 4x4 font containing the basic characters needed. It's a mix of two fonts, both can be found below in Aknowledgements.
-The spritesheet can be found in `resources/font.png`, and is of course free to use.
+The pixel font is a 4x4 font containing the basic characters needed.
+The spritesheet can be found in the source repository and is of course free to use.
 
 ### Wrapping
 
