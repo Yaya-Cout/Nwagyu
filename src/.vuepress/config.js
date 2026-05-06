@@ -4,6 +4,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { redirectPlugin } from '@vuepress/plugin-redirect'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
+import { seoPlugin } from '@vuepress/plugin-seo'
 
 const HOSTNAME = "https://nwagyu.org"
 // Base URL for website
@@ -33,9 +34,28 @@ export default {
     }),
     sitemapPlugin({
       hostname: HOSTNAME + BASE,
+    }),
+    seoPlugin({
+      hostname: HOSTNAME + BASE,
+      canonical: HOSTNAME + BASE,
+      fallBackImage: BASE + "cow-head.hd.webp",
       // options
     }),
   ],
+
+  // extendsPage: (page) => {
+  //   if (!page.path) return
+
+  //   page.frontmatter.head ||= []
+
+  //   page.frontmatter.head.push([
+  //     'link',
+  //     {
+  //       rel: 'canonical',
+  //       href: HOSTNAME + page.path,
+  //     },
+  //   ])
+  // },
 
   /**
    * Ref: https://v2.vuepress.vuejs.org/reference/config.html#title
