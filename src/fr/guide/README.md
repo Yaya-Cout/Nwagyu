@@ -42,6 +42,8 @@ actuellement disponibles :
 - [Sierpinski](./apps/sierpinski.md): Animation du triangle de Sierpinski
 - [Conway](./apps/conway.md): Simulation du Jeu de la Vie de Conway
 
+*Vous voulez ajouter votre application à cette liste? Suivez les [instructions](../../reference/apps/creating-application.md#adding-your-app-to-nwagyu) (en anglais)*
+
 ## Comment installer ?
 
 Pour installer des applications, vous devez suivre les instructions dans le guide [comment installer ?](./help/how-to-install.md).

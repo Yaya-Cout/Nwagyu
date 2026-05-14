@@ -42,6 +42,8 @@ calculator. Here is the list of the apps that are currently available:
 - [Sierpinski](./apps/sierpinski.md): Sierpinski triangle animation
 - [Conway](./apps/conway.md): Conway's Game of Life simulation
 
+*Want to add your own app in this list? Follow the [instructions](../reference/apps/creating-application.md#adding-your-app-to-nwagyu)*
+
 ## How to install
 
 To install apps, you need to follow the instructions in the

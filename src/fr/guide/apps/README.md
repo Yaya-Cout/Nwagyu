@@ -37,3 +37,5 @@ Voici une liste des applications actuellement disponibles :
 - [Mandelbrot](./mandelbrot.md): Visualiseur de Mandelbrot
 - [Sierpinski](./sierpinski.md): Animation du triangle de Sierpinski
 - [Conway](./conway.md): Simulation du Jeu de la Vie de Conway
+
+*Vous voulez ajouter votre application à cette liste? Suivez les [instructions](../../../reference/apps/creating-application.md#adding-your-app-to-nwagyu) (en anglais)*
