@@ -1,0 +1,47 @@
+# Minesweeper
+
+Minesweeper-nw est un jeu de démineur classique pour la NumWorks,
+avec deux modes de difficulté : normale et difficile, des statistiques de jeu, ainsi que la sauvegarde de la partie en cours.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Oignontom8283/Minesweeper-nw/refs/heads/main/docs/images/gameplay.png" alt="gameplay" width="40%">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/Oignontom8283/Minesweeper-nw/refs/heads/main/docs/images/hard.png" alt="hard mode" width="40%">
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Oignontom8283/Minesweeper-nw/refs/heads/main/docs/images/win.png" alt="win screen" width="40%">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/Oignontom8283/Minesweeper-nw/refs/heads/main/docs/images/lose.png" alt="lose screen" width="40%">
+</p>
+
+
+## Téléchargement
+
+Les versions officielles sont disponibles [ici](https://github.com/Oignontom8283/Minesweeper-nw/releases).
+
+- [Minesweeper v1.2.2](/assets/apps/minesweeper-1.2.2.nwa) : Système de statistiques.
+- [Minesweeper v1.1.0](/assets/apps/minesweeper-1.1.0.nwa) : Sauvegarde de la partie en cours.
+- [Minesweeper v1.0.2](/assets/apps/minesweeper-1.0.2.nwa) : Première version du jeu.
+
+<!-- J'utilise des chemins relatifs pour que le nom de domaine reste dynamique --> 
+
+
+## Contrôles
+
+| Touche              | Action                                      |
+| ------------------- | ------------------------------------------- |
+| `Ok`                | Révéler une case                            |
+| `Retour`            | Placer un drapeau                           |
+| Flèches             | Se déplacer                                 |
+| `Clear` (`Del`)     | Quitter (sin en game, sauvegarde la partie) |
+| `Paste` (`Toolbox`) | Abandonner la partie en cours               |
+
+
+## Installation
+
+Pour installer le jeu, suivez ce guide : [How to install](../help/how-to-install.md).
+
+
+## Code source
+
+Le code source est disponible ici : [Oignontom8283/Minesweeper-nw](https://github.com/Oignontom8283/Minesweeper-nw/).
