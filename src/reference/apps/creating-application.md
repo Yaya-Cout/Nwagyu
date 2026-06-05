@@ -286,25 +286,27 @@ rest of the documentation to learn things you can do.
 ## Adding your app to Nwagyu
 
 To add your app to Nwagyu, you can either send a pull request to the
-[repo](https://github.com/Yaya-Cout/Nwagyu) of this website, or send us directly
-your app (preferably with source code available) to get it added to the website
+[repo](https://github.com/Yaya-Cout/Nwagyu) of this website, or submit us
+directly your app by opening a GitHub issue or by
+[email](mailto:apps@nwagyu.org?subject=Nwagyu%20app%20submission:%20%3Cyour%20app%20name%3E&body=Hello,%0D%0A%0D%0ACould%20you%20add%20my%20app%20%3Capp_name%3E%20to%20Nwagyu?%0D%0A%0D%0AHere%20are%20the%20required%20informations:%0D%0A%0D%0ALink%20to%20the%20nwa%20file:%20%3Cinsert_link_to_file.nwa%3E%0D%0ASource%20code%20link:%20%3Cinsert_git_repo_url%3E%0D%0AAuthor%20name/username%20(publically%20visible%20on%20the%20page%20at%20the%20end%20of%20the%20description):%20%3Cinsert_username%3E%0D%0A%0D%0AShort%20description%20(optional):%20%3Cinsert_description%3E%0D%0AOther%20informations%20to%20mention%20on%20the%20page%20and%20keybindings%20(optional):%20%3Cinsert_infos%3E%0D%0A%0D%0AHave%20a%20nice%20day!)
+(feel free to diverge from the email template, as long as the required
+information is present) to get it added to the website.
 
-Here are the steps to follow:
+Here are the steps to follow if you decide to send a pull request:
 
 1. Fork the repository
 2. Add your app to `src/.vuepress/public/assets/apps/appname-X.Y.Z.nwa`
 3. Create a page for your app in `src/guide/apps/appname.md` with the same
    structure as other pages.
 4. Reference your app in `src/guide/README.md` and `src/guide/apps/README.md`
-5. Repeat all the steps for the french translations by replacing `src/guide` by
-   `src/fr/guide` in paths.
+5. Repeat all the steps for the French translations by replacing `src/guide`
+   with `src/fr/guide` in paths.
 6. Add your app to the navbar inside `src/.vuepress/config.js`, in the
-   `children` list (you need to do it twice, for both french and english)
+   `children` list (you need to do it twice, for both French and English)
 7. Open a pull request to add your app
 
-If you can't do the french translation, it's not a big deal, but we will need to
-add it before merging (out of sync translations is really bad, as syncing
-everything will take time).
+If you can't do the French translation, it's not a big deal, but we will need to
+add it before merging (out of sync translations are unmaintainable).
 
 [Accessing storage]: storage.md
 [On/Off and Home keys]: onoff-home.md
