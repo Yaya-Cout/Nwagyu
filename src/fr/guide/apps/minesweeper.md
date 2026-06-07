@@ -1,18 +1,7 @@
 # Minesweeper
 
 Minesweeper-nw est un jeu de démineur classique pour la NumWorks,
-avec deux modes de difficulté : normale et difficile, des statistiques de jeu, ainsi que la sauvegarde de la partie en cours.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Oignontom8283/Minesweeper-nw/refs/heads/main/docs/images/gameplay.png" alt="gameplay" width="40%">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Oignontom8283/Minesweeper-nw/refs/heads/main/docs/images/hard.png" alt="hard mode" width="40%">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Oignontom8283/Minesweeper-nw/refs/heads/main/docs/images/win.png" alt="win screen" width="40%">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Oignontom8283/Minesweeper-nw/refs/heads/main/docs/images/lose.png" alt="lose screen" width="40%">
-</p>
+avec deux modes de difficulté : normale et difficile, des statistiques de jeu, ainsi que la sauvegarde de la partie en cours.>
 
 ## Téléchargement
 
@@ -41,3 +30,7 @@ Pour installer le jeu, suivez ce guide : [How to install](../help/how-to-install
 ## Code source
 
 Le code source est disponible ici : [Oignontom8283/Minesweeper-nw](https://github.com/Oignontom8283/Minesweeper-nw/).
+
+## Visuals
+
+Un aperçu du jeu est disponible [ici](https://github.com/Oignontom8283/Minesweeper-nw/blob/main/docs/images/visual.svg).
