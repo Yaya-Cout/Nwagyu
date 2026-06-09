@@ -1,7 +1,7 @@
 # Minesweeper
 
 Minesweeper-nw est un jeu de démineur classique pour la NumWorks,
-avec deux modes de difficulté : normale et difficile, des statistiques de jeu, ainsi que la sauvegarde de la partie en cours.>
+avec deux modes de difficulté : normale et difficile, des statistiques de jeu, ainsi que la sauvegarde de la partie en cours.
 
 ## Téléchargement
 
