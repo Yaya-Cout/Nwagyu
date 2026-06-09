@@ -31,6 +31,6 @@ Pour installer le jeu, suivez ce guide : [How to install](../help/how-to-install
 
 Le code source est disponible ici : [Oignontom8283/Minesweeper-nw](https://github.com/Oignontom8283/Minesweeper-nw/).
 
-## Visuals
+## Previews
 
-Un aperçu du jeu est disponible [ici](https://github.com/Oignontom8283/Minesweeper-nw/blob/main/docs/images/visual.svg).
+![Previews du jeu](/assets/media/minesweeper-preview.svg)
