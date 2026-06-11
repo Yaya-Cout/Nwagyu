@@ -18,6 +18,7 @@ Here is the list of the apps that are currently available:
 - [Celeste Classic](./celeste.md): Platform game
 - [Wabbitemu](./wabbitemu.md): TI-84 emulator
 - [CHIP-8](./chip-8.md): CHIP-8 emulator
+- [Minesweeper](./minesweeper.md): Minesweeper game
 
 ### Tools
 

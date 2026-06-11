@@ -172,6 +172,7 @@ export default {
             "celeste",
             "conway",
             "chip-8",
+            "minesweeper",
           ],
         },
         {
@@ -223,6 +224,7 @@ export default {
             "celeste",
             "conway",
             "chip-8",
+            "minesweeper",
           ],
         },
         {
