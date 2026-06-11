@@ -7,6 +7,7 @@ featuring two difficulty modes: Normal and Hard, game statistics, and save suppo
 
 Official releases are available [here](https://github.com/Oignontom8283/Minesweeper-nw/releases).
 
+- [Minesweeper v1.3.5](/assets/apps/minesweeper-1.3.5.nwa), Keep moving, bug fixes and minor improvements.
 - [Minesweeper v1.2.2](/assets/apps/minesweeper-1.2.2.nwa), Statistics system.
 - [Minesweeper v1.1.0](/assets/apps/minesweeper-1.1.0.nwa), Save support for the current game.
 - [Minesweeper v1.0.2](/assets/apps/minesweeper-1.0.2.nwa), First release of the game.
