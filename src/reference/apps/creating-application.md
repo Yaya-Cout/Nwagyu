@@ -297,7 +297,8 @@ community: [epsilon-sample-app-zig](https://github.com/Sietse2202/epsilon-sample
 To use it, follow the instructions on the README.
 
 To install the toolchain, simply install the toolchain using
-[zig](https://ziglang.org/download/) or your distributions packages.
+[zig](https://ziglang.org/download/) or your distributions packages. You'll also
+need [bun](https://bun.sh/).
 
 Here is a quick guide about it, assuming the toolchain is already installed:
 <!-- TODO: Toolchain installation -->
