@@ -116,8 +116,12 @@ make # make build for the full command
 make clean
 ```
 
-If you get an error like this, it means that you are using a too recent Node
-version. You can downgrade Node, or upgrade `nwlink` (see below).
+The nwa file is located under `output/app.nwa`, and is ready to be flashed from
+NumWorks website just as any normal external app.
+
+If you get an error like this (among tons of JavaScript tracebacks about
+TypeError), it means that you are using a too recent Node version. You can
+either downgrade Node, or upgrade `nwlink` (see below).
 
 ```output
 CC      src/main.c
@@ -127,8 +131,23 @@ src/main.c:1:10: fatal error: eadk.h: No such file or directory
 compilation terminated.
 ```
 
-The nwa file is located under `output/app.nwa`, and is ready to be flashed from
-NumWorks website just as any normal external app.
+Unfortunately, the NumWorks template is using an outdated `nwlink` version which
+doesn't support newer Node versions.
+
+To upgrade it, change the `NWLINK` definition in the Makefile to use at least
+version 0.0.19
+
+```makefile
+NWLINK = npx --yes -- nwlink@0.0.19
+```
+
+Then, as the syntax changed, replace `eadk-cflags` with `eadk-cflags-device`
+
+```makefile
+CFLAGS += $(shell $(NWLINK) eadk-cflags-device)
+```
+
+After changing these 2 lines, you are ready to go with the newer nwlink version!
 
 @tab C++
 NumWorks is providing a C++ application template on the GitHub repo
@@ -166,8 +185,12 @@ make # make build for the full command
 make clean
 ```
 
-If you get an error like this, it means that you are using a too recent Node
-version. You can downgrade Node, or upgrade `nwlink` (see below).
+The nwa file is located under `output/voord.nwa`, and is ready to be flashed
+from NumWorks website just as any normal external app.
+
+If you get an error like this (among tons of JavaScript tracebacks about
+TypeError), it means that you are using a too recent Node version. You can
+either downgrade Node, or upgrade `nwlink` (see below).
 
 ```output
 CC      src/main.c
@@ -177,8 +200,23 @@ src/main.c:1:10: fatal error: eadk.h: No such file or directory
 compilation terminated.
 ```
 
-The nwa file is located under `output/voord.nwa`, and is ready to be flashed
-from NumWorks website just as any normal external app.
+Unfortunately, the NumWorks template is using an outdated `nwlink` version which
+doesn't support newer Node versions.
+
+To upgrade it, change the `NWLINK` definition in the Makefile to use at least
+version 0.0.19
+
+```makefile
+NWLINK = npx --yes -- nwlink@0.0.19
+```
+
+Then, as the syntax changed, replace `eadk-cflags` with `eadk-cflags-device`
+
+```makefile
+CPPFLAGS += $(shell $(NWLINK) eadk-cflags-device)
+```
+
+After changing these 2 lines, you are ready to go with the newer nwlink version!
 
 @tab Rust
 NumWorks is providing a Rust application template on the GitHub repo
@@ -231,6 +269,26 @@ The nwa file is located under
 `target/thumbv7em-none-eabihf/debug/epsilon-sample-app`, and is ready to be
 flashed from NumWorks website just as any normal external app.
 
+If you get a JavaScript error when trying to run `cargo run` but not
+`cargo build`, this is due to the template using an outdated `nwlink` version.
+To fix, either downgrade Node, or upgrade `nwlink` (see below). The error will
+be similar to this one (among other lines):
+
+```output
+TypeError: Cannot set property navigator of #<Object> which has only a getter
+```
+
+To upgrade `nwlink`, change the `NWLINK` definition in `.cargo/config` to use at
+least version 0.0.19 (you may need to enable hidden files in your file explorer
+to open it):
+
+```toml
+runner = 'npx --yes -- nwlink@0.0.19 install-nwa'
+```
+
+You can in addition rename `.cargo/config` to `.cargo/config.toml` to fix the
+Cargo warning about deprecated filename.
+
 @tab Zig
 
 No *official* template for Zig is available, but there is a template made by the
@@ -261,23 +319,6 @@ flashed from NumWorks website just as any normal external app.
 :::
 
 ::: details Upgrading `nwlink`
-Unfortunately, the NumWorks template is using an outdated `nwlink` version which
-doesn't support newer Node versions.
-
-To upgrade it, change the `NWLINK` definition in the Makefile to use at least
-version 0.0.19
-
-```makefile
-NWLINK = npx --yes -- nwlink@0.0.19
-```
-
-Then, as the syntax changed, replace `eadk-cflags` with `eadk-cflags-device`
-
-```makefile
-CFLAGS += $(shell $(NWLINK) eadk-cflags-device)
-```
-
-After changing these 2 lines, you are ready to go with the newer nwlink version!
 :::
 
 Now you have built and flashed your app, you can play with the API and read the
