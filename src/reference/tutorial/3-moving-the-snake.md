@@ -112,12 +112,16 @@ while (true) {
     switch (direction) {
       case SNAKE_DIRECTION_UP:
         y -= 1;
+        break;
       case SNAKE_DIRECTION_RIGHT:
         x += 1;
+        break;
       case SNAKE_DIRECTION_DOWN:
         y += 1;
+        break;
       case SNAKE_DIRECTION_LEFT:
         x -= 1;
+        break;
       default:
         error("Invalid direction");
         return 0;
