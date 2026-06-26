@@ -61,6 +61,29 @@ And now, we can create the direction in the `main` function:
 int direction = SNAKE_DIRECTION_RIGHT;
 ```
 
+::: note Erratum
+
+After writing the documentation, I realized enums actually exists in C. Here's
+how one could rewrite the previous statement:
+
+In `main.h`:
+
+```cpp
+enum Direction {
+    UP, RIGHT, DOWN, LEFT
+};
+```
+
+And then using it in `main.c`:
+
+```cpp
+enum Direction direction = RIGHT;
+```
+
+Feel free to continue the tutorial with this syntax instead.
+
+:::
+
 ### Moving snake straight
 
 A moving snake is more interesting, so let's add code for handling snake motion.
