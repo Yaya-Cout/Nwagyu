@@ -151,7 +151,7 @@ After changing these 2 lines, you are ready to go with the newer nwlink version!
 
 @tab C++
 NumWorks is providing a C++ application template on the GitHub repo
-[numworks/epsilon-sample-app-cpp](https://github.com/numworks/epsilon-sample-app-cpp)
+[numworks/epsilon-sample-app-cpp](https://github.com/numworks/epsilon-sample-app-cpp).
 
 To use it, follow the instructions on the README.
 
@@ -223,6 +223,23 @@ NumWorks is providing a Rust application template on the GitHub repo
 [numworks/epsilon-sample-app-rust](https://github.com/numworks/epsilon-sample-app-rust)
 
 To use it, follow the instructions on the README.
+
+The official template lack lots of features. You should use a community created
+template to write better apps. Two of them exists:
+
+- [NumworksAppsRust](https://github.com/yannis300307/NumworksAppsRust/),
+  by the creator of [Numcraft](../../guide/apps/numcraft.md)
+  ([Yannis300307](https://github.com/yannis300307/)). Compatible on both [Epsilon](https://github.com/numworks/epsilon)
+  (official firmware) and [Upsilon](https://getupsilon.web.app/). Licensed under
+  the [MIT License](https://github.com/yannis300307/NumworksAppsRust/blob/main/LICENSE)
+- [eadkp](https://github.com/Oignontom8283/eadkp), by [Oignontom8283](https://github.com/Oignontom8283/).
+  No C code included (using a `storage.c` Rust rewrite). Documentation mostly in French.
+  Licensed under the [LGPL 3.0](https://github.com/Oignontom8283/eadkp/blob/main/LICENSE)
+
+Both have documentation on how to use them.
+
+If you prefer to use the official template despite its limitations, here's the
+documentation:
 
 To install the toolchain, simply install the toolchain using
 [rustup](https://rustup.rs/) or your distributions packages.
