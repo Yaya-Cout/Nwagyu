@@ -318,9 +318,6 @@ The nwa file is located under
 flashed from NumWorks website just as any normal external app.
 :::
 
-::: details Upgrading `nwlink`
-:::
-
 Now you have built and flashed your app, you can play with the API and read the
 rest of the documentation to learn things you can do.
 

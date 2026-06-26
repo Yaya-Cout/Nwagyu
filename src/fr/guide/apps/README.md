@@ -18,6 +18,7 @@ Voici une liste des applications actuellement disponibles :
 - [Celeste Classic](./celeste.md): Jeu de plateforme
 - [Wabbitemu](./wabbitemu.md): Émulateur TI-84
 - [CHIP-8](./chip-8.md): Émulateur CHIP-8
+- [Minesweeper](./minesweeper.md): Jeu du démineur
 
 ### Outils
 
