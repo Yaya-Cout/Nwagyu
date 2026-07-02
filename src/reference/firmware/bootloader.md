@@ -5,7 +5,7 @@ in the internal flash.
 
 ## Locked calculators (Epsilon)
 
-On locked calculators, the bootloader is always loaded. When loaded, it does a few basic things:
+On locked calculators, the bootloader is always loaded, even in BOOT1 mode. When loaded, it does a few basic things:
 
 1. Checking if the 6 key is pressed. If it's pressed, it will enter DFU mode to
    write the external flash from a computer and display `numworks.com/rescue`.
