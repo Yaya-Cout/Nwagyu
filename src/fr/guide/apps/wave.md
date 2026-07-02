@@ -1,26 +1,25 @@
 # Wave
 
-Envie de jouer à la vague de Geometry Dash sur votre calculatrice ?
+Envie de jouer à la vague de Geometry Dash sur votre calculatrice ?
 
 Ce jeu n’est pas facile : il demande de la précision, du timing et de l’adresse.
 
-Essayez de battre le meilleur score et prouvez votre niveau !
+Essayez de battre le meilleur score et prouvez votre niveau !
 
-Le jeu comprend **3 niveaux de difficulté** :
+Le jeu comprend **3 niveaux de difficulté** :
 - Facile
 - Moyen
 - Difficile
 
 Vos **meilleurs scores sont sauvegardés** pour chaque difficulté.
 
-Essayez aussi l’ancienne version Python :  
-**https://my.numworks.com/python/artlislisart/geometry_dash_wave**
+Essayez aussi l’ancienne version Python : <https://my.numworks.com/python/artlislisart/geometry_dash_wave>
 
 Jeu créé par [Aprotonix](https://github.com/Aprotonix/).
 
 ## Téléchargement
 
-Les versions officielles sont disponibles sur  
+Les versions officielles sont disponibles sur
 [GitHub Releases](https://github.com/Aprotonix/NumworksGeometryDashWave/releases).
 
 - [Wave v1.0](https://github.com/Aprotonix/NumworksGeometryDashWave/releases/download/v1/wave-1.0.nwa)
@@ -29,14 +28,14 @@ Les versions officielles sont disponibles sur
 ## Comment jouer
 
 | Action | NumWorks |
-|-------|--------|
-| Sauter | `OK` |
-| Pause | `Back` |
-| Menu | `Clear` |
+| ------ | -------- |
+| Sauter | `OK`     |
+| Pause  | `Back`   |
+| Menu   | `Clear`  |
 
 ## Installation
 
-Pour installer l’application Wave, suivez les instructions du guide  
+Pour installer l’application Wave, suivez les instructions du guide
 [comment installer](../help/how-to-install.md).
 
 ## Code source

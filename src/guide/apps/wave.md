@@ -13,7 +13,7 @@ The game includes **3 difficulty levels**:
 
 Your **best scores are saved** for each difficulty.
 
-Try the old python version : **https://my.numworks.com/python/artlislisart/geometry_dash_wave**
+Try the old python version: **https://my.numworks.com/python/artlislisart/geometry_dash_wave**
 
 Game created by [Aprotonix](https://github.com/Aprotonix/).
 
@@ -31,8 +31,6 @@ Official releases are available on [GitHub Releases](https://github.com/Aprotoni
 | Jump           | `OK`     |
 | Pause          | `Back`   |
 | Menu           | `Clear`  |
-
-
 ## Installation
 
 To install the Wave app, follow the instructions in the

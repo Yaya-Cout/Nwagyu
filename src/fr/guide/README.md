@@ -21,7 +21,8 @@ actuellement disponibles :
 - [Numcraft](./apps/numcraft.md): Jeu de bac à sable type Minecraft
 - [Celeste Classic](./apps/celeste.md): Jeu de plateforme
 - [Wabbitemu](./apps/wabbitemu.md): Émulateur TI-84
-- [Wave](./wave.md): Geometry Dash Wave
+- [Wave](./apps/wave.md): Geometry Dash Wave
+
 ### Outils
 
 - [Storage](./apps/storage.md): Connaître votre usage du stockage
