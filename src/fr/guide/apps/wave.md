@@ -1,6 +1,6 @@
 # Wave
 
-Envie de jouer à la vague de Geometry Dash sur votre calculatrice ?
+Envie de jouer Geometry Dash Wave sur votre calculatrice ?
 
 Ce jeu n’est pas facile : il demande de la précision, du timing et de l’adresse.
 
