@@ -22,8 +22,8 @@ Jeu créé par [Aprotonix](https://github.com/Aprotonix/).
 Les versions officielles sont disponibles sur
 [GitHub Releases](https://github.com/Aprotonix/NumworksGeometryDashWave/releases).
 
-- [Wave v1.0](https://github.com/Aprotonix/NumworksGeometryDashWave/releases/download/v1/wave-1.0.nwa)
-- [Wave v1.1](https://github.com/Aprotonix/NumworksGeometryDashWave/releases/download/v1.1/wave-1.1.nwa)
+- [Wave v1.0](https://yaya-cout.github.io/Nwagyu/assets/apps/wave-1.0.nwa)
+- [Wave v1.1](https://yaya-cout.github.io/Nwagyu/assets/apps/wave-1.1.nwa)
 
 ## Comment jouer
 
