@@ -22,6 +22,7 @@ calculator. Here is the list of the apps that are currently available:
 - [Wabbitemu](./apps/wabbitemu.md): TI-84 emulator
 - [Chip-8](./apps/chip-8.md): CHIP-8 emulator
 - [Minesweeper](./apps/minesweeper.md): Minesweeper game
+- [Chipexa](./apps/chipexa.md): CHIP-8 emulator with built-in hex editor
 
 ### Tools
 
