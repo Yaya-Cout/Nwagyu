@@ -4,7 +4,7 @@ have you ever heard of Celeste, the famous platformer video game? A less-known
 fact is that this game was first developed in 4 days for the PICO-8 virtual
 console, before being renamed Celeste Classic.
 
-What if you could play Celesta Classic on your calculator, for free? Thanks to
+What if you could play Celeste Classic on your calculator, for free? Thanks to
 the port by [BenchatonDev](https://github.com/BenchatonDev), this is now
 possible!
 
