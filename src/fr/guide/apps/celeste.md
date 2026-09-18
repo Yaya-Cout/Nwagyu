@@ -14,7 +14,7 @@ Les versions officielles sont disponibles sur [GitHub Releases](https://github.c
 
 Si vous préférez, vous pouvez télécharger Celeste depuis ce lien :
 
-- [Celeste v1.5](https://nwagyu.org/assets/apps/celeste-1.4.0.nwa), sauvegarde améliorée (sauvegarde et chargement auto, retour en arrière), ajout des paramètres et statistiques
+- [Celeste v1.5](https://nwagyu.org/assets/apps/celeste-1.5.0.nwa), sauvegarde améliorée (sauvegarde et chargement auto, retour en arrière), ajout des paramètres et statistiques
 - [Celeste v1.4](https://nwagyu.org/assets/apps/celeste-1.4.0.nwa), meilleure utilisation mémoire, correction de bugs
 - [Celeste v1.3.1](https://nwagyu.org/assets/apps/celeste-1.3.1.nwa), nouvelle icône
 - [Celeste v1.3](https://nwagyu.org/assets/apps/celeste-1.3.nwa), support des sauvegardes
