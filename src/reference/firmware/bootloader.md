@@ -5,8 +5,7 @@ in the internal flash.
 
 ## Locked calculators (Epsilon)
 
-On locked calculators, the bootloader is always loaded, even in BOOT1 mode
-(pressing RESET + 6). When loaded, it does a few basic things:
+On locked calculators, the bootloader is always loaded, even in BOOT1 mode. When loaded, it does a few basic things:
 
 1. Checking if the 6 key is pressed. If it's pressed, it will enter DFU mode to
    write the external flash from a computer and display `numworks.com/rescue`.
@@ -60,8 +59,8 @@ The boot process is very simple:
 
 ### STM32 bootloader
 
-The STM32 bootloader integrated into the MCU. It's loaded by pressing RESET + 6,
-and will fully bypass the custom bootloader. It allows flashing internal flash
+The STM32 bootloader integrated into the MCU. On N0100 and N0110, it can be loaded by pressing `RESET` + `6`,
+and will fully bypass the custom bootloader. On newer models, as the 6 key is no longer connected to the BOOT1 pin of the MCU, it can only be accessed from a custom bootloader or by using the debug port. It allows flashing internal flash
 and writing a flasher to the RAM using DFU.
 
 Writing the internal flash can be used when installing a bootloader, but is not

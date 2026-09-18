@@ -173,6 +173,7 @@ export default {
             "conway",
             "chip-8",
             "minesweeper",
+            "chipexa",
           ],
         },
         {
@@ -225,6 +226,7 @@ export default {
             "conway",
             "chip-8",
             "minesweeper",
+            "chipexa",
           ],
         },
         {

@@ -19,7 +19,7 @@ votre calculatrice.
 
 ## Puis-je exporter ma sauvegarde de jeu vers mon ordinateur ?
 
-Si vous activez le mode examen, mettez à jour votre calculator or si la
+Si vous activez le mode examen, mettez à jour votre calculatrice ou si la
 calculatrice se réinitialise, les sauvegardes de jeux seront définitivement
 perdues. Pour éviter ce problème, vous pouvez sauvegarder vos données sur votre
 ordinateur pour vous assurez qu'elles ne seront pas perdues.

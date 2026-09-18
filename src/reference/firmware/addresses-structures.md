@@ -279,7 +279,7 @@ Here is what the first 8 bytes of the kernel contain:
 
 | Index (from kernel start) | Size (bytes) | Format | Name                                 | Usage                                       |
 | ------------------------- | ------------ | ------ | ------------------------------------ | ------------------------------------------- |
-| 0x0                       | 4            | uint32 | Null bytes                           |                                             |
+| 0x0                       | 4            | uint32 | Security level                       | Anti-rollback protection                    |
 | 0x4                       | 4            | uint32 | Size of kernel (from 0x8) + userland | Used for signature check                    |
 
 The Kernel Header contains some metadata about the kernel, but unless a kernel is running a
