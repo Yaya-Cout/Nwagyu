@@ -60,6 +60,12 @@ vous préférez).
 
 ![Contrôles](./numcraft-controls.svg)
 
+## Communauté
+
+Vous pouvez rejoindre le [serveur Discord](https://discord.gg/acursxkUj8) de la
+communauté Numcraft pour suivre les annonces, demander de l'aide, partager des
+constructions, discuter avec d'autres joueurs et plus !
+
 ## Installation
 
 Pour installer l'application Numcraft, suivez les instructions dans le guide

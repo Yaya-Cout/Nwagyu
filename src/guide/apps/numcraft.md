@@ -59,6 +59,12 @@ computer arrow keys (or WASD keys if you prefer).
 
 ![Controls](./numcraft-controls.svg)
 
+## Community
+
+You can join the Numcraft community on their [Discord server](https://discord.gg/acursxkUj8)
+for announcements, getting help, sharing builds, chatting with other players and
+more!
+
 ## Installation
 
 To install the Numcraft app, follow the instructions in the
