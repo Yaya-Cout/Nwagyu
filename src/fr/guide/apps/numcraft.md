@@ -6,7 +6,7 @@ calculatrice ? Avec Numcraft, vos rêves deviennent réalité. Découvrez un j
 calculatrice) directement sur votre calculatrice. Construisez ce que vous voulez
 dans ce monde, limité par la taille du monde et votre créativité.
 
-Jeu conçu par [Yannis300307](https://github.com/yannis300307/).
+Jeu conçu et 100% écrit à la main par [Yannis300307](https://github.com/yannis300307/).
 
 ## Téléchargement
 
@@ -15,10 +15,10 @@ Les versions officielles sont disponibles sur [GitHub Releases](https://github.c
 Si vous préférez, vous pouvez télécharger Numcraft depuis ce lien (qui pourrait
 ne pas être à jour car le jeu est en développement rapide) :
 
-- [Numcraft v0.1.7](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.7/Numcraft.nwa), correction du curseur et de la gravité
+- [Numcraft v0.1.8](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.8/Numcraft.nwa), Fix de bugs dans l'inventaire et changements techniques
 
 ::: details Anciennes versions
-
+- [Numcraft v0.1.7](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.7/Numcraft.nwa), correction du curseur et de la gravité
 - [Numcraft v0.1.6](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.6/Numcraft.nwa), meilleure stabilité, support Upsilon
 - [Numcraft v0.1.5](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.5/Numcraft.nwa), meilleure stabilité, nouveau paramètre
 - [Numcraft v0.1.4](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.4/Numcraft.nwa), fix de la corruption de mémoire
