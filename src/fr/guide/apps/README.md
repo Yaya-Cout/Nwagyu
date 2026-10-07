@@ -6,38 +6,40 @@ Voici une liste des applications actuellement disponibles :
 
 ### Sciences
 
-- [KhiCAS](./khicas.md): CAS (Computer Algebra System) qui peut résoudre
-  des équations et faire des calculs avancés
-- [Periodic](./periodic.md): Tableau periodique des éléments
+* [KhiCAS](./khicas.md): CAS (Computer Algebra System) qui peut résoudre
+des équations et faire des calculs avancés
+* [Periodic](./periodic.md): Tableau periodique des éléments
 
 ### Jeux et émulateurs
 
-- [Peanut-GB](./peanut-gb.md): Émulateur GameBoy
-- [Nofrendo](./nofrendo.md): Émulateur NES
-- [Numcraft](./numcraft.md): Jeu de bac à sable type Minecraft
-- [Celeste Classic](./celeste.md): Jeu de plateforme
-- [Wabbitemu](./wabbitemu.md): Émulateur TI-84
-- [CHIP-8](./chip-8.md): Émulateur CHIP-8
-- [Minesweeper](./minesweeper.md): Jeu du démineur
-- [Chipexa](./chipexa.md): Émulateur CHIP-8 avec éditeur hexadécimal
+* [Peanut-GB](./peanut-gb.md): Émulateur GameBoy
+* [Nofrendo](./nofrendo.md): Émulateur NES
+* [Numcraft](./numcraft.md): Jeu de bac à sable type Minecraft
+* [Celeste Classic](./celeste.md): Jeu de plateforme
+* [Wabbitemu](./wabbitemu.md): Émulateur TI-84
+* [CHIP-8](./chip-8.md): Émulateur CHIP-8
+* [Minesweeper](./minesweeper.md): Jeu du démineur
+* [Chipexa](./chipexa.md): Émulateur CHIP-8 avec éditeur hexadécimal
 
 ### Outils
 
-- [Storage](./storage.md): Connaître votre usage du stockage
-- [Compressor](./compressor.md): Compresseur de scripts Python pour gagner de la place
-- [Backup](./backup.md): Sauvegardez sans fil le stockage de votre calculatrice
-- [Lua](./lua.md): Langage de programmation pour créer vos propres programmes
+* [Storage](./storage.md): Connaître votre usage du stockage
+* [Compressor](./compressor.md): Compresseur de scripts Python pour gagner de la place
+* [Backup](./backup.md): Sauvegardez sans fil le stockage de votre calculatrice
+* [Lua](./lua.md): Langage de programmation pour créer vos propres programmes
+* [O'clock](./oclock.md): Une horloge dans votre calculatrice 
 
 ### Multimédia
 
-- [Playa](./playa.md): Lecteur de vidéo
-- [Video Player](./videoplayer.md): Lecteur de vidéo plus avancé
-- [PNG Viewer](./pngviewer.md): Visionneur d'image PNG
+* [Playa](./playa.md): Lecteur de vidéo
+* [Video Player](./videoplayer.md): Lecteur de vidéo plus avancé
+* [PNG Viewer](./pngviewer.md): Visionneur d'image PNG
 
 ### Démo
 
-- [Mandelbrot](./mandelbrot.md): Visualiseur de Mandelbrot
-- [Sierpinski](./sierpinski.md): Animation du triangle de Sierpinski
-- [Conway](./conway.md): Simulation du Jeu de la Vie de Conway
+* [Mandelbrot](./mandelbrot.md): Visualiseur de Mandelbrot
+* [Sierpinski](./sierpinski.md): Animation du triangle de Sierpinski
+* [Conway](./conway.md): Simulation du Jeu de la Vie de Conway
 
-*Vous voulez ajouter votre application à cette liste? Suivez les [instructions](../../../reference/apps/creating-application.md#adding-your-app-to-nwagyu) (en anglais)*
+*Vous voulez ajouter votre application à cette liste? Suivez les* [*instructions*](../../../reference/apps/creating-application.md#adding-your-app-to-nwagyu) *(en anglais)*
+

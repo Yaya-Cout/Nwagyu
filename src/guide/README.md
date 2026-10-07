@@ -31,6 +31,7 @@ calculator. Here is the list of the apps that are currently available:
 - [Backup](./apps/backup.md): Wirelessly backup your calculator storage
 - [Lua](./apps/lua.md): Scripting language that you can use to create your own
   programs
+- [O'clock](.apps/oclock.md): A clock inside your calculator
 
 ### Media
 
