@@ -9,8 +9,8 @@ Official releases are available on [GitHub Releases](https://github.com/SaltyMol
 
 If you prefer, you can use this direct link:
 
-- [VideoPlayer 1.1.2](https://nwagyu.org/assets/apps/videoplayer-1.1.2.nwa), less memory usage and minor fixes
-- [VideoPlayer 1.1.1](https://nwagyu.org/assets/apps/videoplayer-1.1.1.nwa)
+- [VideoPlayer 1.1.2](https://github.com/SaltyMold/Video-Player-for-Numworks/releases/download/Video-Player-for-Numworks-v1.1.2/VideoPlayer.nwa), less memory usage and minor fixes
+- [VideoPlayer 1.1.1](https://github.com/SaltyMold/Video-Player-for-Numworks/releases/download/Video-Player-for-Numworks-v1.1.1/VideoPlayer.nwa)
 
 ## How to get videos
 
