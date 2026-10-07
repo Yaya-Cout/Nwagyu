@@ -1,5 +1,5 @@
 # Celeste Classic
-
+w
 have you ever heard of Celeste, the famous platformer video game? A less-known
 fact is that this game was first developed in 4 days for the PICO-8 virtual
 console, before being renamed Celeste Classic.
@@ -14,13 +14,25 @@ Official releases are available on [GitHub Releases](https://github.com/Benchato
 
 If you prefer, you can download Celeste from this link:
 
-- [Celeste v1.5](https://nwagyu.org/assets/apps/celeste-1.5.0.nwa), improved saving (rollback, autosave, autoload), added settings and stats
-- [Celeste v1.4](https://nwagyu.org/assets/apps/celeste-1.4.0.nwa), better memory usage, fix bugs
-- [Celeste v1.3.1](https://nwagyu.org/assets/apps/celeste-1.3.1.nwa), new icon
-- [Celeste v1.3](https://nwagyu.org/assets/apps/celeste-1.3.nwa), save support
-- [Celeste v1.2](https://nwagyu.org/assets/apps/celeste-1.2.nwa), improved performance, frame limiter
-- [Celeste v1.1](https://nwagyu.org/assets/apps/celeste-1.1.nwa), improved performance
-- [Celeste v1.0](https://nwagyu.org/assets/apps/celeste-1.0.nwa)
+- [Celeste v1.5](https://github.com/BenchatonDev/Celeste-Numworks/releases/download/1.5/Celeste.nwa), improved saving (rollback, autosave, autoload), added settings and stats
+
+::: details Old versions
+- [Celeste v1.4](https://github.com/BenchatonDev/Celeste-Numworks/releases/download/1.4/Celeste.nwa), better memory usage, fix bugs
+- [Celeste v1.3.1](https://github.com/BenchatonDev/Celeste-Numworks/releases/download/1.3.1/Celeste.nwa), new icon
+- [Celeste v1.3](https://github.com/BenchatonDev/Celeste-Numworks/releases/download/1.3/Celeste.nwa), save support
+- [Celeste v1.2](https://github.com/BenchatonDev/Celeste-Numworks/releases/download/1.2/Celeste.nwa), improved performance, frame limiter
+- [Celeste v1.1](https://github.com/BenchatonDev/Celeste-Numworks/releases/download/1.1/Celeste.nwa), improved performance
+- [Celeste v1.0](https://github.com/BenchatonDev/Celeste-Numworks/releases/download/1.0/Celeste.nwa)
+
+:::
+
+::: warning
+Game saves between 1.3 and 1.4 are only compatible with these versions,
+since 1.5, a new and improved save format was introduced, which is strictly
+incompatible with older saves. Due to poor checks in the old savings system
+any file named CelesteP8.sav that isn't in the format they expect will cause
+a full calculator crash, this includes saves created by V1.5 and up.
+:::
 
 ## How to play
 
