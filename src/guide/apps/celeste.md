@@ -1,5 +1,4 @@
 # Celeste Classic
-w
 have you ever heard of Celeste, the famous platformer video game? A less-known
 fact is that this game was first developed in 4 days for the PICO-8 virtual
 console, before being renamed Celeste Classic.
