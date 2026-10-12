@@ -26,6 +26,7 @@ Here is the list of the apps that are currently available:
 - [Storage](./storage.md): Know your storage usage
 - [Compressor](./compressor.md): Python script compressor to save space
 - [Backup](./backup.md): Wirelessly backup your calculator storage
+- [Lock](./lock.md): Lock your numworks with a password
 - [Lua](./lua.md): Scripting language that you can use to create your own
   programs
 

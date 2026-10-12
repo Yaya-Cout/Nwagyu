@@ -26,6 +26,7 @@ Voici une liste des applications actuellement disponibles :
 - [Storage](./storage.md): Connaître votre usage du stockage
 - [Compressor](./compressor.md): Compresseur de scripts Python pour gagner de la place
 - [Backup](./backup.md): Sauvegardez sans fil le stockage de votre calculatrice
+- [Lock](./lock.md): Verrouillez votre Numworks avec un mot de passe
 - [Lua](./lua.md): Langage de programmation pour créer vos propres programmes
 
 ### Multimédia
