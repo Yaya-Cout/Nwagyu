@@ -50,6 +50,7 @@ You can download the Peanut-GB app from this link:
 
 Peanut-GB:
 
+- [Peanut-GB v1.2.3](https://nwagyu.org/assets/apps/peanutgb-1.2.3.nwa), Epsilon 26.4.0 support
 - [Peanut-GB v1.2.2](https://nwagyu.org/assets/apps/peanutgb-1.2.2.nwa), potential memory fix during save writing
 - [Peanut-GB v1.2.1](https://nwagyu.org/assets/apps/peanutgb-1.2.1.nwa), memory fix during save writing
 - [Peanut-GB v1.2.0](https://nwagyu.org/assets/apps/peanutgb-1.2.0.nwa), performance improvements, frame limiter, On/Off and Home keys
@@ -59,6 +60,7 @@ Peanut-GB:
 Peanut-GBC is a Peanut-GB version with color support for Gameboy Color games.
 For traditional Gameboy games, prefer Peanut-GB which is optimized and faster.
 
+- [Peanut-GBC v1.1.2](https://nwagyu.org/assets/apps/peanutgbc-1.1.2.nwa), equivalent to Peanut-GB v1.2.3
 - [Peanut-GBC v1.1.1](https://nwagyu.org/assets/apps/peanutgbc-1.1.1.nwa), equivalent to Peanut-GB v1.2.2
 - [Peanut-GBC v1.1.0](https://nwagyu.org/assets/apps/peanutgbc-1.1.0.nwa), save support, equivalent to Peanut-GB v1.2.1
 - [Peanut-GBC v1.0.0](https://nwagyu.org/assets/apps/peanutgbc-1.0.0.nwa)
