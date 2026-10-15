@@ -6,7 +6,7 @@ usually running between 20 FPS and 40 FPS during normal gameplay (speed depe
 on your calculator model) directly on your calculator. Build anything you want
 in this sandbox as long as it fit the map and your creativity.
 
-Game created by [Yannis300307](https://github.com/yannis300307/).
+Game created and 100% handwritten by [Yannis300307](https://github.com/yannis300307/).
 
 ## Download
 
@@ -14,11 +14,10 @@ Official releases are available on [GitHub Releases](https://github.com/yannis30
 
 If you prefer, you can download Numcraft from this link (could be outdated as
 the game is in rapid development):
-
-- [Numcraft v0.1.7](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.7/Numcraft.nwa), fixed gravity and cursor
+- [Numcraft v0.1.8](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.8/Numcraft.nwa), Fix bugs in inventory and technical changes
 
 ::: details Old versions
-
+- [Numcraft v0.1.7](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.7/Numcraft.nwa), fixed gravity and cursor
 - [Numcraft v0.1.6](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.6/Numcraft.nwa), increased stability, Upsilon support
 - [Numcraft v0.1.5](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.5/Numcraft.nwa), Increased stability, new setting
 - [Numcraft v0.1.4](https://github.com/yannis300307/NumcraftRust/releases/download/v0.1.4/Numcraft.nwa), fix memory corruption
