@@ -10,7 +10,8 @@ inconnu, l'application va agir comme si la calculatrice était une N0120).
 
 Vous pouvez télécharger l'application Storage depuis ce lien :
 
-- [Storage](https://nwagyu.org/assets/apps/storage-1.0.0.nwa)
+- [Storage v1.1.1](https://nwagyu.org/assets/apps/storage-1.1.1.nwa), meilleure compatibilité
+- [Storage v1.1.0](https://nwagyu.org/assets/apps/storage-1.1.0.nwa)
 
 ## Installation
 
