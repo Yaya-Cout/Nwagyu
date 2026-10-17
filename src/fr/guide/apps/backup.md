@@ -41,6 +41,7 @@ Workshop ne nécessite un compte que pour éditer et créer des projets en ligne
 
 Vous pouvez télécharger l'application Backup depuis ce lien :
 
+- [Backup v1.0.1](https://nwagyu.org/assets/apps/backup-1.0.1.nwa), compatibilité Epsilon 26.4.0
 - [Backup v1.0.0](https://nwagyu.org/assets/apps/backup-1.0.0.nwa)
 
 ## Installation

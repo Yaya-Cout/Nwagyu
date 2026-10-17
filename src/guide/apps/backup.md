@@ -38,6 +38,7 @@ require an account to create/edit projects online.
 
 You can download the Backup app from this link:
 
+- [Backup v1.0.1](https://nwagyu.org/assets/apps/backup-1.0.1.nwa), Epsilon 26.4.0 compatibility
 - [Backup v1.0.0](https://nwagyu.org/assets/apps/backup-1.0.0.nwa)
 
 ## Installation

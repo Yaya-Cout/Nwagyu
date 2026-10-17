@@ -39,6 +39,8 @@ the [troubleshooting](#troubleshooting) section.
 
 You can download the Compressor app from this link:
 
+- [Compressor v1.0.2](https://nwagyu.org/assets/apps/compressor-1.0.2.nwa),
+  better compatibility
 - [Compressor v1.0.1](https://nwagyu.org/assets/apps/compressor-1.0.1.nwa),
   fix crashs and bugs when storage is full
 - [Compressor v1.0.0](https://nwagyu.org/assets/apps/compressor-1.0.0.nwa)

@@ -35,6 +35,7 @@ obvious, so here’s a recap:
 
 You can download the Nofrendo app from this link:
 
+- [Nofrendo v1.2.4](https://nwagyu.org/assets/apps/nofrendo-1.2.4.nwa), Epsilon 26.4.0 support
 - [Nofrendo v1.2.3](https://nwagyu.org/assets/apps/nofrendo-1.2.3.nwa), even more memory fix during save writing
 - [Nofrendo v1.2.2](https://nwagyu.org/assets/apps/nofrendo-1.2.2.nwa), even more memory fix during save writing
 - [Nofrendo v1.2.1](https://nwagyu.org/assets/apps/nofrendo-1.2.1.nwa), fix some memory issues leading to crashs

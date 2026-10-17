@@ -36,6 +36,7 @@ des limitations de NumWorks), donc voici une liste :
 
 Vous pouvez télécharger l'application Nofrendo depuis ce lien :
 
+- [Nofrendo v1.2.4](https://nwagyu.org/assets/apps/nofrendo-1.2.4.nwa), support d'Epsilon 26.4.0
 - [Nofrendo v1.2.3](https://nwagyu.org/assets/apps/nofrendo-1.2.3.nwa), correction de problèmes de mémoire lors de l'écriture des sauvegardes
 - [Nofrendo v1.2.2](https://nwagyu.org/assets/apps/nofrendo-1.2.2.nwa), correction de problèmes de mémoire lors de l'écriture des sauvegardes
 - [Nofrendo v1.2.1](https://nwagyu.org/assets/apps/nofrendo-1.2.1.nwa), correction de quelques problèmes de mémoire (crashs)

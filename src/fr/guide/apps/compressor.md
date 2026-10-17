@@ -40,6 +40,8 @@ votre fichier sera de nouveau disponible. Sinon, lisez la section
 
 Vous pouvez télécharger l'application Compressor depuis ce lien :
 
+- [Compressor v1.0.2](https://nwagyu.org/assets/apps/compressor-1.0.2.nwa),
+  meilleure compatibilité
 - [Compressor v1.0.1](https://nwagyu.org/assets/apps/compressor-1.0.1.nwa),
   correction de crashs et bugs lorsque le stockage est plein
 - [Compressor v1.0.0](https://nwagyu.org/assets/apps/compressor-1.0.0.nwa)
