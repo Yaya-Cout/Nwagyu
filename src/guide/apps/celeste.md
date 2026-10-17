@@ -28,7 +28,7 @@ If you prefer, you can download Celeste from this link:
 ::: warning
 Game saves between 1.3 and 1.4 are only compatible with these versions,
 since 1.5, a new and improved save format was introduced, which is strictly
-incompatible with older saves. Due to poor checks in the old savings system
+incompatible with older saves. Due to poor checks in the old saving system
 any file named CelesteP8.sav that isn't in the format they expect will cause
 a full calculator crash, this includes saves created by V1.5 and up.
 :::
