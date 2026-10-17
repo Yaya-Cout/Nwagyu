@@ -27,6 +27,7 @@ Si vous préférez, vous pouvez télécharger Celeste depuis ce lien :
 :::
 
 ::: warning
+Note du développeur :
 Les sauvegardes de la version 1.3 jusqu'à la 1.4 sont uniquement compatibles avec ces versions
 la version 1.5 possède un système de sauvegarde complètement revu et amélioré qui est strictement
 incompatible avec vos anciennes sauvegardes. Au vu de la simplicité de l'ancien système de sauvegardes
