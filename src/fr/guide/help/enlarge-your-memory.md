@@ -4,21 +4,22 @@ Normalement, la calculatrice NumWorks ne vous laisse qu'environ 2,5 Mo pour
 installer des applications. Mais grâce à Nwagra, vous serez capable d'utiliser
 jusqu'à 6 Mo !
 
-::: warning
-Nwagra ne fonctionne pas sur des versions récentes d'Epsilon. Si votre
-calculatrice commence à vous dire que le mode examen est activé après avoir
-installé des applications externes, Nwagra est probablement incompatible avec
-votre version.
+::: danger
+Nwagra ne fonctionne pas correctement sur des versions récentes d'Epsilon. Si
+votre calculatrice commence à vous dire que le mode examen est activé après
+avoir installé des applications externes avec Nwagra, Nwagra est probablement
+incompatible avec votre version.
 
 Comme Nwagra n'est plus nécessaire pour KhiCAS, cette fonctionnalité est moins
-utile qu'avant.
+utile qu'avant. Réparer Nwagra demanderait des changements lourds à implementer
+et réduirait son efficacité, donc cela ne va probablement jamais être fait..
 :::
 
 ## Configuration de Nwagra
 
 1. Glissez ce lien dans votre barre personnelle :
    <!-- TODO: Try to see if we can use a markdown link here -->
-   <a href="javascript:(function()%7B!function()%7Blet%20t%3Ddocument.createElement(%22script%22)%3Bt.type%3D%22text%2Fjavascript%22%2Ct.src%3D%22https%3A%2F%2Fyaya-cout.github.io%2FNwagyu%2Fnwagra.min.js%22%2Cdocument.head.appendChild(t)%7D()%3B%7D)()%3B">Nwagra</a>
+   <a href="javascript:(function()%7B!function()%7Blet%20t%3Ddocument.createElement(%22script%22)%3Bt.type%3D%22text%2Fjavascript%22%2Ct.src%3D%22https%3A%2F%2Fnwagyu.org%2Fnwagra.min.js%22%2Cdocument.head.appendChild(t)%7D()%3B%7D)()%3B">Nwagra</a>
 2. Allez sur le [site de NumWorks](https://my.numworks.com/devices/upgrade) et
    mettez à jour votre calculatrice
    calculator

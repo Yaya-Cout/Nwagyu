@@ -3,19 +3,21 @@
 Normally the NumWorks calculator only lets you use around 2.5MB to install apps.
 But thanks to Nwagra, you’ll be able to use up to 6MB!
 
-::: warning
-Nwagra is broken on recent Epsilon versions. If the calculator start
+::: danger
+Nwagra is partially broken on recent Epsilon versions. If the calculator start
 telling you the exam mode is enabled after installing apps, Nwagra is probably
 incompatible with your version.
 
-As Nwagra is no longer required for KhiCAS, it's less useful than before.
+As Nwagra is no longer required for KhiCAS, it's less useful than before. Fixing
+Nwagra would require large changes and its reduce usefulness, which is unlikely
+to be done.
 :::
 
 ## Nwagra setup
 
 1. Drag and drop the following link to your bookmarks bar:
    <!-- TODO: Try to see if we can use a markdown link here -->
-   <a href="javascript:(function()%7B!function()%7Blet%20t%3Ddocument.createElement(%22script%22)%3Bt.type%3D%22text%2Fjavascript%22%2Ct.src%3D%22https%3A%2F%2Fyaya-cout.github.io%2FNwagyu%2Fnwagra.min.js%22%2Cdocument.head.appendChild(t)%7D()%3B%7D)()%3B">Nwagra</a>
+   <a href="javascript:(function()%7B!function()%7Blet%20t%3Ddocument.createElement(%22script%22)%3Bt.type%3D%22text%2Fjavascript%22%2Ct.src%3D%22https%3A%2F%2Fnwagyu.org%2Fnwagra.min.js%22%2Cdocument.head.appendChild(t)%7D()%3B%7D)()%3B">Nwagra</a>
 2. Go on [NumWorks’s website](https://my.numworks.com/devices/upgrade) and update your
    calculator
 3. Update your calculator again. Yes, you need to update it *twice*.
