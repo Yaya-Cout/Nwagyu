@@ -31,6 +31,7 @@ actuellement disponibles :
 - [Compressor](./apps/compressor.md): Compresseur de scripts Python pour gagner de la place
 - [Backup](./apps/backup.md): Sauvegardez sans fil le stockage de votre calculatrice
 - [Lua](./apps/lua.md): Langage de programmation pour créer vos propres programmes
+- [O'clock](./apps/oclock.md): Une horloge dans votre calculatrice
 
 ### Multimédia
 

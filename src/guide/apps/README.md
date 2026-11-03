@@ -6,39 +6,41 @@ Here is the list of the apps that are currently available:
 
 ### Sciences
 
-- [KhiCAS](./khicas.md): CAS (Computer Algebra System) that can solve equations
-  and do advanced calculations
-- [Periodic](./periodic.md): Periodic table of elements
+* [KhiCAS](./khicas.md): CAS (Computer Algebra System) that can solve equations
+and do advanced calculations
+* [Periodic](./periodic.md): Periodic table of elements
 
 ### Games and emulators
 
-- [Peanut-GB](./peanut-gb.md): Gameboy emulator
-- [Nofrendo](./nofrendo.md): NES emulator
-- [Numcraft](./numcraft.md): Minecraft-like sandbox game
-- [Celeste Classic](./celeste.md): Platform game
-- [Wabbitemu](./wabbitemu.md): TI-84 emulator
-- [CHIP-8](./chip-8.md): CHIP-8 emulator
-- [Minesweeper](./minesweeper.md): Minesweeper game
-- [Chipexa](./chipexa.md): CHIP-8 emulator with built-in hex editor
+* [Peanut-GB](./peanut-gb.md): Gameboy emulator
+* [Nofrendo](./nofrendo.md): NES emulator
+* [Numcraft](./numcraft.md): Minecraft-like sandbox game
+* [Celeste Classic](./celeste.md): Platform game
+* [Wabbitemu](./wabbitemu.md): TI-84 emulator
+* [CHIP-8](./chip-8.md): CHIP-8 emulator
+* [Minesweeper](./minesweeper.md): Minesweeper game
+* [Chipexa](./chipexa.md): CHIP-8 emulator with built-in hex editor
 
 ### Tools
 
-- [Storage](./storage.md): Know your storage usage
-- [Compressor](./compressor.md): Python script compressor to save space
-- [Backup](./backup.md): Wirelessly backup your calculator storage
-- [Lua](./lua.md): Scripting language that you can use to create your own
-  programs
+* [Storage](./storage.md): Know your storage usage
+* [Compressor](./compressor.md): Python script compressor to save space
+* [Backup](./backup.md): Wirelessly backup your calculator storage
+* [Lua](./lua.md): Scripting language that you can use to create your own
+programs
+* [O'clock](./oclock.md): A clock inside your calculator
 
 ### Media
 
-- [Playa](./playa.md): Video player
-- [Video Player](./videoplayer.md): More advanced video player
-- [PNG Viewer](./pngviewer.md): PNG image viewer
+* [Playa](./playa.md): Video player
+* [Video Player](./videoplayer.md): More advanced video player
+* [PNG Viewer](./pngviewer.md): PNG image viewer
 
 ### Demo
 
-- [Mandelbrot](./mandelbrot.md): Mandelbrot set explorer
-- [Sierpinski](./sierpinski.md): Sierpinski triangle animation
-- [Conway](./conway.md): Conway's Game of Life simulation
+* [Mandelbrot](./mandelbrot.md): Mandelbrot set explorer
+* [Sierpinski](./sierpinski.md): Sierpinski triangle animation
+* [Conway](./conway.md): Conway's Game of Life simulation
 
-*Want to add your own app in this list? Follow the [instructions](../../reference/apps/creating-application.md#adding-your-app-to-nwagyu)*
+*Want to add your own app in this list? Follow the* [*instructions*](../../reference/apps/creating-application.md#adding-your-app-to-nwagyu)
+

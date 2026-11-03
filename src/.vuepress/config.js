@@ -174,6 +174,7 @@ export default {
             "chip-8",
             "minesweeper",
             "chipexa",
+            "oclock",
           ],
         },
         {
@@ -227,6 +228,7 @@ export default {
             "chip-8",
             "minesweeper",
             "chipexa",
+            "oclock",
           ],
         },
         {
